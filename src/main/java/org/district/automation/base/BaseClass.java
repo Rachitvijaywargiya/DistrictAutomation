@@ -3,9 +3,11 @@ package org.district.automation.base;
 import org.district.automation.utility.ScreenshotUtil;
 import org.district.automation.utility.Utility;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import java.time.Duration;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -18,14 +20,23 @@ public class BaseClass {
     @BeforeMethod
     public void setUp() throws Exception {
         if(Utility.fetchPropertyValue("browser").equals("chrome")) {
-            driver = new ChromeDriver();
-            driver.manage().window().maximize();
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.addArguments("--start-maximized");
+            chromeOptions.addArguments("--disable-notifications");
+            chromeOptions.addArguments("--disable-popup-blocking");
+            //chromeOptions.addArguments("--headless=new");
+            driver = new ChromeDriver(chromeOptions);
         }else if(Utility.fetchPropertyValue("browser").equals("firefox")){
             driver = new FirefoxDriver();
             driver.manage().window().maximize();
         }
         else if(Utility.fetchPropertyValue("browser").equals("edge")){
-            driver = new EdgeDriver();
+            EdgeOptions edgeOptions = new EdgeOptions();
+            edgeOptions.addArguments("--start-maximized");
+            edgeOptions.addArguments("--disable-notifications");
+            edgeOptions.addArguments("--disable-popup-blocking");
+            //edgeOptions.addArguments("--headless=new");
+            driver = new EdgeDriver(edgeOptions);
             driver.manage().window().maximize();
         }
 
