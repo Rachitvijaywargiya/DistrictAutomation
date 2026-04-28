@@ -1,26 +1,61 @@
 package org.district.automation.base;
+
+import org.district.automation.utility.ScreenshotUtil;
+import org.district.automation.utility.Utility;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
-import org.testng.annotations.BeforeClass;
-
 import java.time.Duration;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
 
 public class BaseClass {
+    public WebDriver driver;
 
-    protected WebDriver driver;
+    @BeforeMethod
+    public void setUp() throws Exception {
+        if(Utility.fetchPropertyValue("browser").equals("chrome")) {
+            driver = new ChromeDriver();
+            driver.manage().window().maximize();
+        }else if(Utility.fetchPropertyValue("browser").equals("firefox")){
+            driver = new FirefoxDriver();
+            driver.manage().window().maximize();
+        }
+        else if(Utility.fetchPropertyValue("browser").equals("edge")){
+            driver = new EdgeDriver();
+            driver.manage().window().maximize();
+        }
 
-    @BeforeClass
-    public void setup() {
-        driver = new EdgeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        EdgeOptions options = new EdgeOptions();
-        options.addArguments("--start-maximized");
-        driver.get("https://www.district.in/");
+        System.out.println("Opening on selected browser " + Utility.fetchPropertyValue("browser"));
+        driver.get(Utility.fetchPropertyValue("baseUrl").toString());
+        System.out.println("Running on URL " + Utility.fetchPropertyValue("baseUrl").toString());
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
-//    @AfterClass
-//    public void tearDown() {
-//        driver.quit();
-//    }
+    @AfterMethod
+    public void tearDown(ITestResult result) {
+        try {
+            //code for SS and Result ITestResult
+            if (driver != null) {
+                String testName = result.getMethod().getMethodName();
+                if (result.getStatus() == ITestResult.FAILURE) {
+                    ScreenshotUtil.takeScreenshot(driver, testName + "_FAILED");
+                    System.out.println("Screenshot taken Successfully but test case failed");
+                } else {
+                    ScreenshotUtil.takeScreenshot(driver, testName + "_PASSED");
+                    System.out.println("Screenshot taken Successfully and test case passed");
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
+        } finally {
+            if (driver != null) {
+                System.out.println("Closing the browser");
+                driver.quit();
+            }
+        }
+    }
 }
