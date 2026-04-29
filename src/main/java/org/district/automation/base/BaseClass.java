@@ -6,6 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -21,6 +24,12 @@ public class BaseClass {
     public void setUp() throws Exception {
         if(Utility.fetchPropertyValue("browser").equals("chrome")) {
             ChromeOptions chromeOptions = new ChromeOptions();
+            Map<String, Object> prefs = new HashMap<>();
+            prefs.put("profile.default_content_setting_values.geolocation", 2); // 1=Allow, 2=Block
+            prefs.put("profile.managed_default_content_settings.geolocation", 2);
+
+            chromeOptions.setExperimentalOption("prefs", prefs);
+            chromeOptions.addArguments("--disable-geolocation");
             chromeOptions.addArguments("--start-maximized");
             chromeOptions.addArguments("--disable-notifications");
             chromeOptions.addArguments("--disable-popup-blocking");
