@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
 
@@ -15,17 +16,18 @@ public class TC_05_SelectCityTest extends BaseClass {
     public void verifyUserCanChangeCity() {
 
         HomePage home = new HomePage(driver);
+        home.clickLocation();
+        home.selectLocationcity("Pune");
+        home.selectPuneLoc();
+        String currentLoc = home.getLocAfterClick();
+        String currentEntireLoc = home.getEntireLocAfterClick();
 
-        home.selectCity("Pune");
+        SoftAssert soft = new SoftAssert();
+        soft.assertEquals(currentLoc,"Pune");
+        soft.assertAll();
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOf(home.getLocationTextElement()));
+        Assert.assertEquals(currentEntireLoc,"Pune, Maharashtra");
+        Assert.assertTrue(currentEntireLoc.contains("Maharashtra"));
 
-        String location = home.getDisplayedLocation();
-
-        Assert.assertTrue(
-                location.contains("Pune"),
-                "City was not changed to Pune. Actual location: " + location
-        );
     }
 }

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 
-    WebDriver driver;
+    private WebDriver driver;
     @FindBy(xpath = "//div[contains(@class,'dds-text') and contains(text(),'Karnataka')]")
     private WebElement cityText;
     @FindBy(xpath = "//img[contains(@class,'cursor-pointer')]")
@@ -32,6 +32,21 @@ public class HomePage {
     @FindBy(xpath = "//div[contains(text(),'Search for events')]")
     private WebElement searchBox;
 
+    @FindBy(xpath = "//div[@class='dds-w-8 dds-h-8 dds-flex dds-items-center dds-justify-center']")
+    private WebElement selectloc;
+
+    @FindBy(xpath = "//input[@placeholder='Search city, area or locality']")
+    private WebElement getCitySearchInput;
+
+    @FindBy(xpath = "(//span[contains(text(),'Pune')])[1]")
+    private WebElement puneLoc;
+
+    @FindBy(xpath = "(//span[contains(text(),'Pune')])[1]")
+    private WebElement getPuneLocAfterClick;
+
+    @FindBy(xpath = "(//span[contains(text(),'Pune')])[2]")
+    private WebElement getEntireAddressLocAfterClick;
+
     public HomePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -53,9 +68,9 @@ public class HomePage {
         return locationText;
     }
 
-    public boolean isEventsTabEnabled() {
-        return eventsTab.isEnabled();
-    }
+//    public boolean isEventsTabEnabled() {
+//        return eventsTab.isEnabled();
+//    }
 
     public boolean isSearchBoxEnabled() {
         return searchBox.isDisplayed();
@@ -82,5 +97,25 @@ public class HomePage {
 
     public void clickMovies() {
         moviesTab.click();
+    }
+
+    public void clickLocation(){
+        selectloc.click();
+    }
+
+    public void selectLocationcity(String city){
+        getCitySearchInput.sendKeys(city);
+    }
+
+    public void selectPuneLoc(){
+        puneLoc.click();
+    }
+
+    public String getLocAfterClick(){
+        return getPuneLocAfterClick.getText();
+    }
+
+    public String getEntireLocAfterClick(){
+        return getEntireAddressLocAfterClick.getText();
     }
 }

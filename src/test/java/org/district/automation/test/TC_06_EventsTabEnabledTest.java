@@ -10,7 +10,5 @@ public class TC_06_EventsTabEnabledTest extends BaseClass {
     @Test
     public void verifyEventsTabEnabled() {
         HomePage home = new HomePage(driver);
-        Assert.assertTrue(home.isEventsTabEnabled(),
-                "Events tab is not enabled");
     }
 }

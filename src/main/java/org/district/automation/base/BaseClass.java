@@ -1,11 +1,16 @@
 package org.district.automation.base;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.district.automation.utility.ScreenshotUtil;
 import org.district.automation.utility.Utility;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -16,16 +21,25 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseClass {
     public WebDriver driver;
+    protected static final Logger log = LogManager.getLogger(BaseClass.class);
 
     @BeforeMethod
     public void setUp() throws Exception {
         if(Utility.fetchPropertyValue("browser").equals("chrome")) {
-            ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.addArguments("--start-maximized");
-            chromeOptions.addArguments("--disable-notifications");
-            chromeOptions.addArguments("--disable-popup-blocking");
+            ChromeOptions options = new ChromeOptions();
+
+            Map<String, Object> prefs = new HashMap<>();
+            prefs.put("profile.default_content_setting_values.geolocation", 2); // 1=Allow, 2=Block
+            prefs.put("profile.managed_default_content_settings.geolocation", 2);
+
+            options.setExperimentalOption("prefs", prefs);
+            options.addArguments("--disable-geolocation");
+            options.addArguments("--start-maximized");
+            options.addArguments("--disable-notifications");
+            options.addArguments("--disable-popup-blocking");
             //chromeOptions.addArguments("--headless=new");
-            driver = new ChromeDriver(chromeOptions);
+
+            driver = new ChromeDriver(options);
         }else if(Utility.fetchPropertyValue("browser").equals("firefox")){
             driver = new FirefoxDriver();
             driver.manage().window().maximize();
@@ -52,6 +66,7 @@ public class BaseClass {
             //code for SS and Result ITestResult
             if (driver != null) {
                 String testName = result.getMethod().getMethodName();
+                testName =result.getTestClass().getRealClass().getSimpleName();
                 if (result.getStatus() == ITestResult.FAILURE) {
                     ScreenshotUtil.takeScreenshot(driver, testName + "_FAILED");
                     System.out.println("Screenshot taken Successfully but test case failed");
