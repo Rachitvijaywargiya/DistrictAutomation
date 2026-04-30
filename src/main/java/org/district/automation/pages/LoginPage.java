@@ -1,5 +1,7 @@
 package org.district.automation.pages;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.district.automation.utility.WaitUtils;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.TimeoutException;
@@ -11,12 +13,13 @@ import java.util.List;
 
 public class LoginPage {
     private WebDriver driver;
+    protected static final Logger log = LogManager.getLogger(LoginPage.class);
 
     @FindBy(xpath = "//div[@class='dds-cursor-pointer' and @role='button']")
     private WebElement profileButton;
 
-    @FindBy(xpath = "//label[contains(text(),'Enter your mobile number')]")
-    private WebElement labelmessage;
+    @FindBy(xpath = "//div[contains(@class,'dds-relative dds-text-center')]/label")
+    public WebElement labelMessage;
 
     @FindBy(xpath = "(//div[contains(@class,'dds-relative')]/label/following-sibling::div)[1]")
     private WebElement subHeadingEle;
@@ -31,7 +34,16 @@ public class LoginPage {
     private WebElement dropDownEle;
 
     @FindBy(xpath = "//div[@class='dds-w-fit']")
-    private List<WebElement> totalCountryListEle;
+    public List<WebElement> totalCountryListEle;
+
+    @FindBy(xpath = "//div[@id='select-container']//img")
+    private WebElement countryImgEle;
+
+    @FindBy(xpath = "//button[contains(text(),'Continue')]")
+    private WebElement continueBtnEle;
+
+    @FindBy(xpath = "//div[@class='dds-flex dds-justify-center dds-items-center dds-mb-2.5 dds-gap-2 dds-text-base']/following-sibling::p")
+    private WebElement errorMessage;
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
@@ -45,8 +57,8 @@ public class LoginPage {
     public String messageDisplayed() {
         //Thread.sleep(3000);
         //WaitUtils.sleep(3000);
-        WaitUtils.waitForElementToBeVisible(driver,labelmessage,3);
-        return labelmessage.getText();
+        WaitUtils.waitForElementToBeVisible(driver,labelMessage,3);
+        return labelMessage.getText();
     }
 
     public boolean isSubHeadingDisplayed(){
@@ -64,15 +76,23 @@ public class LoginPage {
 
     }
 
-    public String inputBoxValue(String number){
+    public void setInputBoxValue(String number){
         inputBoxPhoneNoEle.sendKeys(number);
+    }
+
+    public String getInputBoxValue(){
+        //inputBoxPhoneNoEle.sendKeys(number);
         String value = inputBoxPhoneNoEle.getDomAttribute("value");
         //System.out.println(value);
         return value;
     }
 
-    public boolean checkNumbericInputValue(String number){
-        String value = inputBoxValue(number);
+    public void setPhoneNumber(String number){
+        inputBoxPhoneNoEle.sendKeys(number);
+    }
+
+    public boolean checkNumbericInputValue(){
+        String value = getInputBoxValue();
         return value.matches("[0-9]*");
     }
 
@@ -85,20 +105,24 @@ public class LoginPage {
     }
 
     public boolean isDropdownVisible(){
-        dropDownEle.click();
+        //dropDownEle.click();
         return dropDownEle.isDisplayed();
     }
+
+    public void clickDropdownMenu(){dropDownEle.click();}
 
     public void displayCountriesOfDropDown(){
         List<WebElement> options = totalCountryListEle;
         for (WebElement option : options) {
-            System.out.println(option.getText());
+            log.debug(option.getText());
+            //System.out.println(option.getText());
         }
     }
 
     public void countCountryOfDropDown(){
         List<WebElement> options = totalCountryListEle;
-        System.out.println("Total countries: " + options.size());
+        log.info("Total countries: {}", options.size());
+        //System.out.println("Total countries: " + options.size());
     }
 
     public void selectCountryFromDropDown(String country){
@@ -110,6 +134,18 @@ public class LoginPage {
                 break;
             }
         }
+    }
+
+    public String selectedCountryName(){
+        return countryImgEle.getDomAttribute("alt");
+    }
+
+    public void clickContinueButton(){
+        continueBtnEle.click();
+    }
+
+    public String captureErrorMessage(){
+        return errorMessage.getText();
     }
 
 

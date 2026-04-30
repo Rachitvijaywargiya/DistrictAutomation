@@ -54,9 +54,9 @@ public class BaseClass {
             driver.manage().window().maximize();
         }
 
-        System.out.println("Opening on selected browser " + Utility.fetchPropertyValue("browser"));
+        log.info("Opening on selected browser {}", Utility.fetchPropertyValue("browser"));
         driver.get(Utility.fetchPropertyValue("baseUrl").toString());
-        System.out.println("Running on URL " + Utility.fetchPropertyValue("baseUrl").toString());
+        log.info("Running on URL {}", Utility.fetchPropertyValue("baseUrl").toString());
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
@@ -69,17 +69,20 @@ public class BaseClass {
                 testName =result.getTestClass().getRealClass().getSimpleName();
                 if (result.getStatus() == ITestResult.FAILURE) {
                     ScreenshotUtil.takeScreenshot(driver, testName + "_FAILED");
-                    System.out.println("Screenshot taken Successfully but test case failed");
+                    log.error("Test case failed.");
+                    //log.info("Screenshot captured for test: {}", testName);
                 } else {
                     ScreenshotUtil.takeScreenshot(driver, testName + "_PASSED");
-                    System.out.println("Screenshot taken Successfully and test case passed");
+                    log.info("Test case passed.");
+                    //log.info("Screenshot captured for test: {}", testName);
                 }
+                log.info("Screenshot captured for test: {}", testName);
             }
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         } finally {
             if (driver != null) {
-                System.out.println("Closing the browser");
+                log.info("Closing the browser");
                 driver.quit();
             }
         }
