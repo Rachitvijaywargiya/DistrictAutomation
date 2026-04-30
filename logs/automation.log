@@ -969,3 +969,520 @@
 2026-04-30 09:27:07 INFO  BaseClass:76 - Test case passed.
 2026-04-30 09:27:07 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
 2026-04-30 09:27:07 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:02:24 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:02:27 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:02:27 INFO  BaseClass:11 - Verifying that District home page loads correctly
+2026-04-30 23:02:27 INFO  BaseClass:14 - Current URL: https://www.district.in/
+2026-04-30 23:02:27 INFO  BaseClass:20 - Page title: District by Zomato: Movies, Events, Dining, Sports & Concerts Nearby
+2026-04-30 23:02:27 INFO  BaseClass:25 - Verifying presence of master header in page source
+2026-04-30 23:02:27 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:02:27 INFO  BaseClass:79 - Screenshot captured for test: TC_01_HomePageLoadTest
+2026-04-30 23:02:27 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:02:37 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:02:38 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:02:38 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:02:39 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:02:39 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:02:39 INFO  BaseClass:79 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:02:39 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:03:05 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:03:09 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:03:09 INFO  BaseClass:14 - Checking if city selector button is visible
+2026-04-30 23:03:09 INFO  BaseClass:19 - Selecting city: Pune
+2026-04-30 23:03:11 INFO  BaseClass:22 - Location after selection: Haryana
+2026-04-30 23:03:11 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:03:11 INFO  BaseClass:79 - Screenshot captured for test: TC_03_CitySelectorInteractionTest
+2026-04-30 23:03:11 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:03:20 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:03:22 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:03:22 INFO  BaseClass:15 - Fetching auto-detected location on page load
+2026-04-30 23:03:22 INFO  BaseClass:18 - Auto-detected location is: Haryana
+2026-04-30 23:03:22 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:03:22 INFO  BaseClass:79 - Screenshot captured for test: TC_04_DefaultLocationAutoDetectionTest
+2026-04-30 23:03:22 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:03:32 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:03:34 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:03:34 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 23:03:35 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 23:03:35 INFO  BaseClass:21 - Selected entire location: Pune, Maharashtra
+2026-04-30 23:03:35 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:03:35 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 23:03:35 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:03:47 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:03:50 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:04:22 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:04:22 INFO  BaseClass:79 - Screenshot captured for test: TC_21_LoginProfileButtonTest
+2026-04-30 23:04:22 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:04:32 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:04:34 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:04:34 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:04:34 INFO  BaseClass:79 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-04-30 23:04:34 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:04:45 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:04:46 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:04:47 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 23:04:47 INFO  BaseClass:17 - Dropdown menu clicked
+2026-04-30 23:04:47 INFO  BaseClass:19 - Country code dropdown is visible
+2026-04-30 23:04:47 DEBUG BaseClass:20 - Displaying all countries List
+2026-04-30 23:04:47 DEBUG LoginPage:117 - India
+2026-04-30 23:04:47 DEBUG LoginPage:117 - UAE
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Afghanistan
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Algeria
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Argentina
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Australia
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Austria
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Bahrain
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Bangladesh
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Belgium
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Bhutan
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Brasil
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Brunei
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Cambodia
+2026-04-30 23:04:47 DEBUG LoginPage:117 - Canada
+2026-04-30 23:04:48 DEBUG LoginPage:117 - China
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Colombia
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Denmark
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Egypt
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Ethiopia
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Finland
+2026-04-30 23:04:48 DEBUG LoginPage:117 - France
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Germany
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Ghana
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Indonesia
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Iraq
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Ireland
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Israel
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Italy
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Japan
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Jordan
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Kazakhstan
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Kenya
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Kuwait
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Laos
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Lebanon
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Libya
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Malaysia
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Maldives
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Mexico
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Montenegro
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Morocco
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Myanmar
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Nepal
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Netherlands
+2026-04-30 23:04:48 DEBUG LoginPage:117 - New Zealand
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Nigeria
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Norway
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Oman
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Pakistan
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Philippines
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Portugal
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Qatar
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Saudi Arabia
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Singapore
+2026-04-30 23:04:48 DEBUG LoginPage:117 - South Africa
+2026-04-30 23:04:48 DEBUG LoginPage:117 - South Korea
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Spain
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Sri Lanka
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Sudan
+2026-04-30 23:04:48 DEBUG LoginPage:117 - Sweden
+2026-04-30 23:04:49 DEBUG LoginPage:117 - Switzerland
+2026-04-30 23:04:49 DEBUG LoginPage:117 - Syria
+2026-04-30 23:04:49 DEBUG LoginPage:117 - Tanzania
+2026-04-30 23:04:49 DEBUG LoginPage:117 - Thailand
+2026-04-30 23:04:49 DEBUG LoginPage:117 - Timor-Leste
+2026-04-30 23:04:49 DEBUG LoginPage:117 - Tunisia
+2026-04-30 23:04:49 DEBUG LoginPage:117 - Turkey
+2026-04-30 23:04:49 DEBUG LoginPage:117 - Uganda
+2026-04-30 23:04:49 DEBUG LoginPage:117 - United Kingdom
+2026-04-30 23:04:49 DEBUG LoginPage:117 - United States
+2026-04-30 23:04:49 DEBUG LoginPage:117 - Vietnam
+2026-04-30 23:04:49 DEBUG LoginPage:117 - Yemen
+2026-04-30 23:04:49 INFO  LoginPage:124 - Total countries: 73
+2026-04-30 23:04:49 INFO  BaseClass:25 - Selected country: Algeria
+2026-04-30 23:04:50 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:04:50 INFO  BaseClass:79 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-04-30 23:04:50 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:05:01 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:05:06 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:05:06 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 23:05:06 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 23:05:06 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 23:05:06 INFO  BaseClass:23 - Selected country: India
+2026-04-30 23:05:07 INFO  BaseClass:25 - Entered phone number: 94301548445
+2026-04-30 23:05:07 ERROR BaseClass:27 - login error: Please enter a valid mobile number.
+2026-04-30 23:05:07 INFO  BaseClass:31 - Dropdown menu clicked
+2026-04-30 23:05:07 INFO  BaseClass:33 - Country code dropdown is visible
+2026-04-30 23:05:07 INFO  BaseClass:36 - Selected country: Algeria
+2026-04-30 23:05:07 INFO  BaseClass:38 - cleared input box data
+2026-04-30 23:05:08 INFO  BaseClass:40 - Entered phone number: 67544788934
+2026-04-30 23:05:08 ERROR BaseClass:42 - login error: Failed to send OTP. Please try again.
+2026-04-30 23:05:08 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:05:08 INFO  BaseClass:79 - Screenshot captured for test: TC_24_LoginProfileInvalidTest
+2026-04-30 23:05:08 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:05:20 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:05:23 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:05:23 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 23:05:23 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 23:05:23 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 23:05:24 INFO  BaseClass:23 - Selected country: India
+2026-04-30 23:05:24 INFO  BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 23:05:24 ERROR BaseClass:72 - Test case failed.
+2026-04-30 23:05:24 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 23:05:24 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:08:34 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:08:36 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:08:36 INFO  BaseClass:11 - Verifying that District home page loads correctly
+2026-04-30 23:08:36 INFO  BaseClass:14 - Current URL: https://www.district.in/
+2026-04-30 23:08:36 INFO  BaseClass:20 - Page title: District by Zomato: Movies, Events, Dining, Sports & Concerts Nearby
+2026-04-30 23:08:36 INFO  BaseClass:25 - Verifying presence of master header in page source
+2026-04-30 23:08:37 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:08:37 INFO  BaseClass:79 - Screenshot captured for test: TC_01_HomePageLoadTest
+2026-04-30 23:08:37 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:08:45 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:08:47 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:08:47 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:08:47 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:08:47 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:08:47 INFO  BaseClass:79 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:08:47 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:08:55 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:08:57 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:08:57 INFO  BaseClass:14 - Checking if city selector button is visible
+2026-04-30 23:08:57 INFO  BaseClass:19 - Selecting city: Pune
+2026-04-30 23:08:59 INFO  BaseClass:22 - Location after selection: Haryana
+2026-04-30 23:09:00 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:09:00 INFO  BaseClass:79 - Screenshot captured for test: TC_03_CitySelectorInteractionTest
+2026-04-30 23:09:00 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:09:09 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:09:10 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:09:10 INFO  BaseClass:15 - Fetching auto-detected location on page load
+2026-04-30 23:09:10 INFO  BaseClass:18 - Auto-detected location is: Haryana
+2026-04-30 23:09:10 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:09:10 INFO  BaseClass:79 - Screenshot captured for test: TC_04_DefaultLocationAutoDetectionTest
+2026-04-30 23:09:10 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:09:20 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:09:21 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:09:21 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 23:09:23 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 23:09:23 INFO  BaseClass:21 - Selected entire location: Haryana
+2026-04-30 23:09:23 ERROR BaseClass:72 - Test case failed.
+2026-04-30 23:09:23 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 23:09:23 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:09:53 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:09:54 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:09:54 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 23:09:55 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 23:09:55 INFO  BaseClass:21 - Selected entire location: Pune, Maharashtra
+2026-04-30 23:09:56 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:09:56 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 23:09:56 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:12:47 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:12:48 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:12:49 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 23:12:50 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 23:12:50 INFO  BaseClass:21 - Selected entire location: Pune, Maharashtra
+2026-04-30 23:12:50 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:12:50 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 23:12:50 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:13:01 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:13:03 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:13:04 INFO  BaseClass:14 - Checking if city selector button is visible
+2026-04-30 23:13:04 INFO  BaseClass:19 - Selecting city: Pune
+2026-04-30 23:13:06 INFO  BaseClass:22 - Location after selection: Haryana
+2026-04-30 23:13:06 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:13:06 INFO  BaseClass:79 - Screenshot captured for test: TC_03_CitySelectorInteractionTest
+2026-04-30 23:13:06 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:16:41 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:16:44 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:16:44 INFO  BaseClass:14 - Checking if city selector button is visible
+2026-04-30 23:16:44 INFO  BaseClass:19 - Selecting city: Pune
+2026-04-30 23:16:46 INFO  BaseClass:22 - Location after selection: Haryana
+2026-04-30 23:16:47 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:16:47 INFO  BaseClass:79 - Screenshot captured for test: TC_03_CitySelectorInteractionTest
+2026-04-30 23:16:47 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:18:09 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:18:11 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:18:11 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:18:11 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:18:27 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:18:27 INFO  BaseClass:79 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:18:27 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:19:59 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:20:00 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:20:00 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:20:00 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:20:16 INFO  BaseClass:25 - Search box is not visible in the current page state
+2026-04-30 23:20:16 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:20:16 INFO  BaseClass:79 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:20:16 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:21:01 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:21:03 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:21:03 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:21:03 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:21:18 INFO  BaseClass:26 - Search box is not visible in the current page state
+2026-04-30 23:21:18 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:21:18 INFO  BaseClass:79 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:21:18 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:21:56 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:21:57 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:21:57 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:21:57 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:21:58 INFO  BaseClass:24 - Search box is visible on home page
+2026-04-30 23:21:58 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:21:58 INFO  BaseClass:79 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:21:58 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:22:22 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:22:25 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:22:25 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:22:25 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:22:56 INFO  BaseClass:26 - Search box is not visible in the current page state
+2026-04-30 23:22:56 INFO  BaseClass:76 - Test case passed.
+2026-04-30 23:22:56 INFO  BaseClass:79 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:22:56 INFO  BaseClass:85 - Closing the browser
+2026-04-30 23:25:08 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:25:09 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:25:09 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:25:09 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:25:25 INFO  BaseClass:26 - Search box is not visible in the current page state
+2026-04-30 23:25:25 INFO  BaseClass:75 - Test case passed.
+2026-04-30 23:25:25 INFO  BaseClass:77 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:25:25 INFO  BaseClass:83 - Closing the browser
+2026-04-30 23:27:00 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:27:01 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:27:01 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:27:02 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:27:02 INFO  BaseClass:26 - Search box is not visible in the current page state
+2026-04-30 23:27:02 INFO  BaseClass:75 - Test case passed.
+2026-04-30 23:27:02 INFO  BaseClass:77 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:27:02 INFO  BaseClass:83 - Closing the browser
+2026-04-30 23:27:46 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 23:27:49 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 23:27:49 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:27:49 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:27:49 INFO  BaseClass:19 - Search box is visible on home page
+2026-04-30 23:27:49 INFO  BaseClass:75 - Test case passed.
+2026-04-30 23:27:49 INFO  BaseClass:77 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:27:49 INFO  BaseClass:83 - Closing the browser
+2026-04-30 23:40:40 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:40:42 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:40:42 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:40:43 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:40:43 INFO  BaseClass:19 - Search box is visible on home page
+2026-04-30 23:40:43 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:40:43 INFO  BaseClass:76 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:40:43 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:40:59 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:41:00 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:41:00 INFO  BaseClass:13 - Verifying master header integrity on home page
+2026-04-30 23:41:01 INFO  BaseClass:23 - Master header is present
+2026-04-30 23:41:02 INFO  BaseClass:27 - Displayed location in header: Haryana
+2026-04-30 23:41:03 INFO  BaseClass:55 - Master header navigation tabs are present
+2026-04-30 23:41:03 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:41:03 INFO  BaseClass:76 - Screenshot captured for test: TC_03_MasterHeaderIntegrityTest
+2026-04-30 23:41:03 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:42:13 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:42:15 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:42:15 INFO  BaseClass:12 - Verifying master header integrity on home page
+2026-04-30 23:42:15 INFO  BaseClass:19 - Master header is present
+2026-04-30 23:42:15 INFO  BaseClass:21 - Displayed location in header: Haryana
+2026-04-30 23:42:17 INFO  BaseClass:42 - Master header navigation tabs are present
+2026-04-30 23:42:17 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:42:17 INFO  BaseClass:76 - Screenshot captured for test: TC_03_MasterHeaderIntegrityTest
+2026-04-30 23:42:17 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:45:32 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:45:34 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:45:34 INFO  BaseClass:11 - Verifying that District home page loads correctly
+2026-04-30 23:45:34 INFO  BaseClass:14 - Current URL: https://www.district.in/
+2026-04-30 23:45:34 INFO  BaseClass:20 - Page title: District by Zomato: Movies, Events, Dining, Sports & Concerts Nearby
+2026-04-30 23:45:34 INFO  BaseClass:25 - Verifying presence of master header in page source
+2026-04-30 23:45:34 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:45:34 INFO  BaseClass:76 - Screenshot captured for test: TC_01_HomePageLoadTest
+2026-04-30 23:45:34 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:45:51 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:45:52 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:45:52 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:45:53 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:45:53 INFO  BaseClass:21 - Search box is not visible in the current page state
+2026-04-30 23:45:54 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:45:54 INFO  BaseClass:76 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:45:54 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:47:24 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:47:28 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:47:28 INFO  BaseClass:12 - Verifying master header integrity on home page
+2026-04-30 23:47:28 INFO  BaseClass:19 - Master header is present
+2026-04-30 23:47:28 INFO  BaseClass:21 - Displayed location in header: Haryana
+2026-04-30 23:47:29 INFO  BaseClass:42 - Master header navigation tabs are present
+2026-04-30 23:47:30 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:47:30 INFO  BaseClass:76 - Screenshot captured for test: TC_03_MasterHeaderIntegrityTest
+2026-04-30 23:47:30 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:47:45 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:47:46 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:47:47 INFO  BaseClass:14 - Fetching auto-detected location on page load
+2026-04-30 23:47:47 INFO  BaseClass:16 - Auto-detected location is: Haryana
+2026-04-30 23:47:47 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:47:47 INFO  BaseClass:76 - Screenshot captured for test: TC_04_DefaultLocationAutoDetectionTest
+2026-04-30 23:47:47 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:48:02 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:48:04 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:48:04 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 23:48:06 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 23:48:06 INFO  BaseClass:21 - Selected entire location: Pune, Maharashtra
+2026-04-30 23:48:07 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:48:07 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 23:48:07 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:50:12 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:50:14 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:50:14 INFO  BaseClass:11 - Verifying that District home page loads correctly
+2026-04-30 23:50:14 INFO  BaseClass:14 - Current URL: https://www.district.in/
+2026-04-30 23:50:14 INFO  BaseClass:20 - Page title: District by Zomato: Movies, Events, Dining, Sports & Concerts Nearby
+2026-04-30 23:50:14 INFO  BaseClass:25 - Verifying presence of master header in page source
+2026-04-30 23:50:15 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:50:15 INFO  BaseClass:76 - Screenshot captured for test: TC_01_HomePageLoadTest
+2026-04-30 23:50:15 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:50:30 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:50:32 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:50:32 INFO  BaseClass:12 - Verifying header elements on home page
+2026-04-30 23:50:32 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-04-30 23:50:47 INFO  BaseClass:21 - Search box is not visible in the current page state
+2026-04-30 23:50:48 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:50:48 INFO  BaseClass:76 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-04-30 23:50:48 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:51:04 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:51:06 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:51:06 INFO  BaseClass:12 - Verifying master header integrity on home page
+2026-04-30 23:51:06 INFO  BaseClass:19 - Master header is present
+2026-04-30 23:51:07 INFO  BaseClass:21 - Displayed location in header: Haryana
+2026-04-30 23:51:08 INFO  BaseClass:42 - Master header navigation tabs are present
+2026-04-30 23:51:08 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:51:08 INFO  BaseClass:76 - Screenshot captured for test: TC_03_MasterHeaderIntegrityTest
+2026-04-30 23:51:08 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:51:30 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:51:32 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:51:32 INFO  BaseClass:14 - Fetching auto-detected location on page load
+2026-04-30 23:51:32 INFO  BaseClass:16 - Auto-detected location is: Haryana
+2026-04-30 23:51:33 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:51:33 INFO  BaseClass:76 - Screenshot captured for test: TC_04_DefaultLocationAutoDetectionTest
+2026-04-30 23:51:33 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:52:12 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:52:14 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:52:15 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 23:52:16 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 23:52:17 ERROR BaseClass:71 - Test case failed.
+2026-04-30 23:52:17 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 23:52:17 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:56:51 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:56:53 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:56:54 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 23:56:56 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 23:56:56 ERROR BaseClass:71 - Test case failed.
+2026-04-30 23:56:57 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 23:56:57 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:57:59 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:58:01 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:58:02 INFO  BaseClass:16 - Clicked on location icon
+2026-04-30 23:58:04 ERROR BaseClass:71 - Test case failed.
+2026-04-30 23:58:04 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 23:58:04 INFO  BaseClass:82 - Closing the browser
+2026-04-30 23:59:53 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-04-30 23:59:55 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-04-30 23:59:56 INFO  BaseClass:16 - Clicked on location icon
+2026-04-30 23:59:58 INFO  BaseClass:24 - City: Pune
+2026-04-30 23:59:58 INFO  BaseClass:25 - Full Location: Pune, Maharashtra
+2026-04-30 23:59:58 INFO  BaseClass:74 - Test case passed.
+2026-04-30 23:59:58 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 23:59:58 INFO  BaseClass:82 - Closing the browser
+2026-05-01 00:00:20 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-05-01 00:00:22 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-05-01 00:00:22 INFO  BaseClass:16 - Clicked on location icon
+2026-05-01 00:00:24 INFO  BaseClass:24 - City: Pune
+2026-05-01 00:00:24 INFO  BaseClass:25 - Full Location: Pune, Maharashtra
+2026-05-01 00:00:24 INFO  BaseClass:74 - Test case passed.
+2026-05-01 00:00:24 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
+2026-05-01 00:00:24 INFO  BaseClass:82 - Closing the browser
+2026-05-01 00:00:52 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-05-01 00:00:54 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-05-01 00:00:54 INFO  BaseClass:37 - Clicked on location icon
+2026-05-01 00:00:56 INFO  BaseClass:40 - Selected location: Pune
+2026-05-01 00:00:56 INFO  BaseClass:43 - Selected entire location: Pune, Maharashtra
+2026-05-01 00:00:56 INFO  BaseClass:74 - Test case passed.
+2026-05-01 00:00:56 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
+2026-05-01 00:00:56 INFO  BaseClass:82 - Closing the browser
+2026-05-01 00:01:22 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-05-01 00:01:25 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-05-01 00:01:25 INFO  BaseClass:14 - Fetching auto-detected location on page load
+2026-05-01 00:01:25 INFO  BaseClass:16 - Auto-detected location is: Haryana
+2026-05-01 00:01:25 INFO  BaseClass:74 - Test case passed.
+2026-05-01 00:01:25 INFO  BaseClass:76 - Screenshot captured for test: TC_04_DefaultLocationAutoDetectionTest
+2026-05-01 00:01:25 INFO  BaseClass:82 - Closing the browser
+2026-05-01 00:01:40 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-05-01 00:01:41 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-05-01 00:01:42 INFO  BaseClass:37 - Clicked on location icon
+2026-05-01 00:01:44 INFO  BaseClass:40 - Selected location: Pune
+2026-05-01 00:01:44 INFO  BaseClass:43 - Selected entire location: Pune, Maharashtra
+2026-05-01 00:01:45 INFO  BaseClass:74 - Test case passed.
+2026-05-01 00:01:45 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
+2026-05-01 00:01:45 INFO  BaseClass:82 - Closing the browser
+2026-05-01 00:02:19 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-05-01 00:02:26 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-05-01 00:02:26 INFO  BaseClass:15 - Clicked on location icon
+2026-05-01 00:02:28 INFO  BaseClass:18 - Selected location: Pune
+2026-05-01 00:02:28 ERROR BaseClass:71 - Test case failed.
+2026-05-01 00:02:28 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
+2026-05-01 00:02:28 INFO  BaseClass:82 - Closing the browser
+2026-05-01 00:03:12 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-05-01 00:03:18 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-05-01 00:03:19 INFO  BaseClass:16 - Clicked on location icon
+2026-05-01 00:03:20 INFO  BaseClass:24 - City: Pune
+2026-05-01 00:03:20 INFO  BaseClass:25 - Full Location: Pune, Maharashtra
+2026-05-01 00:03:20 INFO  BaseClass:74 - Test case passed.
+2026-05-01 00:03:20 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
+2026-05-01 00:03:20 INFO  BaseClass:82 - Closing the browser
+2026-05-01 00:06:48 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-05-01 00:06:52 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-05-01 00:06:52 INFO  BaseClass:16 - Clicked on location icon
+2026-05-01 00:06:54 INFO  BaseClass:24 - City: Pune
+2026-05-01 00:06:54 INFO  BaseClass:25 - Full Location: Pune, Maharashtra
+2026-05-01 00:06:54 INFO  BaseClass:74 - Test case passed.
+2026-05-01 00:06:54 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
+2026-05-01 00:06:54 INFO  BaseClass:82 - Closing the browser
+2026-05-01 00:08:40 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-05-01 00:08:42 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-05-01 00:08:42 INFO  BaseClass:11 - Verifying that District home page loads correctly
+2026-05-01 00:08:42 INFO  BaseClass:14 - Current URL: https://www.district.in/
+2026-05-01 00:08:42 INFO  BaseClass:20 - Page title: District by Zomato: Movies, Events, Dining, Sports & Concerts Nearby
+2026-05-01 00:08:42 INFO  BaseClass:25 - Verifying presence of master header in page source
+2026-05-01 00:08:43 INFO  BaseClass:74 - Test case passed.
+2026-05-01 00:08:43 INFO  BaseClass:76 - Screenshot captured for test: TC_01_HomePageLoadTest
+2026-05-01 00:08:43 INFO  BaseClass:82 - Closing the browser
+2026-05-01 00:08:57 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-05-01 00:08:58 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-05-01 00:08:58 INFO  BaseClass:12 - Verifying header elements on home page
+2026-05-01 00:08:59 INFO  BaseClass:17 - Checking search box availability (conditional element)
+2026-05-01 00:08:59 INFO  BaseClass:19 - Search box is visible on home page
+2026-05-01 00:08:59 INFO  BaseClass:74 - Test case passed.
+2026-05-01 00:08:59 INFO  BaseClass:76 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-05-01 00:08:59 INFO  BaseClass:82 - Closing the browser
+2026-05-01 00:09:15 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-05-01 00:09:17 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-05-01 00:09:17 INFO  BaseClass:12 - Verifying master header integrity on home page
+2026-05-01 00:09:18 INFO  BaseClass:19 - Master header is present
+2026-05-01 00:09:18 INFO  BaseClass:21 - Displayed location in header: Haryana
+2026-05-01 00:09:19 INFO  BaseClass:42 - Master header navigation tabs are present
+2026-05-01 00:09:20 INFO  BaseClass:74 - Test case passed.
+2026-05-01 00:09:20 INFO  BaseClass:76 - Screenshot captured for test: TC_03_MasterHeaderIntegrityTest
+2026-05-01 00:09:20 INFO  BaseClass:82 - Closing the browser
+2026-05-01 00:09:34 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-05-01 00:09:36 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-05-01 00:09:36 INFO  BaseClass:14 - Fetching auto-detected location on page load
+2026-05-01 00:09:37 INFO  BaseClass:16 - Auto-detected location is: Haryana
+2026-05-01 00:09:37 INFO  BaseClass:74 - Test case passed.
+2026-05-01 00:09:37 INFO  BaseClass:76 - Screenshot captured for test: TC_04_DefaultLocationAutoDetectionTest
+2026-05-01 00:09:37 INFO  BaseClass:82 - Closing the browser
+2026-05-01 00:09:51 INFO  BaseClass:56 - Opening on selected browser chrome
+2026-05-01 00:09:53 INFO  BaseClass:58 - Running on URL https://www.district.in/
+2026-05-01 00:09:53 INFO  BaseClass:15 - Clicked on location icon
+2026-05-01 00:09:55 INFO  BaseClass:21 - City: Pune
+2026-05-01 00:09:55 INFO  BaseClass:22 - Full Location: Pune, Maharashtra
+2026-05-01 00:09:55 INFO  BaseClass:74 - Test case passed.
+2026-05-01 00:09:55 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
+2026-05-01 00:09:55 INFO  BaseClass:82 - Closing the browser

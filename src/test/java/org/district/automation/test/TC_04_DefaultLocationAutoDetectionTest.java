@@ -11,9 +11,11 @@ public class TC_04_DefaultLocationAutoDetectionTest extends BaseClass {
     public void verifyAutoDetectedLocationIsResolvedAndUsable() {
 
         HomePage home = new HomePage(driver);
+        log.info("Fetching auto-detected location on page load");
         String location = home.getDisplayedLocation();
+        log.info("Auto-detected location is: " + location);
         Assert.assertNotNull(location, "Auto-detected location is null");
-        System.out.println(location);
+
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertFalse(
                 location.trim().isEmpty(),
@@ -27,6 +29,7 @@ public class TC_04_DefaultLocationAutoDetectionTest extends BaseClass {
                 location.length() > 5,
                 "Resolved location is too short to be meaningful"
         );
+
         softAssert.assertAll();
     }
 }

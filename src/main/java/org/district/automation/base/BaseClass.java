@@ -27,7 +27,6 @@ public class BaseClass {
     public void setUp() throws Exception {
         if(Utility.fetchPropertyValue("browser").equals("chrome")) {
             ChromeOptions options = new ChromeOptions();
-
             Map<String, Object> prefs = new HashMap<>();
             prefs.put("profile.default_content_setting_values.geolocation", 2); // 1=Allow, 2=Block
             prefs.put("profile.managed_default_content_settings.geolocation", 2);
@@ -70,11 +69,9 @@ public class BaseClass {
                 if (result.getStatus() == ITestResult.FAILURE) {
                     ScreenshotUtil.takeScreenshot(driver, testName + "_FAILED");
                     log.error("Test case failed.");
-                    //log.info("Screenshot captured for test: {}", testName);
                 } else {
                     ScreenshotUtil.takeScreenshot(driver, testName + "_PASSED");
                     log.info("Test case passed.");
-                    //log.info("Screenshot captured for test: {}", testName);
                 }
                 log.info("Screenshot captured for test: {}", testName);
             }

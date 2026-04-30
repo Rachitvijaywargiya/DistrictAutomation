@@ -16,13 +16,11 @@ public class ScreenshotUtil {
         if (driver == null) return null;
         try {
             File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            //String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
             String screenshotsDir = System.getProperty("user.dir") + File.separator + "screenshots";
             Path dirPath = Paths.get(screenshotsDir);
             if (!Files.exists(dirPath)) {
                 Files.createDirectories(dirPath);
             }
-            //System.out.println( "_" + timestamp");
             String fileName = testName + ".png";
             Path dest = dirPath.resolve(fileName);
             Files.copy(src.toPath(), dest, StandardCopyOption.REPLACE_EXISTING);
