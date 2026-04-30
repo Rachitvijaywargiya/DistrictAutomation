@@ -6,9 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nio.file.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -27,7 +25,7 @@ public class ScreenshotUtil {
             //System.out.println( "_" + timestamp");
             String fileName = testName + ".png";
             Path dest = dirPath.resolve(fileName);
-            Files.copy(src.toPath(), dest);
+            Files.copy(src.toPath(), dest, StandardCopyOption.REPLACE_EXISTING);
             return dest.toString();
         } catch (IOException e) {
             return null;

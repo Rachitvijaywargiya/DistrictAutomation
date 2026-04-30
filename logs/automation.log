@@ -1,0 +1,971 @@
+2026-04-29 15:12:33 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 15:22:59 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 16:11:19 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 16:20:53 INFO  BaseClass:19 - Haryana
+2026-04-29 16:30:24 INFO  BaseClass:19 - Haryana
+2026-04-29 16:33:47 INFO  BaseClass:19 - Pune, Maharashtra
+2026-04-29 16:37:24 INFO  BaseClass:19 - Pune, Maharashtra
+2026-04-29 16:40:01 INFO  BaseClass:15 - 
+2026-04-29 16:40:03 INFO  BaseClass:20 - Pune, Maharashtra
+2026-04-29 17:04:30 INFO  BaseClass:15 - Clicked on location icon
+2026-04-29 17:04:31 INFO  BaseClass:18 - Selected location: Pune
+2026-04-29 17:05:17 INFO  BaseClass:15 - Clicked on location icon
+2026-04-29 17:05:19 INFO  BaseClass:18 - Selected location: Pune
+2026-04-29 17:05:19 INFO  BaseClass:21 - Haryana
+2026-04-29 17:06:09 INFO  BaseClass:15 - Clicked on location icon
+2026-04-29 17:06:11 INFO  BaseClass:21 - Pune, Maharashtra
+2026-04-29 17:12:46 INFO  BaseClass:15 - Clicked on location icon
+2026-04-29 17:12:48 INFO  BaseClass:18 - Selected location: 
+2026-04-29 17:15:05 INFO  BaseClass:15 - Clicked on location icon
+2026-04-29 17:15:06 INFO  BaseClass:18 - Selected location: Pune
+2026-04-29 17:15:06 INFO  BaseClass:21 - Pune, Maharashtra
+2026-04-29 17:15:45 INFO  BaseClass:15 - Clicked on location icon
+2026-04-29 17:15:47 INFO  BaseClass:18 - Selected location: Pune
+2026-04-29 17:15:47 INFO  BaseClass:21 - Pune, Maharashtra
+2026-04-29 18:33:24 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 18:33:25 INFO  BaseClass:17 - Country code dropdown is visible
+2026-04-29 18:33:25 INFO  BaseClass:18 - Displaying all countries List
+2026-04-29 18:33:25 INFO  BaseClass:96 - India
+2026-04-29 18:33:25 INFO  BaseClass:96 - UAE
+2026-04-29 18:33:25 INFO  BaseClass:96 - Afghanistan
+2026-04-29 18:33:25 INFO  BaseClass:96 - Algeria
+2026-04-29 18:33:25 INFO  BaseClass:96 - Argentina
+2026-04-29 18:33:25 INFO  BaseClass:96 - Australia
+2026-04-29 18:33:25 INFO  BaseClass:96 - Austria
+2026-04-29 18:33:25 INFO  BaseClass:96 - Bahrain
+2026-04-29 18:33:25 INFO  BaseClass:96 - Bangladesh
+2026-04-29 18:33:25 INFO  BaseClass:96 - Belgium
+2026-04-29 18:33:25 INFO  BaseClass:96 - Bhutan
+2026-04-29 18:33:25 INFO  BaseClass:96 - Brasil
+2026-04-29 18:33:25 INFO  BaseClass:96 - Brunei
+2026-04-29 18:33:25 INFO  BaseClass:96 - Cambodia
+2026-04-29 18:33:25 INFO  BaseClass:96 - Canada
+2026-04-29 18:33:25 INFO  BaseClass:96 - China
+2026-04-29 18:33:25 INFO  BaseClass:96 - Colombia
+2026-04-29 18:33:25 INFO  BaseClass:96 - Denmark
+2026-04-29 18:33:26 INFO  BaseClass:96 - Egypt
+2026-04-29 18:33:26 INFO  BaseClass:96 - Ethiopia
+2026-04-29 18:33:26 INFO  BaseClass:96 - Finland
+2026-04-29 18:33:26 INFO  BaseClass:96 - France
+2026-04-29 18:33:26 INFO  BaseClass:96 - Germany
+2026-04-29 18:33:26 INFO  BaseClass:96 - Ghana
+2026-04-29 18:33:26 INFO  BaseClass:96 - Indonesia
+2026-04-29 18:33:26 INFO  BaseClass:96 - Iraq
+2026-04-29 18:33:26 INFO  BaseClass:96 - Ireland
+2026-04-29 18:33:26 INFO  BaseClass:96 - Israel
+2026-04-29 18:33:26 INFO  BaseClass:96 - Italy
+2026-04-29 18:33:26 INFO  BaseClass:96 - Japan
+2026-04-29 18:33:26 INFO  BaseClass:96 - Jordan
+2026-04-29 18:33:26 INFO  BaseClass:96 - Kazakhstan
+2026-04-29 18:33:26 INFO  BaseClass:96 - Kenya
+2026-04-29 18:33:26 INFO  BaseClass:96 - Kuwait
+2026-04-29 18:33:26 INFO  BaseClass:96 - Laos
+2026-04-29 18:33:26 INFO  BaseClass:96 - Lebanon
+2026-04-29 18:33:26 INFO  BaseClass:96 - Libya
+2026-04-29 18:33:26 INFO  BaseClass:96 - Malaysia
+2026-04-29 18:33:26 INFO  BaseClass:96 - Maldives
+2026-04-29 18:33:26 INFO  BaseClass:96 - Mexico
+2026-04-29 18:33:26 INFO  BaseClass:96 - Montenegro
+2026-04-29 18:33:26 INFO  BaseClass:96 - Morocco
+2026-04-29 18:33:26 INFO  BaseClass:96 - Myanmar
+2026-04-29 18:33:26 INFO  BaseClass:96 - Nepal
+2026-04-29 18:33:26 INFO  BaseClass:96 - Netherlands
+2026-04-29 18:33:26 INFO  BaseClass:96 - New Zealand
+2026-04-29 18:33:26 INFO  BaseClass:96 - Nigeria
+2026-04-29 18:33:26 INFO  BaseClass:96 - Norway
+2026-04-29 18:33:26 INFO  BaseClass:96 - Oman
+2026-04-29 18:33:26 INFO  BaseClass:96 - Pakistan
+2026-04-29 18:33:26 INFO  BaseClass:96 - Philippines
+2026-04-29 18:33:26 INFO  BaseClass:96 - Portugal
+2026-04-29 18:33:26 INFO  BaseClass:96 - Qatar
+2026-04-29 18:33:26 INFO  BaseClass:96 - Saudi Arabia
+2026-04-29 18:33:26 INFO  BaseClass:96 - Singapore
+2026-04-29 18:33:27 INFO  BaseClass:96 - South Africa
+2026-04-29 18:33:27 INFO  BaseClass:96 - South Korea
+2026-04-29 18:33:27 INFO  BaseClass:96 - Spain
+2026-04-29 18:33:27 INFO  BaseClass:96 - Sri Lanka
+2026-04-29 18:33:27 INFO  BaseClass:96 - Sudan
+2026-04-29 18:33:27 INFO  BaseClass:96 - Sweden
+2026-04-29 18:33:27 INFO  BaseClass:96 - Switzerland
+2026-04-29 18:33:27 INFO  BaseClass:96 - Syria
+2026-04-29 18:33:27 INFO  BaseClass:96 - Tanzania
+2026-04-29 18:33:27 INFO  BaseClass:96 - Thailand
+2026-04-29 18:33:27 INFO  BaseClass:96 - Timor-Leste
+2026-04-29 18:33:27 INFO  BaseClass:96 - Tunisia
+2026-04-29 18:33:27 INFO  BaseClass:96 - Turkey
+2026-04-29 18:33:27 INFO  BaseClass:96 - Uganda
+2026-04-29 18:33:27 INFO  BaseClass:96 - United Kingdom
+2026-04-29 18:33:27 INFO  BaseClass:96 - United States
+2026-04-29 18:33:27 INFO  BaseClass:96 - Vietnam
+2026-04-29 18:33:27 INFO  BaseClass:96 - Yemen
+2026-04-29 18:33:27 INFO  BaseClass:103 - Total countries: 73
+2026-04-29 18:35:38 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 18:35:39 INFO  BaseClass:17 - Country code dropdown is visible
+2026-04-29 18:35:39 INFO  BaseClass:96 - India
+2026-04-29 18:35:39 INFO  BaseClass:96 - UAE
+2026-04-29 18:35:39 INFO  BaseClass:96 - Afghanistan
+2026-04-29 18:35:39 INFO  BaseClass:96 - Algeria
+2026-04-29 18:35:39 INFO  BaseClass:96 - Argentina
+2026-04-29 18:35:39 INFO  BaseClass:96 - Australia
+2026-04-29 18:35:39 INFO  BaseClass:96 - Austria
+2026-04-29 18:35:39 INFO  BaseClass:96 - Bahrain
+2026-04-29 18:35:39 INFO  BaseClass:96 - Bangladesh
+2026-04-29 18:35:39 INFO  BaseClass:96 - Belgium
+2026-04-29 18:35:40 INFO  BaseClass:96 - Bhutan
+2026-04-29 18:35:40 INFO  BaseClass:96 - Brasil
+2026-04-29 18:35:40 INFO  BaseClass:96 - Brunei
+2026-04-29 18:35:40 INFO  BaseClass:96 - Cambodia
+2026-04-29 18:35:40 INFO  BaseClass:96 - Canada
+2026-04-29 18:35:40 INFO  BaseClass:96 - China
+2026-04-29 18:35:40 INFO  BaseClass:96 - Colombia
+2026-04-29 18:35:40 INFO  BaseClass:96 - Denmark
+2026-04-29 18:35:40 INFO  BaseClass:96 - Egypt
+2026-04-29 18:35:40 INFO  BaseClass:96 - Ethiopia
+2026-04-29 18:35:40 INFO  BaseClass:96 - Finland
+2026-04-29 18:35:40 INFO  BaseClass:96 - France
+2026-04-29 18:35:40 INFO  BaseClass:96 - Germany
+2026-04-29 18:35:40 INFO  BaseClass:96 - Ghana
+2026-04-29 18:35:40 INFO  BaseClass:96 - Indonesia
+2026-04-29 18:35:40 INFO  BaseClass:96 - Iraq
+2026-04-29 18:35:40 INFO  BaseClass:96 - Ireland
+2026-04-29 18:35:40 INFO  BaseClass:96 - Israel
+2026-04-29 18:35:40 INFO  BaseClass:96 - Italy
+2026-04-29 18:35:40 INFO  BaseClass:96 - Japan
+2026-04-29 18:35:40 INFO  BaseClass:96 - Jordan
+2026-04-29 18:35:41 INFO  BaseClass:96 - Kazakhstan
+2026-04-29 18:35:41 INFO  BaseClass:96 - Kenya
+2026-04-29 18:35:41 INFO  BaseClass:96 - Kuwait
+2026-04-29 18:35:41 INFO  BaseClass:96 - Laos
+2026-04-29 18:35:41 INFO  BaseClass:96 - Lebanon
+2026-04-29 18:35:41 INFO  BaseClass:96 - Libya
+2026-04-29 18:35:41 INFO  BaseClass:96 - Malaysia
+2026-04-29 18:35:41 INFO  BaseClass:96 - Maldives
+2026-04-29 18:35:41 INFO  BaseClass:96 - Mexico
+2026-04-29 18:35:41 INFO  BaseClass:96 - Montenegro
+2026-04-29 18:35:41 INFO  BaseClass:96 - Morocco
+2026-04-29 18:35:41 INFO  BaseClass:96 - Myanmar
+2026-04-29 18:35:41 INFO  BaseClass:96 - Nepal
+2026-04-29 18:35:41 INFO  BaseClass:96 - Netherlands
+2026-04-29 18:35:41 INFO  BaseClass:96 - New Zealand
+2026-04-29 18:35:41 INFO  BaseClass:96 - Nigeria
+2026-04-29 18:35:41 INFO  BaseClass:96 - Norway
+2026-04-29 18:35:41 INFO  BaseClass:96 - Oman
+2026-04-29 18:35:41 INFO  BaseClass:96 - Pakistan
+2026-04-29 18:35:41 INFO  BaseClass:96 - Philippines
+2026-04-29 18:35:41 INFO  BaseClass:96 - Portugal
+2026-04-29 18:35:41 INFO  BaseClass:96 - Qatar
+2026-04-29 18:35:41 INFO  BaseClass:96 - Saudi Arabia
+2026-04-29 18:35:41 INFO  BaseClass:96 - Singapore
+2026-04-29 18:35:41 INFO  BaseClass:96 - South Africa
+2026-04-29 18:35:41 INFO  BaseClass:96 - South Korea
+2026-04-29 18:35:41 INFO  BaseClass:96 - Spain
+2026-04-29 18:35:41 INFO  BaseClass:96 - Sri Lanka
+2026-04-29 18:35:41 INFO  BaseClass:96 - Sudan
+2026-04-29 18:35:41 INFO  BaseClass:96 - Sweden
+2026-04-29 18:35:41 INFO  BaseClass:96 - Switzerland
+2026-04-29 18:35:41 INFO  BaseClass:96 - Syria
+2026-04-29 18:35:41 INFO  BaseClass:96 - Tanzania
+2026-04-29 18:35:41 INFO  BaseClass:96 - Thailand
+2026-04-29 18:35:41 INFO  BaseClass:96 - Timor-Leste
+2026-04-29 18:35:41 INFO  BaseClass:96 - Tunisia
+2026-04-29 18:35:42 INFO  BaseClass:96 - Turkey
+2026-04-29 18:35:42 INFO  BaseClass:96 - Uganda
+2026-04-29 18:35:42 INFO  BaseClass:96 - United Kingdom
+2026-04-29 18:35:42 INFO  BaseClass:96 - United States
+2026-04-29 18:35:42 INFO  BaseClass:96 - Vietnam
+2026-04-29 18:35:42 INFO  BaseClass:96 - Yemen
+2026-04-29 18:35:42 INFO  BaseClass:103 - Total countries: 73
+2026-04-29 18:37:21 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 18:37:22 INFO  BaseClass:17 - Country code dropdown is visible
+2026-04-29 18:37:22 DEBUG BaseClass:18 - Displaying all countries List
+2026-04-29 18:37:22 INFO  BaseClass:96 - India
+2026-04-29 18:37:22 INFO  BaseClass:96 - UAE
+2026-04-29 18:37:22 INFO  BaseClass:96 - Afghanistan
+2026-04-29 18:37:22 INFO  BaseClass:96 - Algeria
+2026-04-29 18:37:22 INFO  BaseClass:96 - Argentina
+2026-04-29 18:37:22 INFO  BaseClass:96 - Australia
+2026-04-29 18:37:23 INFO  BaseClass:96 - Austria
+2026-04-29 18:37:23 INFO  BaseClass:96 - Bahrain
+2026-04-29 18:37:23 INFO  BaseClass:96 - Bangladesh
+2026-04-29 18:37:23 INFO  BaseClass:96 - Belgium
+2026-04-29 18:37:23 INFO  BaseClass:96 - Bhutan
+2026-04-29 18:37:23 INFO  BaseClass:96 - Brasil
+2026-04-29 18:37:23 INFO  BaseClass:96 - Brunei
+2026-04-29 18:37:23 INFO  BaseClass:96 - Cambodia
+2026-04-29 18:37:23 INFO  BaseClass:96 - Canada
+2026-04-29 18:37:23 INFO  BaseClass:96 - China
+2026-04-29 18:37:23 INFO  BaseClass:96 - Colombia
+2026-04-29 18:37:23 INFO  BaseClass:96 - Denmark
+2026-04-29 18:37:23 INFO  BaseClass:96 - Egypt
+2026-04-29 18:37:23 INFO  BaseClass:96 - Ethiopia
+2026-04-29 18:37:23 INFO  BaseClass:96 - Finland
+2026-04-29 18:37:23 INFO  BaseClass:96 - France
+2026-04-29 18:37:23 INFO  BaseClass:96 - Germany
+2026-04-29 18:37:23 INFO  BaseClass:96 - Ghana
+2026-04-29 18:37:23 INFO  BaseClass:96 - Indonesia
+2026-04-29 18:37:23 INFO  BaseClass:96 - Iraq
+2026-04-29 18:37:23 INFO  BaseClass:96 - Ireland
+2026-04-29 18:37:23 INFO  BaseClass:96 - Israel
+2026-04-29 18:37:23 INFO  BaseClass:96 - Italy
+2026-04-29 18:37:23 INFO  BaseClass:96 - Japan
+2026-04-29 18:37:23 INFO  BaseClass:96 - Jordan
+2026-04-29 18:37:23 INFO  BaseClass:96 - Kazakhstan
+2026-04-29 18:37:23 INFO  BaseClass:96 - Kenya
+2026-04-29 18:37:23 INFO  BaseClass:96 - Kuwait
+2026-04-29 18:37:24 INFO  BaseClass:96 - Laos
+2026-04-29 18:37:24 INFO  BaseClass:96 - Lebanon
+2026-04-29 18:37:24 INFO  BaseClass:96 - Libya
+2026-04-29 18:37:24 INFO  BaseClass:96 - Malaysia
+2026-04-29 18:37:24 INFO  BaseClass:96 - Maldives
+2026-04-29 18:37:24 INFO  BaseClass:96 - Mexico
+2026-04-29 18:37:24 INFO  BaseClass:96 - Montenegro
+2026-04-29 18:37:24 INFO  BaseClass:96 - Morocco
+2026-04-29 18:37:24 INFO  BaseClass:96 - Myanmar
+2026-04-29 18:37:24 INFO  BaseClass:96 - Nepal
+2026-04-29 18:37:24 INFO  BaseClass:96 - Netherlands
+2026-04-29 18:37:24 INFO  BaseClass:96 - New Zealand
+2026-04-29 18:37:24 INFO  BaseClass:96 - Nigeria
+2026-04-29 18:37:24 INFO  BaseClass:96 - Norway
+2026-04-29 18:37:24 INFO  BaseClass:96 - Oman
+2026-04-29 18:37:24 INFO  BaseClass:96 - Pakistan
+2026-04-29 18:37:24 INFO  BaseClass:96 - Philippines
+2026-04-29 18:37:24 INFO  BaseClass:96 - Portugal
+2026-04-29 18:37:24 INFO  BaseClass:96 - Qatar
+2026-04-29 18:37:24 INFO  BaseClass:96 - Saudi Arabia
+2026-04-29 18:37:24 INFO  BaseClass:96 - Singapore
+2026-04-29 18:37:24 INFO  BaseClass:96 - South Africa
+2026-04-29 18:37:24 INFO  BaseClass:96 - South Korea
+2026-04-29 18:37:24 INFO  BaseClass:96 - Spain
+2026-04-29 18:37:24 INFO  BaseClass:96 - Sri Lanka
+2026-04-29 18:37:24 INFO  BaseClass:96 - Sudan
+2026-04-29 18:37:24 INFO  BaseClass:96 - Sweden
+2026-04-29 18:37:24 INFO  BaseClass:96 - Switzerland
+2026-04-29 18:37:24 INFO  BaseClass:96 - Syria
+2026-04-29 18:37:24 INFO  BaseClass:96 - Tanzania
+2026-04-29 18:37:24 INFO  BaseClass:96 - Thailand
+2026-04-29 18:37:24 INFO  BaseClass:96 - Timor-Leste
+2026-04-29 18:37:24 INFO  BaseClass:96 - Tunisia
+2026-04-29 18:37:24 INFO  BaseClass:96 - Turkey
+2026-04-29 18:37:24 INFO  BaseClass:96 - Uganda
+2026-04-29 18:37:24 INFO  BaseClass:96 - United Kingdom
+2026-04-29 18:37:25 INFO  BaseClass:96 - United States
+2026-04-29 18:37:25 INFO  BaseClass:96 - Vietnam
+2026-04-29 18:37:25 INFO  BaseClass:96 - Yemen
+2026-04-29 18:37:25 INFO  BaseClass:103 - Total countries: 73
+2026-04-29 22:30:28 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 22:30:28 INFO  BaseClass:17 - Country code dropdown is visible
+2026-04-29 22:30:28 DEBUG BaseClass:18 - Displaying all countries List
+2026-04-29 22:30:28 INFO  BaseClass:99 - India
+2026-04-29 22:30:28 INFO  BaseClass:99 - UAE
+2026-04-29 22:30:28 INFO  BaseClass:99 - Afghanistan
+2026-04-29 22:30:28 INFO  BaseClass:99 - Algeria
+2026-04-29 22:30:28 INFO  BaseClass:99 - Argentina
+2026-04-29 22:30:28 INFO  BaseClass:99 - Australia
+2026-04-29 22:30:28 INFO  BaseClass:99 - Austria
+2026-04-29 22:30:28 INFO  BaseClass:99 - Bahrain
+2026-04-29 22:30:28 INFO  BaseClass:99 - Bangladesh
+2026-04-29 22:30:28 INFO  BaseClass:99 - Belgium
+2026-04-29 22:30:28 INFO  BaseClass:99 - Bhutan
+2026-04-29 22:30:28 INFO  BaseClass:99 - Brasil
+2026-04-29 22:30:29 INFO  BaseClass:99 - Brunei
+2026-04-29 22:30:29 INFO  BaseClass:99 - Cambodia
+2026-04-29 22:30:29 INFO  BaseClass:99 - Canada
+2026-04-29 22:30:29 INFO  BaseClass:99 - China
+2026-04-29 22:30:29 INFO  BaseClass:99 - Colombia
+2026-04-29 22:30:29 INFO  BaseClass:99 - Denmark
+2026-04-29 22:30:29 INFO  BaseClass:99 - Egypt
+2026-04-29 22:30:29 INFO  BaseClass:99 - Ethiopia
+2026-04-29 22:30:29 INFO  BaseClass:99 - Finland
+2026-04-29 22:30:29 INFO  BaseClass:99 - France
+2026-04-29 22:30:29 INFO  BaseClass:99 - Germany
+2026-04-29 22:30:29 INFO  BaseClass:99 - Ghana
+2026-04-29 22:30:29 INFO  BaseClass:99 - Indonesia
+2026-04-29 22:30:29 INFO  BaseClass:99 - Iraq
+2026-04-29 22:30:29 INFO  BaseClass:99 - Ireland
+2026-04-29 22:30:29 INFO  BaseClass:99 - Israel
+2026-04-29 22:30:29 INFO  BaseClass:99 - Italy
+2026-04-29 22:30:29 INFO  BaseClass:99 - Japan
+2026-04-29 22:30:29 INFO  BaseClass:99 - Jordan
+2026-04-29 22:30:29 INFO  BaseClass:99 - Kazakhstan
+2026-04-29 22:30:29 INFO  BaseClass:99 - Kenya
+2026-04-29 22:30:29 INFO  BaseClass:99 - Kuwait
+2026-04-29 22:30:29 INFO  BaseClass:99 - Laos
+2026-04-29 22:30:29 INFO  BaseClass:99 - Lebanon
+2026-04-29 22:30:29 INFO  BaseClass:99 - Libya
+2026-04-29 22:30:29 INFO  BaseClass:99 - Malaysia
+2026-04-29 22:30:29 INFO  BaseClass:99 - Maldives
+2026-04-29 22:30:29 INFO  BaseClass:99 - Mexico
+2026-04-29 22:30:29 INFO  BaseClass:99 - Montenegro
+2026-04-29 22:30:29 INFO  BaseClass:99 - Morocco
+2026-04-29 22:30:29 INFO  BaseClass:99 - Myanmar
+2026-04-29 22:30:29 INFO  BaseClass:99 - Nepal
+2026-04-29 22:30:29 INFO  BaseClass:99 - Netherlands
+2026-04-29 22:30:29 INFO  BaseClass:99 - New Zealand
+2026-04-29 22:30:29 INFO  BaseClass:99 - Nigeria
+2026-04-29 22:30:29 INFO  BaseClass:99 - Norway
+2026-04-29 22:30:29 INFO  BaseClass:99 - Oman
+2026-04-29 22:30:29 INFO  BaseClass:99 - Pakistan
+2026-04-29 22:30:29 INFO  BaseClass:99 - Philippines
+2026-04-29 22:30:29 INFO  BaseClass:99 - Portugal
+2026-04-29 22:30:29 INFO  BaseClass:99 - Qatar
+2026-04-29 22:30:29 INFO  BaseClass:99 - Saudi Arabia
+2026-04-29 22:30:29 INFO  BaseClass:99 - Singapore
+2026-04-29 22:30:29 INFO  BaseClass:99 - South Africa
+2026-04-29 22:30:29 INFO  BaseClass:99 - South Korea
+2026-04-29 22:30:29 INFO  BaseClass:99 - Spain
+2026-04-29 22:30:29 INFO  BaseClass:99 - Sri Lanka
+2026-04-29 22:30:29 INFO  BaseClass:99 - Sudan
+2026-04-29 22:30:29 INFO  BaseClass:99 - Sweden
+2026-04-29 22:30:29 INFO  BaseClass:99 - Switzerland
+2026-04-29 22:30:29 INFO  BaseClass:99 - Syria
+2026-04-29 22:30:29 INFO  BaseClass:99 - Tanzania
+2026-04-29 22:30:29 INFO  BaseClass:99 - Thailand
+2026-04-29 22:30:29 INFO  BaseClass:99 - Timor-Leste
+2026-04-29 22:30:29 INFO  BaseClass:99 - Tunisia
+2026-04-29 22:30:30 INFO  BaseClass:99 - Turkey
+2026-04-29 22:30:30 INFO  BaseClass:99 - Uganda
+2026-04-29 22:30:30 INFO  BaseClass:99 - United Kingdom
+2026-04-29 22:30:30 INFO  BaseClass:99 - United States
+2026-04-29 22:30:30 INFO  BaseClass:99 - Vietnam
+2026-04-29 22:30:30 INFO  BaseClass:99 - Yemen
+2026-04-29 22:30:30 INFO  BaseClass:106 - Total countries: 73
+2026-04-29 22:42:05 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-29 22:42:07 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-29 22:42:07 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 22:42:07 INFO  BaseClass:17 - Country code dropdown is visible
+2026-04-29 22:42:07 DEBUG BaseClass:18 - Displaying all countries List
+2026-04-29 22:42:08 INFO  BaseClass:99 - India
+2026-04-29 22:42:08 INFO  BaseClass:99 - UAE
+2026-04-29 22:42:08 INFO  BaseClass:99 - Afghanistan
+2026-04-29 22:42:08 INFO  BaseClass:99 - Algeria
+2026-04-29 22:42:08 INFO  BaseClass:99 - Argentina
+2026-04-29 22:42:08 INFO  BaseClass:99 - Australia
+2026-04-29 22:42:08 INFO  BaseClass:99 - Austria
+2026-04-29 22:42:08 INFO  BaseClass:99 - Bahrain
+2026-04-29 22:42:08 INFO  BaseClass:99 - Bangladesh
+2026-04-29 22:42:08 INFO  BaseClass:99 - Belgium
+2026-04-29 22:42:08 INFO  BaseClass:99 - Bhutan
+2026-04-29 22:42:08 INFO  BaseClass:99 - Brasil
+2026-04-29 22:42:08 INFO  BaseClass:99 - Brunei
+2026-04-29 22:42:08 INFO  BaseClass:99 - Cambodia
+2026-04-29 22:42:08 INFO  BaseClass:99 - Canada
+2026-04-29 22:42:08 INFO  BaseClass:99 - China
+2026-04-29 22:42:08 INFO  BaseClass:99 - Colombia
+2026-04-29 22:42:08 INFO  BaseClass:99 - Denmark
+2026-04-29 22:42:08 INFO  BaseClass:99 - Egypt
+2026-04-29 22:42:08 INFO  BaseClass:99 - Ethiopia
+2026-04-29 22:42:08 INFO  BaseClass:99 - Finland
+2026-04-29 22:42:08 INFO  BaseClass:99 - France
+2026-04-29 22:42:08 INFO  BaseClass:99 - Germany
+2026-04-29 22:42:08 INFO  BaseClass:99 - Ghana
+2026-04-29 22:42:08 INFO  BaseClass:99 - Indonesia
+2026-04-29 22:42:08 INFO  BaseClass:99 - Iraq
+2026-04-29 22:42:08 INFO  BaseClass:99 - Ireland
+2026-04-29 22:42:08 INFO  BaseClass:99 - Israel
+2026-04-29 22:42:08 INFO  BaseClass:99 - Italy
+2026-04-29 22:42:08 INFO  BaseClass:99 - Japan
+2026-04-29 22:42:08 INFO  BaseClass:99 - Jordan
+2026-04-29 22:42:09 INFO  BaseClass:99 - Kazakhstan
+2026-04-29 22:42:09 INFO  BaseClass:99 - Kenya
+2026-04-29 22:42:09 INFO  BaseClass:99 - Kuwait
+2026-04-29 22:42:09 INFO  BaseClass:99 - Laos
+2026-04-29 22:42:09 INFO  BaseClass:99 - Lebanon
+2026-04-29 22:42:09 INFO  BaseClass:99 - Libya
+2026-04-29 22:42:09 INFO  BaseClass:99 - Malaysia
+2026-04-29 22:42:09 INFO  BaseClass:99 - Maldives
+2026-04-29 22:42:09 INFO  BaseClass:99 - Mexico
+2026-04-29 22:42:09 INFO  BaseClass:99 - Montenegro
+2026-04-29 22:42:09 INFO  BaseClass:99 - Morocco
+2026-04-29 22:42:09 INFO  BaseClass:99 - Myanmar
+2026-04-29 22:42:09 INFO  BaseClass:99 - Nepal
+2026-04-29 22:42:09 INFO  BaseClass:99 - Netherlands
+2026-04-29 22:42:09 INFO  BaseClass:99 - New Zealand
+2026-04-29 22:42:09 INFO  BaseClass:99 - Nigeria
+2026-04-29 22:42:09 INFO  BaseClass:99 - Norway
+2026-04-29 22:42:09 INFO  BaseClass:99 - Oman
+2026-04-29 22:42:09 INFO  BaseClass:99 - Pakistan
+2026-04-29 22:42:09 INFO  BaseClass:99 - Philippines
+2026-04-29 22:42:09 INFO  BaseClass:99 - Portugal
+2026-04-29 22:42:09 INFO  BaseClass:99 - Qatar
+2026-04-29 22:42:09 INFO  BaseClass:99 - Saudi Arabia
+2026-04-29 22:42:09 INFO  BaseClass:99 - Singapore
+2026-04-29 22:42:09 INFO  BaseClass:99 - South Africa
+2026-04-29 22:42:09 INFO  BaseClass:99 - South Korea
+2026-04-29 22:42:09 INFO  BaseClass:99 - Spain
+2026-04-29 22:42:09 INFO  BaseClass:99 - Sri Lanka
+2026-04-29 22:42:09 INFO  BaseClass:99 - Sudan
+2026-04-29 22:42:09 INFO  BaseClass:99 - Sweden
+2026-04-29 22:42:09 INFO  BaseClass:99 - Switzerland
+2026-04-29 22:42:09 INFO  BaseClass:99 - Syria
+2026-04-29 22:42:09 INFO  BaseClass:99 - Tanzania
+2026-04-29 22:42:09 INFO  BaseClass:99 - Thailand
+2026-04-29 22:42:09 INFO  BaseClass:99 - Timor-Leste
+2026-04-29 22:42:09 INFO  BaseClass:99 - Tunisia
+2026-04-29 22:42:09 INFO  BaseClass:99 - Turkey
+2026-04-29 22:42:09 INFO  BaseClass:99 - Uganda
+2026-04-29 22:42:09 INFO  BaseClass:99 - United Kingdom
+2026-04-29 22:42:09 INFO  BaseClass:99 - United States
+2026-04-29 22:42:09 INFO  BaseClass:99 - Vietnam
+2026-04-29 22:42:09 INFO  BaseClass:99 - Yemen
+2026-04-29 22:42:09 INFO  BaseClass:106 - Total countries: 73
+2026-04-29 22:42:09 INFO  BaseClass:23 - Selected country: Algeria
+2026-04-29 22:42:09 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_23_CommonLoginProfileDropdownTest
+2026-04-29 22:43:58 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-29 22:44:01 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-29 22:44:01 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 22:44:01 INFO  BaseClass:17 - Country code dropdown is visible
+2026-04-29 22:44:01 DEBUG BaseClass:18 - Displaying all countries List
+2026-04-29 22:44:01 INFO  BaseClass:99 - India
+2026-04-29 22:44:01 INFO  BaseClass:99 - UAE
+2026-04-29 22:44:01 INFO  BaseClass:99 - Afghanistan
+2026-04-29 22:44:01 INFO  BaseClass:99 - Algeria
+2026-04-29 22:44:01 INFO  BaseClass:99 - Argentina
+2026-04-29 22:44:01 INFO  BaseClass:99 - Australia
+2026-04-29 22:44:01 INFO  BaseClass:99 - Austria
+2026-04-29 22:44:02 INFO  BaseClass:99 - Bahrain
+2026-04-29 22:44:02 INFO  BaseClass:99 - Bangladesh
+2026-04-29 22:44:02 INFO  BaseClass:99 - Belgium
+2026-04-29 22:44:02 INFO  BaseClass:99 - Bhutan
+2026-04-29 22:44:02 INFO  BaseClass:99 - Brasil
+2026-04-29 22:44:02 INFO  BaseClass:99 - Brunei
+2026-04-29 22:44:02 INFO  BaseClass:99 - Cambodia
+2026-04-29 22:44:02 INFO  BaseClass:99 - Canada
+2026-04-29 22:44:02 INFO  BaseClass:99 - China
+2026-04-29 22:44:02 INFO  BaseClass:99 - Colombia
+2026-04-29 22:44:02 INFO  BaseClass:99 - Denmark
+2026-04-29 22:44:02 INFO  BaseClass:99 - Egypt
+2026-04-29 22:44:02 INFO  BaseClass:99 - Ethiopia
+2026-04-29 22:44:02 INFO  BaseClass:99 - Finland
+2026-04-29 22:44:02 INFO  BaseClass:99 - France
+2026-04-29 22:44:02 INFO  BaseClass:99 - Germany
+2026-04-29 22:44:02 INFO  BaseClass:99 - Ghana
+2026-04-29 22:44:02 INFO  BaseClass:99 - Indonesia
+2026-04-29 22:44:02 INFO  BaseClass:99 - Iraq
+2026-04-29 22:44:02 INFO  BaseClass:99 - Ireland
+2026-04-29 22:44:02 INFO  BaseClass:99 - Israel
+2026-04-29 22:44:02 INFO  BaseClass:99 - Italy
+2026-04-29 22:44:02 INFO  BaseClass:99 - Japan
+2026-04-29 22:44:02 INFO  BaseClass:99 - Jordan
+2026-04-29 22:44:02 INFO  BaseClass:99 - Kazakhstan
+2026-04-29 22:44:02 INFO  BaseClass:99 - Kenya
+2026-04-29 22:44:02 INFO  BaseClass:99 - Kuwait
+2026-04-29 22:44:02 INFO  BaseClass:99 - Laos
+2026-04-29 22:44:02 INFO  BaseClass:99 - Lebanon
+2026-04-29 22:44:02 INFO  BaseClass:99 - Libya
+2026-04-29 22:44:02 INFO  BaseClass:99 - Malaysia
+2026-04-29 22:44:02 INFO  BaseClass:99 - Maldives
+2026-04-29 22:44:02 INFO  BaseClass:99 - Mexico
+2026-04-29 22:44:02 INFO  BaseClass:99 - Montenegro
+2026-04-29 22:44:02 INFO  BaseClass:99 - Morocco
+2026-04-29 22:44:02 INFO  BaseClass:99 - Myanmar
+2026-04-29 22:44:02 INFO  BaseClass:99 - Nepal
+2026-04-29 22:44:02 INFO  BaseClass:99 - Netherlands
+2026-04-29 22:44:02 INFO  BaseClass:99 - New Zealand
+2026-04-29 22:44:02 INFO  BaseClass:99 - Nigeria
+2026-04-29 22:44:02 INFO  BaseClass:99 - Norway
+2026-04-29 22:44:02 INFO  BaseClass:99 - Oman
+2026-04-29 22:44:02 INFO  BaseClass:99 - Pakistan
+2026-04-29 22:44:02 INFO  BaseClass:99 - Philippines
+2026-04-29 22:44:02 INFO  BaseClass:99 - Portugal
+2026-04-29 22:44:02 INFO  BaseClass:99 - Qatar
+2026-04-29 22:44:02 INFO  BaseClass:99 - Saudi Arabia
+2026-04-29 22:44:02 INFO  BaseClass:99 - Singapore
+2026-04-29 22:44:02 INFO  BaseClass:99 - South Africa
+2026-04-29 22:44:02 INFO  BaseClass:99 - South Korea
+2026-04-29 22:44:02 INFO  BaseClass:99 - Spain
+2026-04-29 22:44:02 INFO  BaseClass:99 - Sri Lanka
+2026-04-29 22:44:02 INFO  BaseClass:99 - Sudan
+2026-04-29 22:44:02 INFO  BaseClass:99 - Sweden
+2026-04-29 22:44:03 INFO  BaseClass:99 - Switzerland
+2026-04-29 22:44:03 INFO  BaseClass:99 - Syria
+2026-04-29 22:44:03 INFO  BaseClass:99 - Tanzania
+2026-04-29 22:44:03 INFO  BaseClass:99 - Thailand
+2026-04-29 22:44:03 INFO  BaseClass:99 - Timor-Leste
+2026-04-29 22:44:03 INFO  BaseClass:99 - Tunisia
+2026-04-29 22:44:03 INFO  BaseClass:99 - Turkey
+2026-04-29 22:44:03 INFO  BaseClass:99 - Uganda
+2026-04-29 22:44:03 INFO  BaseClass:99 - United Kingdom
+2026-04-29 22:44:03 INFO  BaseClass:99 - United States
+2026-04-29 22:44:03 INFO  BaseClass:99 - Vietnam
+2026-04-29 22:44:03 INFO  BaseClass:99 - Yemen
+2026-04-29 22:44:03 INFO  BaseClass:106 - Total countries: 73
+2026-04-29 22:44:03 INFO  BaseClass:23 - Selected country: Algeria
+2026-04-29 22:44:03 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_23_CommonLoginProfileDropdownTest
+2026-04-29 22:44:03 INFO  BaseClass:82 - Closing the browser
+2026-04-29 22:53:42 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-29 22:53:44 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-29 22:53:44 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 22:53:44 INFO  BaseClass:17 - Country code dropdown is visible
+2026-04-29 22:53:44 DEBUG BaseClass:18 - Displaying all countries List
+2026-04-29 22:53:44 INFO  LoginPage:102 - India
+2026-04-29 22:53:45 INFO  LoginPage:102 - UAE
+2026-04-29 22:53:45 INFO  LoginPage:102 - Afghanistan
+2026-04-29 22:53:45 INFO  LoginPage:102 - Algeria
+2026-04-29 22:53:45 INFO  LoginPage:102 - Argentina
+2026-04-29 22:53:45 INFO  LoginPage:102 - Australia
+2026-04-29 22:53:45 INFO  LoginPage:102 - Austria
+2026-04-29 22:53:45 INFO  LoginPage:102 - Bahrain
+2026-04-29 22:53:45 INFO  LoginPage:102 - Bangladesh
+2026-04-29 22:53:45 INFO  LoginPage:102 - Belgium
+2026-04-29 22:53:45 INFO  LoginPage:102 - Bhutan
+2026-04-29 22:53:45 INFO  LoginPage:102 - Brasil
+2026-04-29 22:53:45 INFO  LoginPage:102 - Brunei
+2026-04-29 22:53:45 INFO  LoginPage:102 - Cambodia
+2026-04-29 22:53:45 INFO  LoginPage:102 - Canada
+2026-04-29 22:53:45 INFO  LoginPage:102 - China
+2026-04-29 22:53:45 INFO  LoginPage:102 - Colombia
+2026-04-29 22:53:45 INFO  LoginPage:102 - Denmark
+2026-04-29 22:53:45 INFO  LoginPage:102 - Egypt
+2026-04-29 22:53:45 INFO  LoginPage:102 - Ethiopia
+2026-04-29 22:53:45 INFO  LoginPage:102 - Finland
+2026-04-29 22:53:45 INFO  LoginPage:102 - France
+2026-04-29 22:53:45 INFO  LoginPage:102 - Germany
+2026-04-29 22:53:45 INFO  LoginPage:102 - Ghana
+2026-04-29 22:53:45 INFO  LoginPage:102 - Indonesia
+2026-04-29 22:53:45 INFO  LoginPage:102 - Iraq
+2026-04-29 22:53:45 INFO  LoginPage:102 - Ireland
+2026-04-29 22:53:45 INFO  LoginPage:102 - Israel
+2026-04-29 22:53:45 INFO  LoginPage:102 - Italy
+2026-04-29 22:53:45 INFO  LoginPage:102 - Japan
+2026-04-29 22:53:45 INFO  LoginPage:102 - Jordan
+2026-04-29 22:53:45 INFO  LoginPage:102 - Kazakhstan
+2026-04-29 22:53:45 INFO  LoginPage:102 - Kenya
+2026-04-29 22:53:45 INFO  LoginPage:102 - Kuwait
+2026-04-29 22:53:45 INFO  LoginPage:102 - Laos
+2026-04-29 22:53:45 INFO  LoginPage:102 - Lebanon
+2026-04-29 22:53:45 INFO  LoginPage:102 - Libya
+2026-04-29 22:53:45 INFO  LoginPage:102 - Malaysia
+2026-04-29 22:53:45 INFO  LoginPage:102 - Maldives
+2026-04-29 22:53:45 INFO  LoginPage:102 - Mexico
+2026-04-29 22:53:45 INFO  LoginPage:102 - Montenegro
+2026-04-29 22:53:45 INFO  LoginPage:102 - Morocco
+2026-04-29 22:53:45 INFO  LoginPage:102 - Myanmar
+2026-04-29 22:53:45 INFO  LoginPage:102 - Nepal
+2026-04-29 22:53:45 INFO  LoginPage:102 - Netherlands
+2026-04-29 22:53:46 INFO  LoginPage:102 - New Zealand
+2026-04-29 22:53:46 INFO  LoginPage:102 - Nigeria
+2026-04-29 22:53:46 INFO  LoginPage:102 - Norway
+2026-04-29 22:53:46 INFO  LoginPage:102 - Oman
+2026-04-29 22:53:46 INFO  LoginPage:102 - Pakistan
+2026-04-29 22:53:46 INFO  LoginPage:102 - Philippines
+2026-04-29 22:53:46 INFO  LoginPage:102 - Portugal
+2026-04-29 22:53:46 INFO  LoginPage:102 - Qatar
+2026-04-29 22:53:46 INFO  LoginPage:102 - Saudi Arabia
+2026-04-29 22:53:46 INFO  LoginPage:102 - Singapore
+2026-04-29 22:53:46 INFO  LoginPage:102 - South Africa
+2026-04-29 22:53:46 INFO  LoginPage:102 - South Korea
+2026-04-29 22:53:46 INFO  LoginPage:102 - Spain
+2026-04-29 22:53:46 INFO  LoginPage:102 - Sri Lanka
+2026-04-29 22:53:46 INFO  LoginPage:102 - Sudan
+2026-04-29 22:53:46 INFO  LoginPage:102 - Sweden
+2026-04-29 22:53:46 INFO  LoginPage:102 - Switzerland
+2026-04-29 22:53:46 INFO  LoginPage:102 - Syria
+2026-04-29 22:53:46 INFO  LoginPage:102 - Tanzania
+2026-04-29 22:53:46 INFO  LoginPage:102 - Thailand
+2026-04-29 22:53:46 INFO  LoginPage:102 - Timor-Leste
+2026-04-29 22:53:46 INFO  LoginPage:102 - Tunisia
+2026-04-29 22:53:46 INFO  LoginPage:102 - Turkey
+2026-04-29 22:53:46 INFO  LoginPage:102 - Uganda
+2026-04-29 22:53:46 INFO  LoginPage:102 - United Kingdom
+2026-04-29 22:53:46 INFO  LoginPage:102 - United States
+2026-04-29 22:53:46 INFO  LoginPage:102 - Vietnam
+2026-04-29 22:53:46 INFO  LoginPage:102 - Yemen
+2026-04-29 22:53:46 INFO  LoginPage:109 - Total countries: 73
+2026-04-29 22:53:46 INFO  BaseClass:23 - Selected country: Algeria
+2026-04-29 22:53:46 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_23_CommonLoginProfileDropdownTest
+2026-04-29 22:53:46 INFO  BaseClass:82 - Closing the browser
+2026-04-29 23:16:43 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-29 23:16:46 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-29 23:16:47 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 23:16:47 INFO  BaseClass:17 - Country code dropdown is visible
+2026-04-29 23:16:47 INFO  BaseClass:20 - Selected country: India
+2026-04-29 23:16:47 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_24_CommonLoginProfileInvalidTest
+2026-04-29 23:16:47 INFO  BaseClass:82 - Closing the browser
+2026-04-29 23:18:15 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-29 23:18:17 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-29 23:18:17 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 23:18:17 INFO  BaseClass:17 - Country code dropdown is visible
+2026-04-29 23:18:17 INFO  BaseClass:20 - Selected country: India
+2026-04-29 23:18:18 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_24_CommonLoginProfileInvalidTest
+2026-04-29 23:18:18 INFO  BaseClass:82 - Closing the browser
+2026-04-29 23:30:01 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-29 23:30:04 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-29 23:30:04 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 23:30:05 INFO  BaseClass:17 - Country code dropdown is visible
+2026-04-29 23:30:05 INFO  BaseClass:20 - Selected country: India
+2026-04-29 23:30:05 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_24_LoginProfileInvalidTest
+2026-04-29 23:30:05 INFO  BaseClass:82 - Closing the browser
+2026-04-29 23:42:29 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-29 23:42:33 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-29 23:42:33 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 23:42:33 INFO  BaseClass:18 - Country code dropdown is visible
+2026-04-29 23:42:33 DEBUG BaseClass:19 - Displaying all countries List
+2026-04-29 23:42:33 INFO  LoginPage:111 - India
+2026-04-29 23:42:33 INFO  LoginPage:111 - UAE
+2026-04-29 23:42:33 INFO  LoginPage:111 - Afghanistan
+2026-04-29 23:42:33 INFO  LoginPage:111 - Algeria
+2026-04-29 23:42:33 INFO  LoginPage:111 - Argentina
+2026-04-29 23:42:33 INFO  LoginPage:111 - Australia
+2026-04-29 23:42:34 INFO  LoginPage:111 - Austria
+2026-04-29 23:42:34 INFO  LoginPage:111 - Bahrain
+2026-04-29 23:42:34 INFO  LoginPage:111 - Bangladesh
+2026-04-29 23:42:34 INFO  LoginPage:111 - Belgium
+2026-04-29 23:42:34 INFO  LoginPage:111 - Bhutan
+2026-04-29 23:42:34 INFO  LoginPage:111 - Brasil
+2026-04-29 23:42:34 INFO  LoginPage:111 - Brunei
+2026-04-29 23:42:34 INFO  LoginPage:111 - Cambodia
+2026-04-29 23:42:34 INFO  LoginPage:111 - Canada
+2026-04-29 23:42:34 INFO  LoginPage:111 - China
+2026-04-29 23:42:34 INFO  LoginPage:111 - Colombia
+2026-04-29 23:42:34 INFO  LoginPage:111 - Denmark
+2026-04-29 23:42:34 INFO  LoginPage:111 - Egypt
+2026-04-29 23:42:34 INFO  LoginPage:111 - Ethiopia
+2026-04-29 23:42:34 INFO  LoginPage:111 - Finland
+2026-04-29 23:42:34 INFO  LoginPage:111 - France
+2026-04-29 23:42:34 INFO  LoginPage:111 - Germany
+2026-04-29 23:42:34 INFO  LoginPage:111 - Ghana
+2026-04-29 23:42:34 INFO  LoginPage:111 - Indonesia
+2026-04-29 23:42:34 INFO  LoginPage:111 - Iraq
+2026-04-29 23:42:34 INFO  LoginPage:111 - Ireland
+2026-04-29 23:42:34 INFO  LoginPage:111 - Israel
+2026-04-29 23:42:34 INFO  LoginPage:111 - Italy
+2026-04-29 23:42:34 INFO  LoginPage:111 - Japan
+2026-04-29 23:42:34 INFO  LoginPage:111 - Jordan
+2026-04-29 23:42:34 INFO  LoginPage:111 - Kazakhstan
+2026-04-29 23:42:34 INFO  LoginPage:111 - Kenya
+2026-04-29 23:42:34 INFO  LoginPage:111 - Kuwait
+2026-04-29 23:42:34 INFO  LoginPage:111 - Laos
+2026-04-29 23:42:34 INFO  LoginPage:111 - Lebanon
+2026-04-29 23:42:34 INFO  LoginPage:111 - Libya
+2026-04-29 23:42:34 INFO  LoginPage:111 - Malaysia
+2026-04-29 23:42:34 INFO  LoginPage:111 - Maldives
+2026-04-29 23:42:34 INFO  LoginPage:111 - Mexico
+2026-04-29 23:42:34 INFO  LoginPage:111 - Montenegro
+2026-04-29 23:42:34 INFO  LoginPage:111 - Morocco
+2026-04-29 23:42:34 INFO  LoginPage:111 - Myanmar
+2026-04-29 23:42:34 INFO  LoginPage:111 - Nepal
+2026-04-29 23:42:34 INFO  LoginPage:111 - Netherlands
+2026-04-29 23:42:34 INFO  LoginPage:111 - New Zealand
+2026-04-29 23:42:34 INFO  LoginPage:111 - Nigeria
+2026-04-29 23:42:34 INFO  LoginPage:111 - Norway
+2026-04-29 23:42:34 INFO  LoginPage:111 - Oman
+2026-04-29 23:42:34 INFO  LoginPage:111 - Pakistan
+2026-04-29 23:42:34 INFO  LoginPage:111 - Philippines
+2026-04-29 23:42:34 INFO  LoginPage:111 - Portugal
+2026-04-29 23:42:34 INFO  LoginPage:111 - Qatar
+2026-04-29 23:42:34 INFO  LoginPage:111 - Saudi Arabia
+2026-04-29 23:42:34 INFO  LoginPage:111 - Singapore
+2026-04-29 23:42:34 INFO  LoginPage:111 - South Africa
+2026-04-29 23:42:34 INFO  LoginPage:111 - South Korea
+2026-04-29 23:42:34 INFO  LoginPage:111 - Spain
+2026-04-29 23:42:34 INFO  LoginPage:111 - Sri Lanka
+2026-04-29 23:42:35 INFO  LoginPage:111 - Sudan
+2026-04-29 23:42:35 INFO  LoginPage:111 - Sweden
+2026-04-29 23:42:35 INFO  LoginPage:111 - Switzerland
+2026-04-29 23:42:35 INFO  LoginPage:111 - Syria
+2026-04-29 23:42:35 INFO  LoginPage:111 - Tanzania
+2026-04-29 23:42:35 INFO  LoginPage:111 - Thailand
+2026-04-29 23:42:35 INFO  LoginPage:111 - Timor-Leste
+2026-04-29 23:42:35 INFO  LoginPage:111 - Tunisia
+2026-04-29 23:42:35 INFO  LoginPage:111 - Turkey
+2026-04-29 23:42:35 INFO  LoginPage:111 - Uganda
+2026-04-29 23:42:35 INFO  LoginPage:111 - United Kingdom
+2026-04-29 23:42:35 INFO  LoginPage:111 - United States
+2026-04-29 23:42:35 INFO  LoginPage:111 - Vietnam
+2026-04-29 23:42:35 INFO  LoginPage:111 - Yemen
+2026-04-29 23:42:35 INFO  LoginPage:118 - Total countries: 73
+2026-04-29 23:42:35 INFO  BaseClass:24 - Selected country: Algeria
+2026-04-29 23:42:35 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_23_LoginProfileDropdownTest
+2026-04-29 23:42:35 INFO  BaseClass:82 - Closing the browser
+2026-04-29 23:43:00 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-29 23:43:02 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-29 23:43:02 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 23:43:02 INFO  BaseClass:18 - Country code dropdown is visible
+2026-04-29 23:43:02 INFO  BaseClass:21 - Selected country: India
+2026-04-29 23:43:03 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_24_LoginProfileInvalidTest
+2026-04-29 23:43:03 INFO  BaseClass:82 - Closing the browser
+2026-04-29 23:57:36 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-29 23:57:38 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-29 23:57:38 INFO  BaseClass:15 - Profile button is clicked
+2026-04-29 23:57:38 INFO  BaseClass:18 - Country code dropdown is visible
+2026-04-29 23:57:38 INFO  BaseClass:21 - Selected country: India
+2026-04-29 23:57:39 INFO  BaseClass:24 - login error: Please enter a valid mobile number.
+2026-04-29 23:57:39 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_24_LoginProfileInvalidTest
+2026-04-29 23:57:39 INFO  BaseClass:82 - Closing the browser
+2026-04-30 00:15:28 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 00:15:34 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 00:15:35 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_22_LoginProfile_InputBoxTest
+2026-04-30 00:15:35 INFO  BaseClass:82 - Closing the browser
+2026-04-30 00:21:27 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 00:21:29 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 00:21:29 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 00:21:29 INFO  BaseClass:18 - Country code dropdown is visible
+2026-04-30 00:21:29 INFO  BaseClass:21 - Selected country: India
+2026-04-30 00:21:29 INFO  BaseClass:23 - Selected number: 94301548445
+2026-04-30 00:21:30 ERROR BaseClass:25 - login error: Please enter a valid mobile number.
+2026-04-30 00:21:30 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_24_LoginProfileInvalidTest
+2026-04-30 00:21:30 INFO  BaseClass:82 - Closing the browser
+2026-04-30 00:25:37 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 00:25:38 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 00:25:39 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 00:25:39 INFO  BaseClass:17 - Dropdown menu clicked
+2026-04-30 00:25:39 INFO  BaseClass:19 - Country code dropdown is visible
+2026-04-30 00:25:39 INFO  BaseClass:22 - Selected country: India
+2026-04-30 00:25:39 INFO  BaseClass:24 - Selected number: 94301548445
+2026-04-30 00:25:40 ERROR BaseClass:26 - login error: Please enter a valid mobile number.
+2026-04-30 00:25:40 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_24_LoginProfileInvalidTest
+2026-04-30 00:25:40 INFO  BaseClass:82 - Closing the browser
+2026-04-30 01:03:31 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 01:03:37 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 01:03:37 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 01:03:38 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 01:03:38 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 01:03:38 INFO  BaseClass:23 - Selected country: India
+2026-04-30 01:03:38 INFO  BaseClass:25 - Selected number: 94301548445
+2026-04-30 01:03:39 ERROR BaseClass:27 - login error: Please enter a valid mobile number.
+2026-04-30 01:03:39 INFO  BaseClass:31 - Dropdown menu clicked
+2026-04-30 01:03:39 INFO  BaseClass:33 - Country code dropdown is visible
+2026-04-30 01:03:39 INFO  BaseClass:36 - Selected country: Algeria
+2026-04-30 01:03:40 INFO  BaseClass:39 - Selected number: 67544788934
+2026-04-30 01:03:40 ERROR BaseClass:41 - login error: Failed to send OTP. Please try again.
+2026-04-30 01:03:41 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_24_LoginProfileInvalidTest
+2026-04-30 01:03:41 INFO  BaseClass:82 - Closing the browser
+2026-04-30 01:07:50 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 01:07:53 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 01:07:53 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 01:07:54 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 01:07:54 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 01:07:55 INFO  BaseClass:23 - Selected country: India
+2026-04-30 01:07:55 INFO  BaseClass:25 - Selected number: 94301548445
+2026-04-30 01:07:55 ERROR BaseClass:27 - login error: Please enter a valid mobile number.
+2026-04-30 01:07:55 INFO  BaseClass:31 - Dropdown menu clicked
+2026-04-30 01:07:56 INFO  BaseClass:33 - Country code dropdown is visible
+2026-04-30 01:07:56 INFO  BaseClass:36 - Selected country: Algeria
+2026-04-30 01:07:57 INFO  BaseClass:39 - Selected number: 67544788934
+2026-04-30 01:07:57 ERROR BaseClass:41 - login error: Failed to send OTP. Please try again.
+2026-04-30 01:07:57 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_24_LoginProfileInvalidTest
+2026-04-30 01:07:57 INFO  BaseClass:82 - Closing the browser
+2026-04-30 01:12:44 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 01:12:47 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 01:12:47 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 01:12:48 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 01:12:48 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 01:12:49 INFO  BaseClass:23 - Selected country: India
+2026-04-30 01:12:49 INFO  BaseClass:25 - Selected phone number: 94301548445
+2026-04-30 01:12:49 ERROR BaseClass:27 - login error: Please enter a valid mobile number.
+2026-04-30 01:12:50 INFO  BaseClass:31 - Dropdown menu clicked
+2026-04-30 01:12:50 INFO  BaseClass:33 - Country code dropdown is visible
+2026-04-30 01:12:50 INFO  BaseClass:36 - Selected country: Algeria
+2026-04-30 01:12:51 ERROR BaseClass:72 - Test case failed. Screenshot captured successfully for test: TC_24_LoginProfileInvalidTest
+2026-04-30 01:12:51 INFO  BaseClass:82 - Closing the browser
+2026-04-30 01:14:53 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 01:14:55 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 01:14:56 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 01:14:56 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 01:14:56 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 01:14:57 INFO  BaseClass:23 - Selected country: India
+2026-04-30 01:14:57 INFO  BaseClass:25 - Selected phone number: 94301548445
+2026-04-30 01:14:58 ERROR BaseClass:27 - login error: Please enter a valid mobile number.
+2026-04-30 01:14:58 INFO  BaseClass:31 - Dropdown menu clicked
+2026-04-30 01:14:58 INFO  BaseClass:33 - Country code dropdown is visible
+2026-04-30 01:14:58 INFO  BaseClass:36 - Selected country: Algeria
+2026-04-30 01:14:59 INFO  BaseClass:38 - cleared input box data
+2026-04-30 01:14:59 INFO  BaseClass:40 - Selected phone number: 67544788934
+2026-04-30 01:14:59 ERROR BaseClass:42 - login error: Failed to send OTP. Please try again.
+2026-04-30 01:15:00 INFO  BaseClass:75 - Test case passed. Screenshot captured successfully for test: TC_24_LoginProfileInvalidTest
+2026-04-30 01:15:00 INFO  BaseClass:82 - Closing the browser
+2026-04-30 01:25:11 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 01:25:16 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 01:25:16 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 01:25:16 INFO  BaseClass:17 - Dropdown menu clicked
+2026-04-30 01:25:16 INFO  BaseClass:19 - Country code dropdown is visible
+2026-04-30 01:25:16 DEBUG BaseClass:20 - Displaying all countries List
+2026-04-30 01:25:16 INFO  LoginPage:117 - India
+2026-04-30 01:25:16 INFO  LoginPage:117 - UAE
+2026-04-30 01:25:16 INFO  LoginPage:117 - Afghanistan
+2026-04-30 01:25:17 INFO  LoginPage:117 - Algeria
+2026-04-30 01:25:17 INFO  LoginPage:117 - Argentina
+2026-04-30 01:25:17 INFO  LoginPage:117 - Australia
+2026-04-30 01:25:17 INFO  LoginPage:117 - Austria
+2026-04-30 01:25:17 INFO  LoginPage:117 - Bahrain
+2026-04-30 01:25:17 INFO  LoginPage:117 - Bangladesh
+2026-04-30 01:25:17 INFO  LoginPage:117 - Belgium
+2026-04-30 01:25:17 INFO  LoginPage:117 - Bhutan
+2026-04-30 01:25:17 INFO  LoginPage:117 - Brasil
+2026-04-30 01:25:17 INFO  LoginPage:117 - Brunei
+2026-04-30 01:25:17 INFO  LoginPage:117 - Cambodia
+2026-04-30 01:25:17 INFO  LoginPage:117 - Canada
+2026-04-30 01:25:17 INFO  LoginPage:117 - China
+2026-04-30 01:25:17 INFO  LoginPage:117 - Colombia
+2026-04-30 01:25:17 INFO  LoginPage:117 - Denmark
+2026-04-30 01:25:17 INFO  LoginPage:117 - Egypt
+2026-04-30 01:25:17 INFO  LoginPage:117 - Ethiopia
+2026-04-30 01:25:17 INFO  LoginPage:117 - Finland
+2026-04-30 01:25:17 INFO  LoginPage:117 - France
+2026-04-30 01:25:17 INFO  LoginPage:117 - Germany
+2026-04-30 01:25:17 INFO  LoginPage:117 - Ghana
+2026-04-30 01:25:17 INFO  LoginPage:117 - Indonesia
+2026-04-30 01:25:17 INFO  LoginPage:117 - Iraq
+2026-04-30 01:25:17 INFO  LoginPage:117 - Ireland
+2026-04-30 01:25:17 INFO  LoginPage:117 - Israel
+2026-04-30 01:25:17 INFO  LoginPage:117 - Italy
+2026-04-30 01:25:17 INFO  LoginPage:117 - Japan
+2026-04-30 01:25:17 INFO  LoginPage:117 - Jordan
+2026-04-30 01:25:17 INFO  LoginPage:117 - Kazakhstan
+2026-04-30 01:25:17 INFO  LoginPage:117 - Kenya
+2026-04-30 01:25:17 INFO  LoginPage:117 - Kuwait
+2026-04-30 01:25:17 INFO  LoginPage:117 - Laos
+2026-04-30 01:25:17 INFO  LoginPage:117 - Lebanon
+2026-04-30 01:25:17 INFO  LoginPage:117 - Libya
+2026-04-30 01:25:17 INFO  LoginPage:117 - Malaysia
+2026-04-30 01:25:18 INFO  LoginPage:117 - Maldives
+2026-04-30 01:25:18 INFO  LoginPage:117 - Mexico
+2026-04-30 01:25:18 INFO  LoginPage:117 - Montenegro
+2026-04-30 01:25:18 INFO  LoginPage:117 - Morocco
+2026-04-30 01:25:18 INFO  LoginPage:117 - Myanmar
+2026-04-30 01:25:18 INFO  LoginPage:117 - Nepal
+2026-04-30 01:25:18 INFO  LoginPage:117 - Netherlands
+2026-04-30 01:25:18 INFO  LoginPage:117 - New Zealand
+2026-04-30 01:25:18 INFO  LoginPage:117 - Nigeria
+2026-04-30 01:25:18 INFO  LoginPage:117 - Norway
+2026-04-30 01:25:18 INFO  LoginPage:117 - Oman
+2026-04-30 01:25:18 INFO  LoginPage:117 - Pakistan
+2026-04-30 01:25:18 INFO  LoginPage:117 - Philippines
+2026-04-30 01:25:18 INFO  LoginPage:117 - Portugal
+2026-04-30 01:25:18 INFO  LoginPage:117 - Qatar
+2026-04-30 01:25:18 INFO  LoginPage:117 - Saudi Arabia
+2026-04-30 01:25:18 INFO  LoginPage:117 - Singapore
+2026-04-30 01:25:18 INFO  LoginPage:117 - South Africa
+2026-04-30 01:25:18 INFO  LoginPage:117 - South Korea
+2026-04-30 01:25:18 INFO  LoginPage:117 - Spain
+2026-04-30 01:25:18 INFO  LoginPage:117 - Sri Lanka
+2026-04-30 01:25:18 INFO  LoginPage:117 - Sudan
+2026-04-30 01:25:18 INFO  LoginPage:117 - Sweden
+2026-04-30 01:25:18 INFO  LoginPage:117 - Switzerland
+2026-04-30 01:25:18 INFO  LoginPage:117 - Syria
+2026-04-30 01:25:18 INFO  LoginPage:117 - Tanzania
+2026-04-30 01:25:18 INFO  LoginPage:117 - Thailand
+2026-04-30 01:25:18 INFO  LoginPage:117 - Timor-Leste
+2026-04-30 01:25:18 INFO  LoginPage:117 - Tunisia
+2026-04-30 01:25:18 INFO  LoginPage:117 - Turkey
+2026-04-30 01:25:18 INFO  LoginPage:117 - Uganda
+2026-04-30 01:25:18 INFO  LoginPage:117 - United Kingdom
+2026-04-30 01:25:19 INFO  LoginPage:117 - United States
+2026-04-30 01:25:19 INFO  LoginPage:117 - Vietnam
+2026-04-30 01:25:19 INFO  LoginPage:117 - Yemen
+2026-04-30 01:25:19 INFO  LoginPage:124 - Total countries: 73
+2026-04-30 01:25:19 INFO  BaseClass:25 - Selected country: Algeria
+2026-04-30 01:25:19 INFO  BaseClass:76 - Test case passed.
+2026-04-30 01:25:19 INFO  BaseClass:79 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-04-30 01:25:19 INFO  BaseClass:85 - Closing the browser
+2026-04-30 01:27:35 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 01:27:39 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 01:27:39 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 01:27:40 INFO  BaseClass:17 - Dropdown menu clicked
+2026-04-30 01:27:40 INFO  BaseClass:19 - Country code dropdown is visible
+2026-04-30 01:27:40 DEBUG BaseClass:20 - Displaying all countries List
+2026-04-30 01:27:40 DEBUG LoginPage:117 - India
+2026-04-30 01:27:40 DEBUG LoginPage:117 - UAE
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Afghanistan
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Algeria
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Argentina
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Australia
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Austria
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Bahrain
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Bangladesh
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Belgium
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Bhutan
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Brasil
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Brunei
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Cambodia
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Canada
+2026-04-30 01:27:40 DEBUG LoginPage:117 - China
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Colombia
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Denmark
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Egypt
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Ethiopia
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Finland
+2026-04-30 01:27:40 DEBUG LoginPage:117 - France
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Germany
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Ghana
+2026-04-30 01:27:40 DEBUG LoginPage:117 - Indonesia
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Iraq
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Ireland
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Israel
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Italy
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Japan
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Jordan
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Kazakhstan
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Kenya
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Kuwait
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Laos
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Lebanon
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Libya
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Malaysia
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Maldives
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Mexico
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Montenegro
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Morocco
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Myanmar
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Nepal
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Netherlands
+2026-04-30 01:27:41 DEBUG LoginPage:117 - New Zealand
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Nigeria
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Norway
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Oman
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Pakistan
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Philippines
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Portugal
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Qatar
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Saudi Arabia
+2026-04-30 01:27:41 DEBUG LoginPage:117 - Singapore
+2026-04-30 01:27:41 DEBUG LoginPage:117 - South Africa
+2026-04-30 01:27:41 DEBUG LoginPage:117 - South Korea
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Spain
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Sri Lanka
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Sudan
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Sweden
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Switzerland
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Syria
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Tanzania
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Thailand
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Timor-Leste
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Tunisia
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Turkey
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Uganda
+2026-04-30 01:27:42 DEBUG LoginPage:117 - United Kingdom
+2026-04-30 01:27:42 DEBUG LoginPage:117 - United States
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Vietnam
+2026-04-30 01:27:42 DEBUG LoginPage:117 - Yemen
+2026-04-30 01:27:42 INFO  LoginPage:124 - Total countries: 73
+2026-04-30 01:27:42 INFO  BaseClass:25 - Selected country: Algeria
+2026-04-30 01:27:43 INFO  BaseClass:76 - Test case passed.
+2026-04-30 01:27:43 INFO  BaseClass:79 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-04-30 01:27:43 INFO  BaseClass:85 - Closing the browser
+2026-04-30 08:54:54 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 08:54:56 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 08:54:57 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 08:54:57 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 08:54:57 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 08:54:57 INFO  BaseClass:23 - Selected country: India
+2026-04-30 08:54:57 INFO  BaseClass:25 - Entered phone number: 94301548445
+2026-04-30 08:54:57 ERROR BaseClass:27 - login error: Please enter a valid mobile number.
+2026-04-30 08:54:57 INFO  BaseClass:31 - Dropdown menu clicked
+2026-04-30 08:54:57 INFO  BaseClass:33 - Country code dropdown is visible
+2026-04-30 08:54:58 INFO  BaseClass:36 - Selected country: Algeria
+2026-04-30 08:54:58 INFO  BaseClass:38 - cleared input box data
+2026-04-30 08:54:58 INFO  BaseClass:40 - Entered phone number: 67544788934
+2026-04-30 08:54:59 ERROR BaseClass:42 - login error: Failed to send OTP. Please try again.
+2026-04-30 08:54:59 INFO  BaseClass:76 - Test case passed.
+2026-04-30 08:54:59 INFO  BaseClass:79 - Screenshot captured for test: TC_24_LoginProfileInvalidTest
+2026-04-30 08:54:59 INFO  BaseClass:85 - Closing the browser
+2026-04-30 09:27:00 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 09:27:05 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 09:27:06 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 09:27:06 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 09:27:06 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 09:27:06 INFO  BaseClass:23 - Selected country: India
+2026-04-30 09:27:07 INFO  BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 09:27:07 INFO  BaseClass:76 - Test case passed.
+2026-04-30 09:27:07 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 09:27:07 INFO  BaseClass:85 - Closing the browser

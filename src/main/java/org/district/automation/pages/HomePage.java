@@ -1,4 +1,5 @@
 package org.district.automation.pages;
+import org.district.automation.utility.WaitUtils;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -87,10 +88,17 @@ public class HomePage {
     public void selectPuneLoc(){
         puneLoc.click();
     }
+    public String getTheNameOfSelectedCity(){
+        System.out.println(getCitySearchInput.getAttribute("value"));
+        return getCitySearchInput.getAttribute("value");
+//        return getCitySearchInput.getText();
+    }
     public String getLocAfterClick(){
         return getPuneLocAfterClick.getText();
     }
     public String getEntireLocAfterClick(){
+//        WaitUtils.sleep(3000);
+        WaitUtils.waitForElementToBeClickable(driver, getEntireAddressLocAfterClick, 10);
         return getEntireAddressLocAfterClick.getText();
     }
 }
