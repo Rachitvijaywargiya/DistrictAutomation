@@ -8,15 +8,21 @@ public class TC_01_HomePageLoadTest extends BaseClass {
 
     @Test
     public void verifyHomePageLoadsCorrectly() {
+        log.info("Verifying that District home page loads correctly");
+        SoftAssert softAssert = new SoftAssert();
+        String currentUrl = driver.getCurrentUrl();
+        log.info("Current URL: " + currentUrl);
         Assert.assertTrue(
-                driver.getCurrentUrl().contains("district.in"),
+                currentUrl.contains("district.in"),
                 "User did not land on District home page"
         );
-        SoftAssert softAssert = new SoftAssert();
+        String title = driver.getTitle();
+        log.info("Page title: " + title);
         softAssert.assertTrue(
-                driver.getTitle().toLowerCase().contains("district"),
+                title.toLowerCase().contains("district"),
                 "Page title does not contain application name"
         );
+        log.info("Verifying presence of master header in page source");
         softAssert.assertTrue(
                 driver.getPageSource().contains("master-header"),
                 "Home page header not loaded properly"
