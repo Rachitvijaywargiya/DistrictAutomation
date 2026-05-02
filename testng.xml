@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="District Automation Suite" parallel="tests" thread-count="5">
+
+    <!-- Suite level parameter verbose="1" parallel="false" parallel="tests" thread-count="2" -->
+    <!--    <parameter name="browser" value="chrome"/>-->
+
+    <test name="District Web Tests">
+
+        <!-- Optional groups control -->
+        <!--
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        -->
+
+        <classes>
+            <class name="org.district.automation.test.TC_21_LoginProfile_ButtonTest"/>
+            <class name="org.district.automation.test.TC_22_LoginProfile_InputBoxTest"/>
+            <class name="org.district.automation.test.TC_23_LoginProfile_DropdownTest"/>
+            <class name="org.district.automation.test.TC_24_LoginProfile_InvalidTest"/>
+            <class name="org.district.automation.test.TC_25_LoginProfile_ValidTest"/>
+        </classes>
+
+    </test>
+
+</suite>

@@ -35,7 +35,8 @@ public class SportsPage {
     }
 
     public void clickEventsTab() {
-        WaitUtils.waitForElementToBeClickable(driver,eventsTab,15).click();
+        WaitUtils.waitForElementToBeClickable(driver,eventsTab,15);
+        eventsTab.click();
     }
 
     public void openFilters() {
@@ -45,13 +46,15 @@ public class SportsPage {
     }
 
     public void selectGenreSports() {
-        WaitUtils.waitForElementToBeClickable(driver,genreOption,15).click();
+        WaitUtils.waitForElementToBeClickable(driver,genreOption,15);
+        genreOption.click();
         WaitUtils.waitForElementToBeClickable(driver,sportsCheckbox,15);
         js.executeScript("arguments[0].scrollIntoView(true);", sportsCheckbox);
         sportsCheckbox.click();
     }
 
     public void applyFilters() {
-        WaitUtils.waitForElementToBeClickable(driver,applyFiltersButton,15).click();
+        WaitUtils.waitForElementToBeClickable(driver,applyFiltersButton,15);
+        applyFiltersButton.click();
     }
 }

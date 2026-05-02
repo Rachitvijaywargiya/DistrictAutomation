@@ -969,6 +969,2279 @@
 2026-04-30 09:27:07 INFO  BaseClass:76 - Test case passed.
 2026-04-30 09:27:07 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
 2026-04-30 09:27:07 INFO  BaseClass:85 - Closing the browser
+<<<<<<< HEAD
+2026-04-30 14:16:58 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 14:17:05 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 14:17:06 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 14:17:06 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 14:17:06 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 14:17:06 INFO  BaseClass:23 - Selected country: India
+2026-04-30 14:17:07 INFO  BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 14:17:07 ERROR BaseClass:72 - Test case failed.
+2026-04-30 14:17:07 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 14:17:07 INFO  BaseClass:85 - Closing the browser
+2026-04-30 14:49:38 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 14:49:43 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 14:49:43 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 14:49:43 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 14:49:43 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 14:49:44 INFO  BaseClass:23 - Selected country: India
+2026-04-30 14:49:44 INFO  BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 14:49:45 INFO  BaseClass:76 - Test case passed.
+2026-04-30 14:49:45 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 14:49:45 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:08:34 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:08:36 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:08:36 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:08:37 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 15:08:37 INFO  BaseClass:21 - Haryana
+2026-04-30 15:08:38 ERROR BaseClass:72 - Test case failed.
+2026-04-30 15:08:38 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:08:38 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:09:36 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:09:41 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:09:41 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:09:42 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 15:09:42 INFO  BaseClass:21 - Haryana
+2026-04-30 15:09:42 ERROR BaseClass:72 - Test case failed.
+2026-04-30 15:09:42 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:09:42 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:13:15 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:13:17 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:13:17 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:13:18 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 15:13:18 INFO  BaseClass:21 - Pune, Maharashtra
+2026-04-30 15:13:18 INFO  BaseClass:76 - Test case passed.
+2026-04-30 15:13:18 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:13:18 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:13:35 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:13:37 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:13:37 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:13:38 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 15:13:38 INFO  BaseClass:21 - Pune, Maharashtra
+2026-04-30 15:13:38 INFO  BaseClass:76 - Test case passed.
+2026-04-30 15:13:38 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:13:38 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:14:16 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:14:17 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:14:17 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:14:18 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 15:14:18 INFO  BaseClass:21 - Pune, Maharashtra
+2026-04-30 15:14:18 INFO  BaseClass:76 - Test case passed.
+2026-04-30 15:14:18 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:14:18 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:15:39 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:15:42 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:15:42 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:15:43 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 15:15:43 INFO  BaseClass:21 - Pune, Maharashtra
+2026-04-30 15:15:43 INFO  BaseClass:76 - Test case passed.
+2026-04-30 15:15:43 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:15:43 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:43:22 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:43:27 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:43:27 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:43:29 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 15:43:29 INFO  BaseClass:21 - Selected entire location: Pune, Maharashtra
+2026-04-30 15:43:29 INFO  BaseClass:76 - Test case passed.
+2026-04-30 15:43:29 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:43:29 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:47:48 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:47:50 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:47:50 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:47:52 INFO  BaseClass:76 - Test case passed.
+2026-04-30 15:47:52 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:47:52 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:49:04 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:49:05 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:49:06 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:49:08 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 15:49:09 INFO  BaseClass:76 - Test case passed.
+2026-04-30 15:49:09 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:49:09 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:49:51 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:49:53 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:49:53 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:49:55 INFO  BaseClass:18 - Selected location: Pune
+2026-04-30 15:49:55 INFO  BaseClass:76 - Test case passed.
+2026-04-30 15:49:55 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:49:55 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:50:21 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:50:23 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:50:24 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:50:26 INFO  BaseClass:76 - Test case passed.
+2026-04-30 15:50:26 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:50:26 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:51:45 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:51:47 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:51:48 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:51:50 INFO  BaseClass:19 - Selected location: Pune
+2026-04-30 15:51:50 INFO  BaseClass:22 - Selected entire location: Pune, Maharashtra
+2026-04-30 15:51:51 INFO  BaseClass:76 - Test case passed.
+2026-04-30 15:51:51 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:51:51 INFO  BaseClass:85 - Closing the browser
+2026-04-30 15:55:04 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 15:55:06 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 15:55:07 INFO  BaseClass:15 - Clicked on location icon
+2026-04-30 15:55:09 INFO  BaseClass:19 - Selected location: Pune
+2026-04-30 15:55:09 INFO  BaseClass:22 - Selected entire location: Pune, Maharashtra
+2026-04-30 15:55:09 INFO  BaseClass:76 - Test case passed.
+2026-04-30 15:55:09 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-04-30 15:55:09 INFO  BaseClass:85 - Closing the browser
+2026-04-30 17:43:03 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 17:43:06 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 17:43:06 INFO  BaseClass:15 - Profile button is clicked
+2026-04-30 17:43:06 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 17:43:07 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 17:43:07 INFO  BaseClass:23 - Selected country: India
+2026-04-30 17:43:07 INFO  BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 17:43:09 ERROR BaseClass:72 - Test case failed.
+2026-04-30 17:43:09 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 17:43:09 INFO  BaseClass:85 - Closing the browser
+2026-04-30 17:44:34 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 17:44:35 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 17:44:36 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 17:44:37 INFO  BaseClass:19 - Dropdown menu clicked
+2026-04-30 17:44:37 INFO  BaseClass:21 - Country code dropdown is visible
+2026-04-30 17:44:37 INFO  BaseClass:24 - Selected country: India
+2026-04-30 17:44:38 INFO  BaseClass:26 - Entered phone number: 9430154833
+2026-04-30 17:44:41 INFO  BaseClass:76 - Test case passed.
+2026-04-30 17:44:41 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 17:44:41 INFO  BaseClass:85 - Closing the browser
+2026-04-30 17:48:35 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 17:48:37 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 17:48:37 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 17:48:38 INFO  BaseClass:19 - Dropdown menu clicked
+2026-04-30 17:48:38 INFO  BaseClass:21 - Country code dropdown is visible
+2026-04-30 17:48:39 INFO  BaseClass:24 - Selected country: India
+2026-04-30 17:48:39 INFO  BaseClass:26 - Entered phone number: 9430154833
+2026-04-30 17:48:40 ERROR BaseClass:72 - Test case failed.
+2026-04-30 17:48:40 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 17:48:40 INFO  BaseClass:85 - Closing the browser
+2026-04-30 17:50:15 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 17:50:17 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 17:50:17 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 17:50:17 INFO  BaseClass:19 - Dropdown menu clicked
+2026-04-30 17:50:18 INFO  BaseClass:21 - Country code dropdown is visible
+2026-04-30 17:50:18 INFO  BaseClass:24 - Selected country: India
+2026-04-30 17:50:19 INFO  BaseClass:26 - Entered phone number: 9430154833
+2026-04-30 17:50:20 ERROR BaseClass:72 - Test case failed.
+2026-04-30 17:50:20 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 17:50:20 INFO  BaseClass:85 - Closing the browser
+2026-04-30 17:50:57 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 17:51:12 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 17:51:12 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 17:51:13 INFO  BaseClass:19 - Dropdown menu clicked
+2026-04-30 17:51:13 INFO  BaseClass:21 - Country code dropdown is visible
+2026-04-30 17:51:13 INFO  BaseClass:24 - Selected country: India
+2026-04-30 17:51:14 INFO  BaseClass:26 - Entered phone number: 9430154833
+2026-04-30 17:51:15 ERROR BaseClass:72 - Test case failed.
+2026-04-30 17:51:15 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 17:51:15 INFO  BaseClass:85 - Closing the browser
+2026-04-30 17:52:46 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 17:52:47 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 17:52:49 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 17:52:50 INFO  BaseClass:19 - Dropdown menu clicked
+2026-04-30 17:52:50 INFO  BaseClass:21 - Country code dropdown is visible
+2026-04-30 17:52:50 INFO  BaseClass:24 - Selected country: India
+2026-04-30 17:52:51 INFO  BaseClass:26 - Entered phone number: 9430154833
+2026-04-30 17:52:51 ERROR BaseClass:72 - Test case failed.
+2026-04-30 17:52:51 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 17:52:51 INFO  BaseClass:85 - Closing the browser
+2026-04-30 17:54:39 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 17:54:41 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 17:54:41 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 17:54:42 INFO  BaseClass:19 - Dropdown menu clicked
+2026-04-30 17:54:43 INFO  BaseClass:21 - Country code dropdown is visible
+2026-04-30 17:54:43 INFO  BaseClass:24 - Selected country: India
+2026-04-30 17:54:43 INFO  BaseClass:26 - Entered phone number: 9430154833
+2026-04-30 17:54:47 INFO  BaseClass:76 - Test case passed.
+2026-04-30 17:54:47 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 17:54:47 INFO  BaseClass:85 - Closing the browser
+2026-04-30 17:56:19 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 17:56:22 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 17:56:22 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 17:56:23 INFO  BaseClass:19 - Dropdown menu clicked
+2026-04-30 17:56:23 INFO  BaseClass:21 - Country code dropdown is visible
+2026-04-30 17:56:24 INFO  BaseClass:24 - Selected country: India
+2026-04-30 17:56:24 INFO  BaseClass:26 - Entered phone number: 9430154833
+2026-04-30 17:56:43 ERROR BaseClass:72 - Test case failed.
+2026-04-30 17:56:43 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 17:56:43 INFO  BaseClass:85 - Closing the browser
+2026-04-30 19:37:25 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 19:37:31 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 19:37:32 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 19:37:32 INFO  BaseClass:19 - Dropdown menu clicked
+2026-04-30 19:37:32 INFO  BaseClass:21 - Country code dropdown is visible
+2026-04-30 19:37:32 INFO  BaseClass:24 - Selected country: India
+2026-04-30 19:37:33 INFO  BaseClass:26 - Entered phone number: 9430154833
+2026-04-30 19:37:36 INFO  BaseClass:29 - Continue button is clicked
+2026-04-30 19:37:36 INFO  BaseClass:34 - Enter OTP is displayed
+2026-04-30 19:37:36 INFO  BaseClass:76 - Test case passed.
+2026-04-30 19:37:36 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 19:37:36 INFO  BaseClass:85 - Closing the browser
+2026-04-30 19:43:14 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 19:43:16 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 19:43:17 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 19:43:17 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 19:43:17 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 19:43:18 INFO  BaseClass:23 - Selected country: India
+2026-04-30 19:43:18 INFO  BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 19:43:22 INFO  BaseClass:28 - Continue button is clicked
+2026-04-30 19:43:22 INFO  BaseClass:33 - OTP popup window is displayed
+2026-04-30 19:43:22 INFO  BaseClass:34 - Enter OTPis displayed
+2026-04-30 19:43:22 INFO  BaseClass:76 - Test case passed.
+2026-04-30 19:43:22 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 19:43:22 INFO  BaseClass:85 - Closing the browser
+2026-04-30 19:44:56 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 19:44:59 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 19:44:59 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 19:45:00 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 19:45:00 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 19:45:00 INFO  BaseClass:23 - Selected country: India
+2026-04-30 19:45:00 INFO  BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 19:45:04 INFO  BaseClass:28 - Continue button is clicked
+2026-04-30 19:45:04 INFO  BaseClass:33 - OTP popup window is displayed
+2026-04-30 19:45:04 INFO  BaseClass:34 - Enter OTP is displayed
+2026-04-30 19:45:04 INFO  BaseClass:76 - Test case passed.
+2026-04-30 19:45:04 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 19:45:04 INFO  BaseClass:85 - Closing the browser
+2026-04-30 19:49:31 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 19:49:35 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 19:49:36 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 19:49:36 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 19:49:36 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 19:49:37 INFO  BaseClass:23 - Selected country: India
+2026-04-30 19:49:37 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 19:49:40 INFO  BaseClass:28 - Continue button is clicked
+2026-04-30 19:49:40 INFO  BaseClass:33 - OTP popup window is displayed
+2026-04-30 19:49:40 DEBUG BaseClass:34 - Enter OTP is displayed
+2026-04-30 19:49:41 INFO  BaseClass:76 - Test case passed.
+2026-04-30 19:49:41 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 19:49:41 INFO  BaseClass:85 - Closing the browser
+2026-04-30 19:56:50 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 19:56:54 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 19:56:55 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 19:56:55 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 19:56:55 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 19:56:56 INFO  BaseClass:23 - Selected country: India
+2026-04-30 19:56:57 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 19:56:57 INFO  BaseClass:28 - Continue button is clicked
+2026-04-30 19:56:57 ERROR BaseClass:72 - Test case failed.
+2026-04-30 19:56:57 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 19:56:57 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:08:40 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:08:42 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:08:43 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:08:43 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:08:43 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:08:44 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:08:45 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:08:45 INFO  BaseClass:28 - Continue button is clicked
+2026-04-30 20:08:46 ERROR BaseClass:72 - Test case failed.
+2026-04-30 20:08:46 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:08:46 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:09:48 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:09:51 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:09:52 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:09:52 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:09:52 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:09:53 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:09:53 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:09:54 INFO  BaseClass:28 - Continue button is clicked
+2026-04-30 20:09:54 ERROR BaseClass:72 - Test case failed.
+2026-04-30 20:09:54 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:09:54 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:10:31 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:10:34 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:10:35 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:10:35 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:10:35 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:10:36 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:10:36 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:10:37 INFO  BaseClass:28 - Continue button is clicked
+2026-04-30 20:10:37 ERROR BaseClass:72 - Test case failed.
+2026-04-30 20:10:37 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:10:37 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:17:46 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:17:48 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:17:48 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:17:48 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:17:49 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:17:49 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:17:50 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:17:53 INFO  BaseClass:28 - Continue button is clicked
+2026-04-30 20:17:53 INFO  BaseClass:33 - OTP popup window is displayed
+2026-04-30 20:17:53 DEBUG BaseClass:34 - Enter OTP heading is displayed
+2026-04-30 20:17:54 INFO  BaseClass:76 - Test case passed.
+2026-04-30 20:17:54 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:17:54 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:19:17 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:19:18 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:19:21 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:19:21 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:19:21 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:19:22 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:19:22 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:19:25 INFO  BaseClass:28 - Continue button is clicked
+2026-04-30 20:19:25 INFO  BaseClass:34 - OTP popup window is displayed
+2026-04-30 20:19:25 DEBUG BaseClass:35 - Enter OTP heading is displayed
+2026-04-30 20:19:26 INFO  BaseClass:76 - Test case passed.
+2026-04-30 20:19:26 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:19:26 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:21:35 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:21:37 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:21:38 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:21:39 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:21:39 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:21:39 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:21:40 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:21:41 INFO  BaseClass:27 - Continue button is clicked
+2026-04-30 20:21:41 INFO  BaseClass:32 - OTP popup window is displayed
+2026-04-30 20:21:41 DEBUG BaseClass:33 - Enter OTP heading is displayed
+2026-04-30 20:21:42 INFO  BaseClass:76 - Test case passed.
+2026-04-30 20:21:42 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:21:42 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:22:47 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:22:49 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:22:49 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:22:50 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:22:50 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:22:50 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:22:51 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:22:52 INFO  BaseClass:27 - Continue button is clicked
+2026-04-30 20:22:52 INFO  BaseClass:32 - OTP popup window is displayed
+2026-04-30 20:22:52 DEBUG BaseClass:33 - Enter OTP heading is displayed
+2026-04-30 20:22:53 INFO  BaseClass:76 - Test case passed.
+2026-04-30 20:22:53 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:22:53 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:23:34 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:23:37 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:23:37 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:23:38 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:23:38 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:23:38 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:23:38 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:23:39 INFO  BaseClass:27 - Continue button is clicked
+2026-04-30 20:23:39 ERROR BaseClass:72 - Test case failed.
+2026-04-30 20:23:39 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:23:39 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:24:12 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:24:16 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:24:17 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:24:17 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:24:17 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:24:18 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:24:18 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:24:19 INFO  BaseClass:27 - Continue button is clicked
+2026-04-30 20:24:19 INFO  BaseClass:32 - OTP popup window is displayed
+2026-04-30 20:24:19 DEBUG BaseClass:33 - Enter OTP heading is displayed
+2026-04-30 20:24:19 INFO  BaseClass:76 - Test case passed.
+2026-04-30 20:24:19 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:24:19 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:43:28 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:43:35 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:43:35 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:43:35 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:43:35 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:43:36 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:43:36 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:43:37 INFO  BaseClass:27 - Continue button is clicked
+2026-04-30 20:43:37 INFO  BaseClass:32 - OTP popup window is displayed
+2026-04-30 20:43:37 DEBUG BaseClass:33 - Enter OTP heading is displayed
+2026-04-30 20:43:37 INFO  BaseClass:34 - true
+2026-04-30 20:43:52 ERROR BaseClass:72 - Test case failed.
+2026-04-30 20:43:52 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:43:52 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:50:40 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:50:42 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:50:42 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:50:42 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:50:43 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:50:43 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:50:44 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:50:45 INFO  BaseClass:27 - Continue button is clicked
+2026-04-30 20:50:45 ERROR BaseClass:72 - Test case failed.
+2026-04-30 20:50:45 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:50:45 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:51:26 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:51:28 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:51:29 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:51:30 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:51:30 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:51:30 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:51:31 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:51:31 INFO  BaseClass:27 - Continue button is clicked
+2026-04-30 20:51:32 ERROR BaseClass:72 - Test case failed.
+2026-04-30 20:51:32 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:51:32 INFO  BaseClass:85 - Closing the browser
+2026-04-30 20:52:14 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-04-30 20:52:16 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-04-30 20:52:17 INFO  BaseClass:16 - Profile button is clicked
+2026-04-30 20:52:17 INFO  BaseClass:18 - Dropdown menu clicked
+2026-04-30 20:52:17 INFO  BaseClass:20 - Country code dropdown is visible
+2026-04-30 20:52:18 INFO  BaseClass:23 - Selected country: India
+2026-04-30 20:52:19 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-04-30 20:52:19 INFO  BaseClass:27 - Continue button is clicked
+2026-04-30 20:52:19 INFO  BaseClass:32 - OTP popup window is displayed
+2026-04-30 20:52:19 DEBUG BaseClass:33 - Enter your mobile number heading is displayed
+2026-04-30 20:52:19 INFO  BaseClass:34 - true
+2026-04-30 20:52:35 INFO  BaseClass:35 - false
+2026-04-30 20:52:35 INFO  BaseClass:76 - Test case passed.
+2026-04-30 20:52:35 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-04-30 20:52:35 INFO  BaseClass:85 - Closing the browser
+2026-05-01 00:44:54 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 00:44:58 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 00:44:58 INFO  BaseClass:16 - Profile button is clicked
+2026-05-01 00:44:59 INFO  BaseClass:18 - Dropdown menu clicked
+2026-05-01 00:44:59 INFO  BaseClass:20 - Country code dropdown is visible
+2026-05-01 00:44:59 INFO  BaseClass:23 - Selected country: India
+2026-05-01 00:45:00 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-05-01 00:45:01 INFO  BaseClass:27 - Continue button is clicked
+2026-05-01 00:45:01 INFO  BaseClass:32 - OTP popup window is displayed
+2026-05-01 00:45:01 DEBUG BaseClass:33 - Enter OTP heading is displayed
+2026-05-01 00:45:01 INFO  BaseClass:34 - true
+2026-05-01 00:45:16 INFO  BaseClass:35 - false
+2026-05-01 00:45:16 INFO  BaseClass:76 - Test case passed.
+2026-05-01 00:45:16 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-05-01 00:45:16 INFO  BaseClass:85 - Closing the browser
+2026-05-01 00:45:47 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 00:45:51 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 00:45:51 INFO  BaseClass:16 - Profile button is clicked
+2026-05-01 00:45:52 INFO  BaseClass:18 - Dropdown menu clicked
+2026-05-01 00:45:52 INFO  BaseClass:20 - Country code dropdown is visible
+2026-05-01 00:45:52 INFO  BaseClass:23 - Selected country: India
+2026-05-01 00:45:52 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-05-01 00:45:53 INFO  BaseClass:27 - Continue button is clicked
+2026-05-01 00:45:53 ERROR BaseClass:72 - Test case failed.
+2026-05-01 00:45:53 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-05-01 00:45:53 INFO  BaseClass:85 - Closing the browser
+2026-05-01 00:51:46 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 00:51:49 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 00:51:49 INFO  BaseClass:16 - Profile button is clicked
+2026-05-01 00:51:49 INFO  BaseClass:18 - Dropdown menu clicked
+2026-05-01 00:51:50 INFO  BaseClass:20 - Country code dropdown is visible
+2026-05-01 00:51:50 INFO  BaseClass:23 - Selected country: India
+2026-05-01 00:51:51 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-05-01 00:51:51 INFO  BaseClass:27 - Continue button is clicked
+2026-05-01 00:51:52 INFO  BaseClass:29 - Entered OTP text displayed
+2026-05-01 00:51:52 INFO  BaseClass:33 - OTP popup window is displayed
+2026-05-01 00:51:52 DEBUG BaseClass:34 - Enter OTP heading is displayed
+2026-05-01 00:51:52 INFO  BaseClass:35 - true
+2026-05-01 00:52:07 INFO  BaseClass:36 - false
+2026-05-01 00:52:07 INFO  BaseClass:76 - Test case passed.
+2026-05-01 00:52:07 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-05-01 00:52:07 INFO  BaseClass:85 - Closing the browser
+2026-05-01 01:01:16 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 01:01:20 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 01:01:21 INFO  BaseClass:16 - Profile button is clicked
+2026-05-01 01:01:21 INFO  BaseClass:18 - Dropdown menu clicked
+2026-05-01 01:01:21 INFO  BaseClass:20 - Country code dropdown is visible
+2026-05-01 01:01:21 INFO  BaseClass:23 - Selected country: India
+2026-05-01 01:01:22 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-05-01 01:01:22 INFO  BaseClass:27 - Continue button is clicked
+2026-05-01 01:01:22 INFO  BaseClass:29 - Entered OTP text displayed
+2026-05-01 01:01:22 INFO  BaseClass:31 - Subheading message displayed
+2026-05-01 01:01:23 INFO  BaseClass:35 - OTP popup window is displayed
+2026-05-01 01:01:23 DEBUG BaseClass:36 - Enter OTP heading is displayed
+2026-05-01 01:01:23 INFO  BaseClass:38 - Input fields of OTP is Displayed
+2026-05-01 01:01:38 INFO  BaseClass:40 - Continue button is disabled
+2026-05-01 01:01:38 INFO  BaseClass:76 - Test case passed.
+2026-05-01 01:01:38 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-05-01 01:01:38 INFO  BaseClass:85 - Closing the browser
+2026-05-01 01:10:38 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 01:10:42 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 01:10:42 INFO  BaseClass:16 - Profile button is clicked
+2026-05-01 01:10:42 INFO  BaseClass:18 - Dropdown menu clicked
+2026-05-01 01:10:42 INFO  BaseClass:20 - Country code dropdown is visible
+2026-05-01 01:10:43 INFO  BaseClass:23 - Selected country: India
+2026-05-01 01:10:44 DEBUG BaseClass:25 - Entered phone number: 9430154833
+2026-05-01 01:10:45 INFO  BaseClass:27 - Continue button is clicked
+2026-05-01 01:10:45 INFO  BaseClass:33 - OTP popup window is displayed
+2026-05-01 01:10:45 DEBUG BaseClass:34 - Enter OTP heading is displayed
+2026-05-01 01:10:45 INFO  BaseClass:35 - Subheading message displayed
+2026-05-01 01:10:45 INFO  BaseClass:37 - Input fields of OTP is Displayed
+2026-05-01 01:11:00 INFO  BaseClass:39 - Continue button is disabled
+2026-05-01 01:11:00 INFO  BaseClass:76 - Test case passed.
+2026-05-01 01:11:00 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-05-01 01:11:00 INFO  BaseClass:85 - Closing the browser
+2026-05-01 01:49:25 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 01:49:27 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 01:49:27 INFO  BaseClass:13 - Profile button is clicked
+2026-05-01 01:49:27 INFO  BaseClass:14 - Login with mobile number popup window is now displayed
+2026-05-01 01:49:27 INFO  BaseClass:15 - Testing the functionality of number Input box
+2026-05-01 01:49:28 INFO  BaseClass:17 - Setting Input box value as 12ab45@#
+2026-05-01 01:49:28 INFO  BaseClass:20 - Input box value does not matched with 12ab45@#
+2026-05-01 01:49:28 INFO  BaseClass:23 - Input box takes only Numeric value
+2026-05-01 01:49:28 INFO  BaseClass:76 - Test case passed.
+2026-05-01 01:49:28 INFO  BaseClass:79 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-05-01 01:49:28 INFO  BaseClass:85 - Closing the browser
+2026-05-01 01:54:22 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 01:54:27 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 01:54:27 INFO  BaseClass:13 - Profile button is clicked
+2026-05-01 01:54:27 INFO  BaseClass:14 - Login with mobile number popup window is now displayed
+2026-05-01 01:54:27 INFO  BaseClass:15 - Testing the functionality of number Input box
+2026-05-01 01:54:27 INFO  BaseClass:17 - Setting Input box value as 12ab45@#
+2026-05-01 01:54:27 INFO  BaseClass:20 - Input box current value 1245
+2026-05-01 01:54:27 INFO  BaseClass:23 - Input box taking only Numeric value
+2026-05-01 01:54:28 INFO  BaseClass:76 - Test case passed.
+2026-05-01 01:54:28 INFO  BaseClass:79 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-05-01 01:54:28 INFO  BaseClass:85 - Closing the browser
+2026-05-01 02:00:54 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 02:00:58 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 02:00:59 INFO  BaseClass:13 - Profile button is clicked
+2026-05-01 02:00:59 INFO  BaseClass:14 - Login with mobile number popup window is now displayed
+2026-05-01 02:00:59 DEBUG BaseClass:15 - Testing the functionality of number Input box
+2026-05-01 02:00:59 INFO  BaseClass:17 - Setting Input box value as 12ab45@#
+2026-05-01 02:00:59 INFO  BaseClass:20 - Input box current value 1245
+2026-05-01 02:00:59 INFO  BaseClass:21 - Current Input box value doesn't matched with user input
+2026-05-01 02:00:59 INFO  BaseClass:24 - Input box taking only Numeric value
+2026-05-01 02:01:00 INFO  BaseClass:76 - Test case passed.
+2026-05-01 02:01:00 INFO  BaseClass:79 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-05-01 02:01:00 INFO  BaseClass:85 - Closing the browser
+2026-05-01 02:06:33 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 02:06:39 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 02:06:39 INFO  BaseClass:13 - Profile button is clicked
+2026-05-01 02:06:39 INFO  BaseClass:14 - Login with mobile number popup window is now displayed
+2026-05-01 02:06:39 DEBUG BaseClass:15 - Testing the functionality of number Input box
+2026-05-01 02:06:40 INFO  BaseClass:17 - Setting Input box value as 12ab45@#
+2026-05-01 02:06:40 INFO  BaseClass:20 - Input box current value 1245
+2026-05-01 02:06:40 ERROR BaseClass:21 - Current Input box value doesn't matched with user input
+2026-05-01 02:06:40 INFO  BaseClass:24 - Input box taking only Numeric value
+2026-05-01 02:06:40 INFO  BaseClass:76 - Test case passed.
+2026-05-01 02:06:40 INFO  BaseClass:79 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-05-01 02:06:40 INFO  BaseClass:85 - Closing the browser
+2026-05-01 10:53:24 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 10:53:28 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 10:53:29 INFO  BaseClass:21 - Clicked on location icon
+2026-05-01 10:53:30 INFO  BaseClass:25 - Selected location: Pune
+2026-05-01 10:53:31 INFO  BaseClass:29 - Selected entire location: Pune, Maharashtra
+2026-05-01 10:53:31 INFO  BaseClass:76 - Test case passed.
+2026-05-01 10:53:31 INFO  BaseClass:79 - Screenshot captured for test: TC_05_SelectCityTest
+2026-05-01 10:53:31 INFO  BaseClass:85 - Closing the browser
+2026-05-01 11:11:28 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 11:11:35 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 11:12:05 INFO  BaseClass:19 - Login with mobile number popup window is not displayed till now
+2026-05-01 11:12:06 INFO  BaseClass:21 - Dropdown menu clicked
+2026-05-01 11:12:06 INFO  BaseClass:26 - Login with mobile number popup window is now displayed
+2026-05-01 11:12:06 DEBUG BaseClass:27 - Enter your mobile number heading is displayed
+2026-05-01 11:12:06 INFO  BaseClass:29 - Subheading message displayed
+2026-05-01 11:12:06 INFO  BaseClass:76 - Test case passed.
+2026-05-01 11:12:06 INFO  BaseClass:79 - Screenshot captured for test: TC_21_LoginProfileButtonTest
+2026-05-01 11:12:06 INFO  BaseClass:85 - Closing the browser
+2026-05-01 11:43:36 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 11:43:38 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 11:43:38 INFO  BaseClass:18 - Profile button is clicked
+2026-05-01 11:43:39 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-01 11:43:39 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-01 11:43:39 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-01 11:43:40 DEBUG LoginPage:120 - India
+2026-05-01 11:43:40 DEBUG LoginPage:120 - UAE
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Afghanistan
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Algeria
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Argentina
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Australia
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Austria
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Bahrain
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Bangladesh
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Belgium
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Bhutan
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Brasil
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Brunei
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Cambodia
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Canada
+2026-05-01 11:43:40 DEBUG LoginPage:120 - China
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Colombia
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Denmark
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Egypt
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Ethiopia
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Finland
+2026-05-01 11:43:40 DEBUG LoginPage:120 - France
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Germany
+2026-05-01 11:43:40 DEBUG LoginPage:120 - Ghana
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Indonesia
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Iraq
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Ireland
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Israel
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Italy
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Japan
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Jordan
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Kazakhstan
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Kenya
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Kuwait
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Laos
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Lebanon
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Libya
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Malaysia
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Maldives
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Mexico
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Montenegro
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Morocco
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Myanmar
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Nepal
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Netherlands
+2026-05-01 11:43:41 DEBUG LoginPage:120 - New Zealand
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Nigeria
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Norway
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Oman
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Pakistan
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Philippines
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Portugal
+2026-05-01 11:43:41 DEBUG LoginPage:120 - Qatar
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Saudi Arabia
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Singapore
+2026-05-01 11:43:42 DEBUG LoginPage:120 - South Africa
+2026-05-01 11:43:42 DEBUG LoginPage:120 - South Korea
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Spain
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Sri Lanka
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Sudan
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Sweden
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Switzerland
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Syria
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Tanzania
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Thailand
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Timor-Leste
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Tunisia
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Turkey
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Uganda
+2026-05-01 11:43:42 DEBUG LoginPage:120 - United Kingdom
+2026-05-01 11:43:42 DEBUG LoginPage:120 - United States
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Vietnam
+2026-05-01 11:43:42 DEBUG LoginPage:120 - Yemen
+2026-05-01 11:43:42 INFO  LoginPage:127 - Total countries: 73
+2026-05-01 11:43:42 INFO  BaseClass:32 - Selected country: India flag
+2026-05-01 11:43:43 INFO  BaseClass:76 - Test case passed.
+2026-05-01 11:43:43 INFO  BaseClass:79 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-05-01 11:43:43 INFO  BaseClass:85 - Closing the browser
+2026-05-01 11:46:26 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 11:46:30 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 11:46:30 INFO  BaseClass:18 - Profile button is clicked
+2026-05-01 11:46:31 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-01 11:46:31 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-01 11:46:31 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-01 11:46:31 DEBUG LoginPage:120 - India
+2026-05-01 11:46:31 DEBUG LoginPage:120 - UAE
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Afghanistan
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Algeria
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Argentina
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Australia
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Austria
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Bahrain
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Bangladesh
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Belgium
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Bhutan
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Brasil
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Brunei
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Cambodia
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Canada
+2026-05-01 11:46:31 DEBUG LoginPage:120 - China
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Colombia
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Denmark
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Egypt
+2026-05-01 11:46:31 DEBUG LoginPage:120 - Ethiopia
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Finland
+2026-05-01 11:46:32 DEBUG LoginPage:120 - France
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Germany
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Ghana
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Indonesia
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Iraq
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Ireland
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Israel
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Italy
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Japan
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Jordan
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Kazakhstan
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Kenya
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Kuwait
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Laos
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Lebanon
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Libya
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Malaysia
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Maldives
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Mexico
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Montenegro
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Morocco
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Myanmar
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Nepal
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Netherlands
+2026-05-01 11:46:32 DEBUG LoginPage:120 - New Zealand
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Nigeria
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Norway
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Oman
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Pakistan
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Philippines
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Portugal
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Qatar
+2026-05-01 11:46:32 DEBUG LoginPage:120 - Saudi Arabia
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Singapore
+2026-05-01 11:46:33 DEBUG LoginPage:120 - South Africa
+2026-05-01 11:46:33 DEBUG LoginPage:120 - South Korea
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Spain
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Sri Lanka
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Sudan
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Sweden
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Switzerland
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Syria
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Tanzania
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Thailand
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Timor-Leste
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Tunisia
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Turkey
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Uganda
+2026-05-01 11:46:33 DEBUG LoginPage:120 - United Kingdom
+2026-05-01 11:46:33 DEBUG LoginPage:120 - United States
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Vietnam
+2026-05-01 11:46:33 DEBUG LoginPage:120 - Yemen
+2026-05-01 11:46:33 INFO  LoginPage:127 - Total countries: 73
+2026-05-01 11:46:35 ERROR BaseClass:72 - Test case failed.
+2026-05-01 11:46:35 INFO  BaseClass:79 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-05-01 11:46:35 INFO  BaseClass:85 - Closing the browser
+2026-05-01 11:48:19 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 11:48:21 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 11:48:22 INFO  BaseClass:18 - Profile button is clicked
+2026-05-01 11:48:22 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-01 11:48:23 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-01 11:48:23 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-01 11:48:23 DEBUG LoginPage:120 - India
+2026-05-01 11:48:23 DEBUG LoginPage:120 - UAE
+2026-05-01 11:48:23 DEBUG LoginPage:120 - Afghanistan
+2026-05-01 11:48:23 DEBUG LoginPage:120 - Algeria
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Argentina
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Australia
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Austria
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Bahrain
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Bangladesh
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Belgium
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Bhutan
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Brasil
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Brunei
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Cambodia
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Canada
+2026-05-01 11:48:24 DEBUG LoginPage:120 - China
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Colombia
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Denmark
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Egypt
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Ethiopia
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Finland
+2026-05-01 11:48:24 DEBUG LoginPage:120 - France
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Germany
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Ghana
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Indonesia
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Iraq
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Ireland
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Israel
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Italy
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Japan
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Jordan
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Kazakhstan
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Kenya
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Kuwait
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Laos
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Lebanon
+2026-05-01 11:48:24 DEBUG LoginPage:120 - Libya
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Malaysia
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Maldives
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Mexico
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Montenegro
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Morocco
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Myanmar
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Nepal
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Netherlands
+2026-05-01 11:48:25 DEBUG LoginPage:120 - New Zealand
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Nigeria
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Norway
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Oman
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Pakistan
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Philippines
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Portugal
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Qatar
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Saudi Arabia
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Singapore
+2026-05-01 11:48:25 DEBUG LoginPage:120 - South Africa
+2026-05-01 11:48:25 DEBUG LoginPage:120 - South Korea
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Spain
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Sri Lanka
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Sudan
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Sweden
+2026-05-01 11:48:25 DEBUG LoginPage:120 - Switzerland
+2026-05-01 11:48:26 DEBUG LoginPage:120 - Syria
+2026-05-01 11:48:26 DEBUG LoginPage:120 - Tanzania
+2026-05-01 11:48:26 DEBUG LoginPage:120 - Thailand
+2026-05-01 11:48:26 DEBUG LoginPage:120 - Timor-Leste
+2026-05-01 11:48:26 DEBUG LoginPage:120 - Tunisia
+2026-05-01 11:48:26 DEBUG LoginPage:120 - Turkey
+2026-05-01 11:48:26 DEBUG LoginPage:120 - Uganda
+2026-05-01 11:48:26 DEBUG LoginPage:120 - United Kingdom
+2026-05-01 11:48:26 DEBUG LoginPage:120 - United States
+2026-05-01 11:48:26 DEBUG LoginPage:120 - Vietnam
+2026-05-01 11:48:26 DEBUG LoginPage:120 - Yemen
+2026-05-01 11:48:26 INFO  LoginPage:127 - Total countries: 73
+2026-05-01 11:48:26 INFO  BaseClass:32 - Selected country: Algeria flag
+2026-05-01 11:48:27 INFO  BaseClass:76 - Test case passed.
+2026-05-01 11:48:27 INFO  BaseClass:79 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-05-01 11:48:27 INFO  BaseClass:85 - Closing the browser
+2026-05-01 12:02:51 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 12:02:56 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 12:02:56 INFO  BaseClass:18 - Profile button is clicked
+2026-05-01 12:02:57 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-01 12:02:57 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-01 12:02:57 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-01 12:02:57 DEBUG LoginPage:120 - India
+2026-05-01 12:02:57 DEBUG LoginPage:120 - UAE
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Afghanistan
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Algeria
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Argentina
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Australia
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Austria
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Bahrain
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Bangladesh
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Belgium
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Bhutan
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Brasil
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Brunei
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Cambodia
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Canada
+2026-05-01 12:02:57 DEBUG LoginPage:120 - China
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Colombia
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Denmark
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Egypt
+2026-05-01 12:02:57 DEBUG LoginPage:120 - Ethiopia
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Finland
+2026-05-01 12:02:58 DEBUG LoginPage:120 - France
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Germany
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Ghana
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Indonesia
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Iraq
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Ireland
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Israel
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Italy
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Japan
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Jordan
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Kazakhstan
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Kenya
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Kuwait
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Laos
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Lebanon
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Libya
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Malaysia
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Maldives
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Mexico
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Montenegro
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Morocco
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Myanmar
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Nepal
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Netherlands
+2026-05-01 12:02:58 DEBUG LoginPage:120 - New Zealand
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Nigeria
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Norway
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Oman
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Pakistan
+2026-05-01 12:02:58 DEBUG LoginPage:120 - Philippines
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Portugal
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Qatar
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Saudi Arabia
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Singapore
+2026-05-01 12:02:59 DEBUG LoginPage:120 - South Africa
+2026-05-01 12:02:59 DEBUG LoginPage:120 - South Korea
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Spain
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Sri Lanka
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Sudan
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Sweden
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Switzerland
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Syria
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Tanzania
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Thailand
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Timor-Leste
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Tunisia
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Turkey
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Uganda
+2026-05-01 12:02:59 DEBUG LoginPage:120 - United Kingdom
+2026-05-01 12:02:59 DEBUG LoginPage:120 - United States
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Vietnam
+2026-05-01 12:02:59 DEBUG LoginPage:120 - Yemen
+2026-05-01 12:02:59 INFO  LoginPage:127 - Total countries: 73
+2026-05-01 12:03:00 INFO  BaseClass:32 - Selected country: France flag
+2026-05-01 12:03:01 INFO  BaseClass:76 - Test case passed.
+2026-05-01 12:03:01 INFO  BaseClass:79 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-05-01 12:03:01 INFO  BaseClass:85 - Closing the browser
+2026-05-01 12:08:24 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 12:08:32 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 12:08:32 INFO  BaseClass:18 - Profile button is clicked
+2026-05-01 12:08:32 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-01 12:08:33 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-01 12:08:33 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-01 12:08:33 DEBUG LoginPage:122 - India
+2026-05-01 12:08:33 DEBUG LoginPage:122 - UAE
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Afghanistan
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Algeria
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Argentina
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Australia
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Austria
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Bahrain
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Bangladesh
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Belgium
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Bhutan
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Brasil
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Brunei
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Cambodia
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Canada
+2026-05-01 12:08:33 DEBUG LoginPage:122 - China
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Colombia
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Denmark
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Egypt
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Ethiopia
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Finland
+2026-05-01 12:08:33 DEBUG LoginPage:122 - France
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Germany
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Ghana
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Indonesia
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Iraq
+2026-05-01 12:08:33 DEBUG LoginPage:122 - Ireland
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Israel
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Italy
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Japan
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Jordan
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Kazakhstan
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Kenya
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Kuwait
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Laos
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Lebanon
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Libya
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Malaysia
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Maldives
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Mexico
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Montenegro
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Morocco
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Myanmar
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Nepal
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Netherlands
+2026-05-01 12:08:34 DEBUG LoginPage:122 - New Zealand
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Nigeria
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Norway
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Oman
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Pakistan
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Philippines
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Portugal
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Qatar
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Saudi Arabia
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Singapore
+2026-05-01 12:08:34 DEBUG LoginPage:122 - South Africa
+2026-05-01 12:08:34 DEBUG LoginPage:122 - South Korea
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Spain
+2026-05-01 12:08:34 DEBUG LoginPage:122 - Sri Lanka
+2026-05-01 12:08:35 DEBUG LoginPage:122 - Sudan
+2026-05-01 12:08:35 DEBUG LoginPage:122 - Sweden
+2026-05-01 12:08:35 DEBUG LoginPage:122 - Switzerland
+2026-05-01 12:08:35 DEBUG LoginPage:122 - Syria
+2026-05-01 12:08:35 DEBUG LoginPage:122 - Tanzania
+2026-05-01 12:08:35 DEBUG LoginPage:122 - Thailand
+2026-05-01 12:08:35 DEBUG LoginPage:122 - Timor-Leste
+2026-05-01 12:08:35 DEBUG LoginPage:122 - Tunisia
+2026-05-01 12:08:35 DEBUG LoginPage:122 - Turkey
+2026-05-01 12:08:35 DEBUG LoginPage:122 - Uganda
+2026-05-01 12:08:35 DEBUG LoginPage:122 - United Kingdom
+2026-05-01 12:08:35 DEBUG LoginPage:122 - United States
+2026-05-01 12:08:35 DEBUG LoginPage:122 - Vietnam
+2026-05-01 12:08:35 DEBUG LoginPage:122 - Yemen
+2026-05-01 12:08:35 INFO  LoginPage:129 - Total countries: 73
+2026-05-01 12:08:36 INFO  BaseClass:32 - Selected country: France flag
+2026-05-01 12:08:36 INFO  BaseClass:76 - Test case passed.
+2026-05-01 12:08:36 INFO  BaseClass:79 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-05-01 12:08:36 INFO  BaseClass:85 - Closing the browser
+2026-05-01 12:21:52 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 12:21:59 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 12:22:00 INFO  BaseClass:18 - Profile button is clicked
+2026-05-01 12:22:00 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-01 12:22:00 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-01 12:22:00 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-01 12:22:00 DEBUG LoginPage:122 - India
+2026-05-01 12:22:00 DEBUG LoginPage:122 - UAE
+2026-05-01 12:22:00 DEBUG LoginPage:122 - Afghanistan
+2026-05-01 12:22:00 DEBUG LoginPage:122 - Algeria
+2026-05-01 12:22:00 DEBUG LoginPage:122 - Argentina
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Australia
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Austria
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Bahrain
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Bangladesh
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Belgium
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Bhutan
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Brasil
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Brunei
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Cambodia
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Canada
+2026-05-01 12:22:01 DEBUG LoginPage:122 - China
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Colombia
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Denmark
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Egypt
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Ethiopia
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Finland
+2026-05-01 12:22:01 DEBUG LoginPage:122 - France
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Germany
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Ghana
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Indonesia
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Iraq
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Ireland
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Israel
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Italy
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Japan
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Jordan
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Kazakhstan
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Kenya
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Kuwait
+2026-05-01 12:22:01 DEBUG LoginPage:122 - Laos
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Lebanon
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Libya
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Malaysia
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Maldives
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Mexico
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Montenegro
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Morocco
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Myanmar
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Nepal
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Netherlands
+2026-05-01 12:22:02 DEBUG LoginPage:122 - New Zealand
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Nigeria
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Norway
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Oman
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Pakistan
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Philippines
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Portugal
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Qatar
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Saudi Arabia
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Singapore
+2026-05-01 12:22:02 DEBUG LoginPage:122 - South Africa
+2026-05-01 12:22:02 DEBUG LoginPage:122 - South Korea
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Spain
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Sri Lanka
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Sudan
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Sweden
+2026-05-01 12:22:02 DEBUG LoginPage:122 - Switzerland
+2026-05-01 12:22:03 DEBUG LoginPage:122 - Syria
+2026-05-01 12:22:03 DEBUG LoginPage:122 - Tanzania
+2026-05-01 12:22:03 DEBUG LoginPage:122 - Thailand
+2026-05-01 12:22:03 DEBUG LoginPage:122 - Timor-Leste
+2026-05-01 12:22:03 DEBUG LoginPage:122 - Tunisia
+2026-05-01 12:22:03 DEBUG LoginPage:122 - Turkey
+2026-05-01 12:22:03 DEBUG LoginPage:122 - Uganda
+2026-05-01 12:22:03 DEBUG LoginPage:122 - United Kingdom
+2026-05-01 12:22:03 DEBUG LoginPage:122 - United States
+2026-05-01 12:22:03 DEBUG LoginPage:122 - Vietnam
+2026-05-01 12:22:03 DEBUG LoginPage:122 - Yemen
+2026-05-01 12:22:03 INFO  LoginPage:129 - Total countries: 73
+2026-05-01 12:22:04 INFO  BaseClass:32 - Selected country: France flag
+2026-05-01 12:22:04 INFO  BaseClass:76 - Test case passed.
+2026-05-01 12:22:04 INFO  BaseClass:79 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-05-01 12:22:04 INFO  BaseClass:85 - Closing the browser
+2026-05-01 13:03:03 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 13:03:06 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 13:03:07 INFO  BaseClass:21 - Profile button is clicked
+2026-05-01 13:03:07 INFO  BaseClass:24 - Dropdown menu clicked
+2026-05-01 13:03:07 INFO  BaseClass:26 - Country code dropdown is visible
+2026-05-01 13:03:09 INFO  BaseClass:29 - Selected country: India
+2026-05-01 13:03:09 INFO  BaseClass:34 - Entered phone number: 94301548445
+2026-05-01 13:03:10 ERROR BaseClass:36 - login error: Please enter a valid mobile number.
+2026-05-01 13:03:10 INFO  BaseClass:40 - Dropdown menu clicked
+2026-05-01 13:03:10 INFO  BaseClass:42 - Country code dropdown is visible
+2026-05-01 13:03:11 INFO  BaseClass:48 - Selected country: Algeria flag
+2026-05-01 13:03:11 INFO  BaseClass:50 - cleared input box data
+2026-05-01 13:03:11 INFO  BaseClass:55 - Entered phone number: 67544788934
+2026-05-01 13:03:12 ERROR BaseClass:57 - login error: Failed to send OTP. Please try again.
+2026-05-01 13:03:12 INFO  BaseClass:76 - Test case passed.
+2026-05-01 13:03:12 INFO  BaseClass:79 - Screenshot captured for test: TC_24_LoginProfileInvalidTest
+2026-05-01 13:03:12 INFO  BaseClass:85 - Closing the browser
+2026-05-01 13:22:34 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 13:22:37 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 13:22:37 INFO  BaseClass:20 - Profile button is clicked
+2026-05-01 13:22:38 INFO  BaseClass:22 - Dropdown menu clicked
+2026-05-01 13:22:38 INFO  BaseClass:24 - Country code dropdown is visible
+2026-05-01 13:22:39 INFO  BaseClass:30 - Selected country: India flag
+2026-05-01 13:22:39 DEBUG BaseClass:35 - Entered phone number: 9430154833
+2026-05-01 13:22:40 INFO  BaseClass:37 - Continue button is clicked
+2026-05-01 13:22:40 ERROR BaseClass:72 - Test case failed.
+2026-05-01 13:22:40 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-05-01 13:22:40 INFO  BaseClass:85 - Closing the browser
+2026-05-01 13:23:19 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 13:23:22 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 13:23:22 INFO  BaseClass:20 - Profile button is clicked
+2026-05-01 13:23:23 INFO  BaseClass:22 - Dropdown menu clicked
+2026-05-01 13:23:23 INFO  BaseClass:24 - Country code dropdown is visible
+2026-05-01 13:23:24 INFO  BaseClass:30 - Selected country: India flag
+2026-05-01 13:23:24 DEBUG BaseClass:35 - Entered phone number: 9430154833
+2026-05-01 13:23:25 INFO  BaseClass:37 - Continue button is clicked
+2026-05-01 13:23:25 INFO  BaseClass:43 - OTP popup window is displayed
+2026-05-01 13:23:25 DEBUG BaseClass:44 - Enter OTP heading is displayed
+2026-05-01 13:23:25 INFO  BaseClass:45 - Subheading message displayed
+2026-05-01 13:23:25 INFO  BaseClass:47 - Input fields of OTP is Displayed
+2026-05-01 13:23:40 INFO  BaseClass:49 - Continue button is disabled
+2026-05-01 13:23:41 INFO  BaseClass:76 - Test case passed.
+2026-05-01 13:23:41 INFO  BaseClass:79 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-05-01 13:23:41 INFO  BaseClass:85 - Closing the browser
+2026-05-01 13:31:22 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 13:31:25 INFO  BaseClass:59 - Running on URL https://www.district.in/
+2026-05-01 13:31:25 INFO  BaseClass:21 - Profile button is clicked
+2026-05-01 13:31:26 INFO  BaseClass:25 - Dropdown menu clicked
+2026-05-01 13:31:26 INFO  BaseClass:27 - Country code dropdown is visible
+2026-05-01 13:31:27 INFO  BaseClass:33 - Selected country: India flag
+2026-05-01 13:31:27 INFO  BaseClass:38 - Entered phone number: 94301548445
+2026-05-01 13:31:28 ERROR BaseClass:40 - login error: Please enter a valid mobile number.
+2026-05-01 13:31:28 INFO  BaseClass:44 - Dropdown menu clicked
+2026-05-01 13:31:28 INFO  BaseClass:46 - Country code dropdown is visible
+2026-05-01 13:31:29 INFO  BaseClass:52 - Selected country: Algeria flag
+2026-05-01 13:31:29 INFO  BaseClass:54 - cleared input box data
+2026-05-01 13:31:29 INFO  BaseClass:59 - Entered phone number: 67544788934
+2026-05-01 13:31:30 ERROR BaseClass:61 - login error: Failed to send OTP. Please try again.
+2026-05-01 13:31:30 INFO  BaseClass:76 - Test case passed.
+2026-05-01 13:31:30 INFO  BaseClass:79 - Screenshot captured for test: TC_24_LoginProfileInvalidTest
+2026-05-01 13:31:30 INFO  BaseClass:85 - Closing the browser
+2026-05-01 22:25:05 INFO  BaseClass:57 - Opening on selected browser chrome
+2026-05-01 22:54:23 ERROR BaseClass:43 - ❌ No internet connection detected. Skipping test execution.
+2026-05-01 22:56:17 INFO  BaseClass:76 - Opening on selected browser chrome
+2026-05-01 22:56:17 ERROR BaseClass:84 - ❌ Internet disconnected while loading URL: https://www.district.in/
+2026-05-01 22:57:26 INFO  BaseClass:76 - Opening on selected browser chrome
+2026-05-01 22:57:27 ERROR BaseClass:84 - Internet disconnected while loading URL: https://www.district.in/
+2026-05-01 23:01:46 INFO  BaseClass:76 - Opening on selected browser chrome
+2026-05-01 23:01:46 ERROR BaseClass:84 - Internet disconnected while loading URL: https://www.district.in/
+2026-05-01 23:06:54 INFO  BaseClass:76 - Opening on selected browser chrome
+2026-05-01 23:06:54 ERROR BaseClass:84 - Internet disconnected while loading URL: https://www.district.in/
+2026-05-01 23:07:22 INFO  BaseClass:76 - Opening on selected browser chrome
+2026-05-01 23:07:23 ERROR BaseClass:84 - Internet disconnected while loading URL: https://www.district.in/
+2026-05-01 23:07:33 INFO  BaseClass:76 - Opening on selected browser chrome
+2026-05-01 23:07:33 ERROR BaseClass:84 - Internet disconnected while loading URL: https://www.district.in/
+2026-05-01 23:08:22 INFO  BaseClass:76 - Opening on selected browser chrome
+2026-05-01 23:08:22 ERROR BaseClass:84 - Internet disconnected while loading URL: https://www.district.in/
+2026-05-01 23:08:56 INFO  BaseClass:76 - Opening on selected browser chrome
+2026-05-01 23:08:57 ERROR BaseClass:84 - Internet disconnected while loading URL: https://www.district.in/
+2026-05-01 23:10:42 INFO  BaseClass:76 - Opening on selected browser chrome
+2026-05-01 23:10:42 ERROR BaseClass:84 - Internet disconnected while loading URL: https://www.district.in/
+2026-05-01 23:12:01 ERROR BaseClass:43 - No internet connection detected. Skipping test execution.
+2026-05-01 23:13:30 INFO  BaseClass:76 - Opening on selected browser chrome
+2026-05-01 23:13:30 ERROR BaseClass:84 - Internet disconnected while loading URL: https://www.district.in/
+2026-05-01 23:59:29 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-01 23:59:33 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 00:00:03 INFO  BaseClass:19 - Login with mobile number popup window is not displayed till now
+2026-05-02 00:00:04 INFO  BaseClass:21 - Dropdown menu clicked
+2026-05-02 00:00:04 INFO  BaseClass:29 - Login with mobile number popup window is now displayed
+2026-05-02 00:00:04 DEBUG BaseClass:30 - Enter your mobile number heading is displayed
+2026-05-02 00:00:04 INFO  BaseClass:33 - Subheading message displayed
+2026-05-02 00:00:04 INFO  BaseClass:140 - Test case passed.
+2026-05-02 00:00:04 INFO  BaseClass:142 - Screenshot captured for test: TC_21_LoginProfileButtonTest
+2026-05-02 00:00:04 INFO  BaseClass:152 - Closing the browser
+2026-05-02 00:02:49 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 00:03:02 INFO  BaseClass:152 - Closing the browser
+2026-05-02 00:03:45 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 00:03:48 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 00:03:49 INFO  BaseClass:140 - Test case passed.
+2026-05-02 00:03:49 INFO  BaseClass:142 - Screenshot captured for test: TC_01_HomePageLoadTest
+2026-05-02 00:03:49 INFO  BaseClass:152 - Closing the browser
+2026-05-02 00:04:09 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 00:04:13 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 00:04:14 INFO  BaseClass:140 - Test case passed.
+2026-05-02 00:04:14 INFO  BaseClass:142 - Screenshot captured for test: TC_01_HomePageLoadTest
+2026-05-02 00:04:14 INFO  BaseClass:152 - Closing the browser
+2026-05-02 00:05:14 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 00:05:15 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 00:05:26 INFO  BaseClass:140 - Test case passed.
+2026-05-02 00:05:26 INFO  BaseClass:142 - Screenshot captured for test: TC_02_HeaderContextIntegrityTest
+2026-05-02 00:05:26 INFO  BaseClass:152 - Closing the browser
+2026-05-02 00:06:47 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 00:06:51 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 00:07:21 INFO  BaseClass:19 - Login with mobile number popup window is not displayed till now
+2026-05-02 00:07:22 INFO  BaseClass:21 - Dropdown menu clicked
+2026-05-02 00:07:22 INFO  BaseClass:29 - Login with mobile number popup window is now displayed
+2026-05-02 00:07:22 DEBUG BaseClass:30 - Enter your mobile number heading is displayed
+2026-05-02 00:07:22 INFO  BaseClass:33 - Subheading message displayed
+2026-05-02 00:07:23 INFO  BaseClass:140 - Test case passed.
+2026-05-02 00:07:23 INFO  BaseClass:142 - Screenshot captured for test: TC_21_LoginProfileButtonTest
+2026-05-02 00:07:23 INFO  BaseClass:152 - Closing the browser
+2026-05-02 00:07:56 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 00:07:57 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 00:07:58 INFO  BaseClass:16 - Profile button is clicked
+2026-05-02 00:07:58 INFO  BaseClass:17 - Login with mobile number popup window is now displayed
+2026-05-02 00:07:58 DEBUG BaseClass:18 - Testing the functionality of number Input box
+2026-05-02 00:07:59 INFO  BaseClass:21 - Setting Input box value as 12ab45@#
+2026-05-02 00:07:59 INFO  BaseClass:26 - Input box current value 1245
+2026-05-02 00:07:59 INFO  BaseClass:27 - Current Input box value doesn't matched with user input
+2026-05-02 00:07:59 INFO  BaseClass:31 - Input box taking only Numeric value
+2026-05-02 00:08:00 INFO  BaseClass:140 - Test case passed.
+2026-05-02 00:08:00 INFO  BaseClass:142 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-05-02 00:08:00 INFO  BaseClass:152 - Closing the browser
+2026-05-02 00:08:20 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 00:08:22 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 00:08:23 INFO  BaseClass:18 - Profile button is clicked
+2026-05-02 00:08:24 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-02 00:08:24 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-02 00:08:24 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-02 00:08:24 DEBUG LoginPage:122 - India
+2026-05-02 00:08:24 DEBUG LoginPage:122 - UAE
+2026-05-02 00:08:24 DEBUG LoginPage:122 - Afghanistan
+2026-05-02 00:08:24 DEBUG LoginPage:122 - Algeria
+2026-05-02 00:08:24 DEBUG LoginPage:122 - Argentina
+2026-05-02 00:08:24 DEBUG LoginPage:122 - Australia
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Austria
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Bahrain
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Bangladesh
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Belgium
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Bhutan
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Brasil
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Brunei
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Cambodia
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Canada
+2026-05-02 00:08:25 DEBUG LoginPage:122 - China
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Colombia
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Denmark
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Egypt
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Ethiopia
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Finland
+2026-05-02 00:08:25 DEBUG LoginPage:122 - France
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Germany
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Ghana
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Indonesia
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Iraq
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Ireland
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Israel
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Italy
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Japan
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Jordan
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Kazakhstan
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Kenya
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Kuwait
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Laos
+2026-05-02 00:08:25 DEBUG LoginPage:122 - Lebanon
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Libya
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Malaysia
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Maldives
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Mexico
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Montenegro
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Morocco
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Myanmar
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Nepal
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Netherlands
+2026-05-02 00:08:26 DEBUG LoginPage:122 - New Zealand
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Nigeria
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Norway
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Oman
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Pakistan
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Philippines
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Portugal
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Qatar
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Saudi Arabia
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Singapore
+2026-05-02 00:08:26 DEBUG LoginPage:122 - South Africa
+2026-05-02 00:08:26 DEBUG LoginPage:122 - South Korea
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Spain
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Sri Lanka
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Sudan
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Sweden
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Switzerland
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Syria
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Tanzania
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Thailand
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Timor-Leste
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Tunisia
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Turkey
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Uganda
+2026-05-02 00:08:26 DEBUG LoginPage:122 - United Kingdom
+2026-05-02 00:08:26 DEBUG LoginPage:122 - United States
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Vietnam
+2026-05-02 00:08:26 DEBUG LoginPage:122 - Yemen
+2026-05-02 00:08:26 INFO  LoginPage:129 - Total countries: 73
+2026-05-02 00:08:27 INFO  BaseClass:32 - Selected country: France flag
+2026-05-02 00:08:28 INFO  BaseClass:140 - Test case passed.
+2026-05-02 00:08:28 INFO  BaseClass:142 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-05-02 00:08:28 INFO  BaseClass:152 - Closing the browser
+2026-05-02 00:09:19 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 00:09:20 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 00:09:21 INFO  BaseClass:21 - Profile button is clicked
+2026-05-02 00:09:22 INFO  BaseClass:25 - Dropdown menu clicked
+2026-05-02 00:09:22 INFO  BaseClass:27 - Country code dropdown is visible
+2026-05-02 00:09:23 INFO  BaseClass:33 - Selected country: India flag
+2026-05-02 00:09:23 INFO  BaseClass:38 - Entered phone number: 94301548445
+2026-05-02 00:09:24 ERROR BaseClass:40 - login error: Please enter a valid mobile number.
+2026-05-02 00:09:24 INFO  BaseClass:44 - Dropdown menu clicked
+2026-05-02 00:09:24 INFO  BaseClass:46 - Country code dropdown is visible
+2026-05-02 00:09:25 INFO  BaseClass:52 - Selected country: Algeria flag
+2026-05-02 00:09:25 INFO  BaseClass:54 - cleared input box data
+2026-05-02 00:09:26 INFO  BaseClass:59 - Entered phone number: 67544788934
+2026-05-02 00:09:26 ERROR BaseClass:61 - login error: Failed to send OTP. Please try again.
+2026-05-02 00:09:27 INFO  BaseClass:140 - Test case passed.
+2026-05-02 00:09:27 INFO  BaseClass:142 - Screenshot captured for test: TC_24_LoginProfileInvalidTest
+2026-05-02 00:09:27 INFO  BaseClass:152 - Closing the browser
+2026-05-02 00:09:47 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 00:09:49 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 00:09:49 INFO  BaseClass:20 - Profile button is clicked
+2026-05-02 00:09:50 INFO  BaseClass:22 - Dropdown menu clicked
+2026-05-02 00:09:50 INFO  BaseClass:24 - Country code dropdown is visible
+2026-05-02 00:09:51 INFO  BaseClass:30 - Selected country: India flag
+2026-05-02 00:09:51 DEBUG BaseClass:35 - Entered phone number: 9430154833
+2026-05-02 00:09:52 INFO  BaseClass:37 - Continue button is clicked
+2026-05-02 00:09:52 INFO  BaseClass:45 - OTP popup window is displayed
+2026-05-02 00:09:52 DEBUG BaseClass:46 - Enter OTP heading is displayed
+2026-05-02 00:09:52 INFO  BaseClass:47 - Subheading message displayed
+2026-05-02 00:09:52 INFO  BaseClass:50 - Input fields of OTP is Displayed
+2026-05-02 00:10:07 INFO  BaseClass:52 - Continue button is disabled
+2026-05-02 00:10:08 INFO  BaseClass:140 - Test case passed.
+2026-05-02 00:10:08 INFO  BaseClass:142 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-05-02 00:10:08 INFO  BaseClass:152 - Closing the browser
+2026-05-02 00:40:48 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 00:40:51 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 00:40:51 INFO  BaseClass:21 - Clicked on location icon
+2026-05-02 00:40:53 INFO  BaseClass:25 - Selected location: 
+2026-05-02 00:40:53 INFO  BaseClass:29 - Selected entire location: Pune, Maharashtra
+2026-05-02 00:40:54 INFO  BaseClass:140 - Test case passed.
+2026-05-02 00:40:54 INFO  BaseClass:142 - Screenshot captured for test: TC_05_SelectCityTest
+2026-05-02 00:40:54 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:13:13 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:13:16 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:13:47 INFO  BaseClass:19 - Login with mobile number popup window is not displayed till now
+2026-05-02 01:13:47 INFO  BaseClass:21 - Dropdown menu clicked
+2026-05-02 01:13:48 INFO  BaseClass:29 - Login with mobile number popup window is now displayed
+2026-05-02 01:13:48 DEBUG BaseClass:30 - Enter your mobile number heading is displayed
+2026-05-02 01:13:48 INFO  BaseClass:33 - Subheading message displayed
+2026-05-02 01:13:48 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:13:48 INFO  BaseClass:142 - Screenshot captured for test: TC_21_LoginProfileButtonTest
+2026-05-02 01:13:48 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:14:22 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:14:24 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:14:25 INFO  BaseClass:16 - Profile button is clicked
+2026-05-02 01:14:25 INFO  BaseClass:17 - Login with mobile number popup window is now displayed
+2026-05-02 01:14:25 DEBUG BaseClass:18 - Testing the functionality of number Input box
+2026-05-02 01:14:25 INFO  BaseClass:21 - Setting Input box value as 12ab45@#
+2026-05-02 01:14:25 INFO  BaseClass:26 - Input box current value 1245
+2026-05-02 01:14:25 INFO  BaseClass:27 - Current Input box value doesn't matched with user input
+2026-05-02 01:14:25 INFO  BaseClass:31 - Input box taking only Numeric value
+2026-05-02 01:14:26 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:14:26 INFO  BaseClass:142 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-05-02 01:14:26 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:14:51 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:14:52 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:14:53 INFO  BaseClass:18 - Profile button is clicked
+2026-05-02 01:14:53 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-02 01:14:54 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-02 01:14:54 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-02 01:14:54 DEBUG LoginPage:122 - India
+2026-05-02 01:14:54 DEBUG LoginPage:122 - UAE
+2026-05-02 01:14:54 DEBUG LoginPage:122 - Afghanistan
+2026-05-02 01:14:54 DEBUG LoginPage:122 - Algeria
+2026-05-02 01:14:54 DEBUG LoginPage:122 - Argentina
+2026-05-02 01:14:54 DEBUG LoginPage:122 - Australia
+2026-05-02 01:14:54 DEBUG LoginPage:122 - Austria
+2026-05-02 01:14:54 DEBUG LoginPage:122 - Bahrain
+2026-05-02 01:14:54 DEBUG LoginPage:122 - Bangladesh
+2026-05-02 01:14:54 DEBUG LoginPage:122 - Belgium
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Bhutan
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Brasil
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Brunei
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Cambodia
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Canada
+2026-05-02 01:14:55 DEBUG LoginPage:122 - China
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Colombia
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Denmark
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Egypt
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Ethiopia
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Finland
+2026-05-02 01:14:55 DEBUG LoginPage:122 - France
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Germany
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Ghana
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Indonesia
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Iraq
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Ireland
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Israel
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Italy
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Japan
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Jordan
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Kazakhstan
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Kenya
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Kuwait
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Laos
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Lebanon
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Libya
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Malaysia
+2026-05-02 01:14:55 DEBUG LoginPage:122 - Maldives
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Mexico
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Montenegro
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Morocco
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Myanmar
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Nepal
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Netherlands
+2026-05-02 01:14:56 DEBUG LoginPage:122 - New Zealand
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Nigeria
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Norway
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Oman
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Pakistan
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Philippines
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Portugal
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Qatar
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Saudi Arabia
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Singapore
+2026-05-02 01:14:56 DEBUG LoginPage:122 - South Africa
+2026-05-02 01:14:56 DEBUG LoginPage:122 - South Korea
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Spain
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Sri Lanka
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Sudan
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Sweden
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Switzerland
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Syria
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Tanzania
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Thailand
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Timor-Leste
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Tunisia
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Turkey
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Uganda
+2026-05-02 01:14:56 DEBUG LoginPage:122 - United Kingdom
+2026-05-02 01:14:56 DEBUG LoginPage:122 - United States
+2026-05-02 01:14:56 DEBUG LoginPage:122 - Vietnam
+2026-05-02 01:14:57 DEBUG LoginPage:122 - Yemen
+2026-05-02 01:14:57 INFO  LoginPage:129 - Total countries: 73
+2026-05-02 01:14:58 INFO  BaseClass:32 - Selected country: France flag
+2026-05-02 01:14:58 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:14:58 INFO  BaseClass:142 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-05-02 01:14:58 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:15:24 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:15:26 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:15:26 INFO  BaseClass:21 - Profile button is clicked
+2026-05-02 01:15:26 INFO  BaseClass:25 - Dropdown menu clicked
+2026-05-02 01:15:27 INFO  BaseClass:27 - Country code dropdown is visible
+2026-05-02 01:15:28 INFO  BaseClass:33 - Selected country: India flag
+2026-05-02 01:15:28 INFO  BaseClass:38 - Entered phone number: 94301548445
+2026-05-02 01:15:29 ERROR BaseClass:40 - login error: Please enter a valid mobile number.
+2026-05-02 01:15:29 INFO  BaseClass:44 - Dropdown menu clicked
+2026-05-02 01:15:29 INFO  BaseClass:46 - Country code dropdown is visible
+2026-05-02 01:15:29 INFO  BaseClass:52 - Selected country: Algeria flag
+2026-05-02 01:15:30 INFO  BaseClass:54 - cleared input box data
+2026-05-02 01:15:30 INFO  BaseClass:59 - Entered phone number: 67544788934
+2026-05-02 01:15:31 ERROR BaseClass:61 - login error: Failed to send OTP. Please try again.
+2026-05-02 01:15:31 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:15:31 INFO  BaseClass:142 - Screenshot captured for test: TC_24_LoginProfileInvalidTest
+2026-05-02 01:15:31 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:16:04 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:16:06 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:16:07 INFO  BaseClass:20 - Profile button is clicked
+2026-05-02 01:16:08 INFO  BaseClass:22 - Dropdown menu clicked
+2026-05-02 01:16:08 INFO  BaseClass:24 - Country code dropdown is visible
+2026-05-02 01:16:08 INFO  BaseClass:30 - Selected country: India flag
+2026-05-02 01:16:09 DEBUG BaseClass:35 - Entered phone number: 9430154833
+2026-05-02 01:16:10 INFO  BaseClass:37 - Continue button is clicked
+2026-05-02 01:16:10 INFO  BaseClass:45 - OTP popup window is displayed
+2026-05-02 01:16:10 DEBUG BaseClass:46 - Enter OTP heading is displayed
+2026-05-02 01:16:10 INFO  BaseClass:47 - Subheading message displayed
+2026-05-02 01:16:10 INFO  BaseClass:50 - Input fields of OTP is Displayed
+2026-05-02 01:16:25 INFO  BaseClass:52 - Continue button is disabled
+2026-05-02 01:16:25 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:16:25 INFO  BaseClass:142 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-05-02 01:16:25 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:50:52 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:50:55 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:51:25 INFO  BaseClass:19 - Login with mobile number popup window is not displayed till now
+2026-05-02 01:51:26 INFO  BaseClass:21 - Dropdown menu clicked
+2026-05-02 01:51:26 INFO  BaseClass:29 - Login with mobile number popup window is now displayed
+2026-05-02 01:51:26 DEBUG BaseClass:30 - Enter your mobile number heading is displayed
+2026-05-02 01:51:26 INFO  BaseClass:33 - Subheading message displayed
+2026-05-02 01:51:26 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:51:26 INFO  BaseClass:142 - Screenshot captured for test: TC_21_LoginProfileButtonTest
+2026-05-02 01:51:26 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:51:55 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:51:57 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:51:57 INFO  BaseClass:16 - Profile button is clicked
+2026-05-02 01:51:57 INFO  BaseClass:17 - Login with mobile number popup window is now displayed
+2026-05-02 01:51:57 DEBUG BaseClass:18 - Testing the functionality of number Input box
+2026-05-02 01:51:58 INFO  BaseClass:21 - Setting Input box value as 12ab45@#
+2026-05-02 01:51:58 INFO  BaseClass:26 - Input box current value 1245
+2026-05-02 01:51:58 INFO  BaseClass:27 - Current Input box value doesn't matched with user input
+2026-05-02 01:51:58 INFO  BaseClass:31 - Input box taking only Numeric value
+2026-05-02 01:51:59 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:51:59 INFO  BaseClass:142 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-05-02 01:51:59 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:52:30 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:52:33 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:52:33 INFO  BaseClass:16 - Profile button is clicked
+2026-05-02 01:52:33 INFO  BaseClass:17 - Login with mobile number popup window is now displayed
+2026-05-02 01:52:33 DEBUG BaseClass:18 - Testing the functionality of number Input box
+2026-05-02 01:52:33 INFO  BaseClass:21 - Setting Input box value as 12ab45@#
+2026-05-02 01:52:34 INFO  BaseClass:26 - Input box current value 1245
+2026-05-02 01:52:34 INFO  BaseClass:27 - Current Input box value doesn't matched with user input
+2026-05-02 01:52:34 INFO  BaseClass:31 - Input box taking only Numeric value
+2026-05-02 01:52:34 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:52:34 INFO  BaseClass:142 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-05-02 01:52:34 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:52:56 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:52:57 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:52:59 INFO  BaseClass:18 - Profile button is clicked
+2026-05-02 01:53:00 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-02 01:53:00 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-02 01:53:00 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-02 01:53:00 DEBUG LoginPage:103 - India
+2026-05-02 01:53:00 DEBUG LoginPage:103 - UAE
+2026-05-02 01:53:00 DEBUG LoginPage:103 - Afghanistan
+2026-05-02 01:53:00 DEBUG LoginPage:103 - Algeria
+2026-05-02 01:53:00 DEBUG LoginPage:103 - Argentina
+2026-05-02 01:53:00 DEBUG LoginPage:103 - Australia
+2026-05-02 01:53:00 DEBUG LoginPage:103 - Austria
+2026-05-02 01:53:00 DEBUG LoginPage:103 - Bahrain
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Bangladesh
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Belgium
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Bhutan
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Brasil
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Brunei
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Cambodia
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Canada
+2026-05-02 01:53:01 DEBUG LoginPage:103 - China
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Colombia
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Denmark
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Egypt
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Ethiopia
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Finland
+2026-05-02 01:53:01 DEBUG LoginPage:103 - France
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Germany
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Ghana
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Indonesia
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Iraq
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Ireland
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Israel
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Italy
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Japan
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Jordan
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Kazakhstan
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Kenya
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Kuwait
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Laos
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Lebanon
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Libya
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Malaysia
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Maldives
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Mexico
+2026-05-02 01:53:01 DEBUG LoginPage:103 - Montenegro
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Morocco
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Myanmar
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Nepal
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Netherlands
+2026-05-02 01:53:02 DEBUG LoginPage:103 - New Zealand
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Nigeria
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Norway
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Oman
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Pakistan
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Philippines
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Portugal
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Qatar
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Saudi Arabia
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Singapore
+2026-05-02 01:53:02 DEBUG LoginPage:103 - South Africa
+2026-05-02 01:53:02 DEBUG LoginPage:103 - South Korea
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Spain
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Sri Lanka
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Sudan
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Sweden
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Switzerland
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Syria
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Tanzania
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Thailand
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Timor-Leste
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Tunisia
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Turkey
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Uganda
+2026-05-02 01:53:02 DEBUG LoginPage:103 - United Kingdom
+2026-05-02 01:53:02 DEBUG LoginPage:103 - United States
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Vietnam
+2026-05-02 01:53:02 DEBUG LoginPage:103 - Yemen
+2026-05-02 01:53:02 INFO  LoginPage:109 - Total countries: 73
+2026-05-02 01:53:03 INFO  BaseClass:32 - Selected country: France flag
+2026-05-02 01:53:04 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:53:04 INFO  BaseClass:142 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-05-02 01:53:04 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:53:44 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:53:47 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:53:47 INFO  BaseClass:18 - Profile button is clicked
+2026-05-02 01:53:48 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-02 01:53:48 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-02 01:53:48 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-02 01:53:48 DEBUG LoginPage:103 - India
+2026-05-02 01:53:48 DEBUG LoginPage:103 - UAE
+2026-05-02 01:53:48 DEBUG LoginPage:103 - Afghanistan
+2026-05-02 01:53:48 DEBUG LoginPage:103 - Algeria
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Argentina
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Australia
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Austria
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Bahrain
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Bangladesh
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Belgium
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Bhutan
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Brasil
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Brunei
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Cambodia
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Canada
+2026-05-02 01:53:49 DEBUG LoginPage:103 - China
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Colombia
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Denmark
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Egypt
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Ethiopia
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Finland
+2026-05-02 01:53:49 DEBUG LoginPage:103 - France
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Germany
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Ghana
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Indonesia
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Iraq
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Ireland
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Israel
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Italy
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Japan
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Jordan
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Kazakhstan
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Kenya
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Kuwait
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Laos
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Lebanon
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Libya
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Malaysia
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Maldives
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Mexico
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Montenegro
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Morocco
+2026-05-02 01:53:49 DEBUG LoginPage:103 - Myanmar
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Nepal
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Netherlands
+2026-05-02 01:53:50 DEBUG LoginPage:103 - New Zealand
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Nigeria
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Norway
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Oman
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Pakistan
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Philippines
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Portugal
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Qatar
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Saudi Arabia
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Singapore
+2026-05-02 01:53:50 DEBUG LoginPage:103 - South Africa
+2026-05-02 01:53:50 DEBUG LoginPage:103 - South Korea
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Spain
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Sri Lanka
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Sudan
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Sweden
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Switzerland
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Syria
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Tanzania
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Thailand
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Timor-Leste
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Tunisia
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Turkey
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Uganda
+2026-05-02 01:53:50 DEBUG LoginPage:103 - United Kingdom
+2026-05-02 01:53:50 DEBUG LoginPage:103 - United States
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Vietnam
+2026-05-02 01:53:50 DEBUG LoginPage:103 - Yemen
+2026-05-02 01:53:50 INFO  LoginPage:109 - Total countries: 73
+2026-05-02 01:53:51 INFO  BaseClass:32 - Selected country: France flag
+2026-05-02 01:53:52 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:53:52 INFO  BaseClass:142 - Screenshot captured for test: TC_23_LoginProfileDropdownTest
+2026-05-02 01:53:52 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:54:19 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:54:21 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:54:21 INFO  BaseClass:21 - Profile button is clicked
+2026-05-02 01:54:22 INFO  BaseClass:25 - Dropdown menu clicked
+2026-05-02 01:54:22 INFO  BaseClass:27 - Country code dropdown is visible
+2026-05-02 01:54:23 INFO  BaseClass:33 - Selected country: India flag
+2026-05-02 01:54:23 INFO  BaseClass:38 - Entered phone number: 94301548445
+2026-05-02 01:54:24 ERROR BaseClass:40 - login error: Please enter a valid mobile number.
+2026-05-02 01:54:24 INFO  BaseClass:44 - Dropdown menu clicked
+2026-05-02 01:54:25 INFO  BaseClass:46 - Country code dropdown is visible
+2026-05-02 01:54:25 INFO  BaseClass:52 - Selected country: Algeria flag
+2026-05-02 01:54:25 INFO  BaseClass:54 - cleared input box data
+2026-05-02 01:54:26 INFO  BaseClass:59 - Entered phone number: 67544788934
+2026-05-02 01:54:26 ERROR BaseClass:61 - login error: Failed to send OTP. Please try again.
+2026-05-02 01:54:27 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:54:27 INFO  BaseClass:142 - Screenshot captured for test: TC_24_LoginProfileInvalidTest
+2026-05-02 01:54:27 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:54:53 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:54:54 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:54:55 INFO  BaseClass:20 - Profile button is clicked
+2026-05-02 01:54:55 INFO  BaseClass:22 - Dropdown menu clicked
+2026-05-02 01:54:56 INFO  BaseClass:24 - Country code dropdown is visible
+2026-05-02 01:54:57 INFO  BaseClass:30 - Selected country: India flag
+2026-05-02 01:54:57 DEBUG BaseClass:35 - Entered phone number: 9430154833
+2026-05-02 01:54:58 INFO  BaseClass:37 - Continue button is clicked
+2026-05-02 01:54:58 INFO  BaseClass:45 - OTP popup window is displayed
+2026-05-02 01:54:58 DEBUG BaseClass:46 - Enter OTP heading is displayed
+2026-05-02 01:54:58 INFO  BaseClass:47 - Subheading message displayed
+2026-05-02 01:54:58 INFO  BaseClass:50 - Input fields of OTP is Displayed
+2026-05-02 01:55:13 INFO  BaseClass:52 - Continue button is disabled
+2026-05-02 01:55:13 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:55:13 INFO  BaseClass:142 - Screenshot captured for test: TC_25_LoginProfileValidTest
+2026-05-02 01:55:13 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:55:38 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:55:39 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:56:10 INFO  BaseClass:19 - Login with mobile number popup window is not displayed till now
+2026-05-02 01:56:10 INFO  BaseClass:21 - Dropdown menu clicked
+2026-05-02 01:56:10 INFO  BaseClass:29 - Login with mobile number popup window is now displayed
+2026-05-02 01:56:10 DEBUG BaseClass:30 - Enter your mobile number heading is displayed
+2026-05-02 01:56:10 INFO  BaseClass:33 - Subheading message displayed
+2026-05-02 01:56:11 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:56:11 INFO  BaseClass:142 - Screenshot captured for test: TC_21_LoginProfileButtonTest
+2026-05-02 01:56:11 INFO  BaseClass:152 - Closing the browser
+2026-05-02 01:57:09 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 01:57:11 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 01:57:41 INFO  BaseClass:19 - Login with mobile number popup window is not displayed till now
+2026-05-02 01:57:42 INFO  BaseClass:21 - Dropdown menu clicked
+2026-05-02 01:57:42 INFO  BaseClass:29 - Login with mobile number popup window is now displayed
+2026-05-02 01:57:42 DEBUG BaseClass:30 - Enter your mobile number heading is displayed
+2026-05-02 01:57:42 INFO  BaseClass:33 - Subheading message displayed
+2026-05-02 01:57:42 INFO  BaseClass:140 - Test case passed.
+2026-05-02 01:57:42 INFO  BaseClass:142 - Screenshot captured for test: TC_21_LoginProfileButtonTest
+2026-05-02 01:57:42 INFO  BaseClass:152 - Closing the browser
+2026-05-02 02:05:16 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:05:19 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:05:19 INFO  BaseClass:21 - Clicked on location icon
+2026-05-02 02:05:21 INFO  BaseClass:25 - Selected location: Pune
+2026-05-02 02:05:22 INFO  BaseClass:29 - Selected entire location: Pune, Maharashtra
+2026-05-02 02:05:22 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:05:22 INFO  BaseClass:142 - Screenshot captured for test: TC_05_SelectCityTest
+2026-05-02 02:05:22 INFO  BaseClass:152 - Closing the browser
+2026-05-02 02:14:09 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:14:25 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:14:30 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:14:30 INFO  BaseClass:16 - Profile button is clicked
+2026-05-02 02:14:30 INFO  BaseClass:17 - Login with mobile number popup window is now displayed
+2026-05-02 02:14:30 DEBUG BaseClass:18 - Testing the functionality of number Input box
+2026-05-02 02:14:31 INFO  BaseClass:21 - Setting Input box value as 12ab45@#
+2026-05-02 02:14:31 INFO  BaseClass:26 - Input box current value 1245
+2026-05-02 02:14:31 INFO  BaseClass:27 - Current Input box value doesn't matched with user input
+2026-05-02 02:14:31 INFO  BaseClass:31 - Input box taking only Numeric value
+2026-05-02 02:14:32 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:14:32 INFO  BaseClass:142 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-05-02 02:14:39 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:14:44 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:14:44 INFO  BaseClass:18 - Profile button is clicked
+2026-05-02 02:14:45 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-02 02:14:45 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-02 02:14:45 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-02 02:14:45 DEBUG LoginPage:103 - India
+2026-05-02 02:14:45 DEBUG LoginPage:103 - UAE
+2026-05-02 02:14:45 DEBUG LoginPage:103 - Afghanistan
+2026-05-02 02:14:45 DEBUG LoginPage:103 - Algeria
+2026-05-02 02:14:45 DEBUG LoginPage:103 - Argentina
+2026-05-02 02:14:45 DEBUG LoginPage:103 - Australia
+2026-05-02 02:14:45 DEBUG LoginPage:103 - Austria
+2026-05-02 02:14:45 DEBUG LoginPage:103 - Bahrain
+2026-05-02 02:14:45 DEBUG LoginPage:103 - Bangladesh
+2026-05-02 02:14:45 DEBUG LoginPage:103 - Belgium
+2026-05-02 02:14:45 DEBUG LoginPage:103 - Bhutan
+2026-05-02 02:14:45 DEBUG LoginPage:103 - Brasil
+2026-05-02 02:14:46 DEBUG LoginPage:103 - Brunei
+2026-05-02 02:14:46 DEBUG LoginPage:103 - Cambodia
+2026-05-02 02:14:46 DEBUG LoginPage:103 - Canada
+2026-05-02 02:14:46 DEBUG LoginPage:103 - China
+2026-05-02 02:14:46 DEBUG LoginPage:103 - Colombia
+2026-05-02 02:14:46 DEBUG LoginPage:103 - Denmark
+2026-05-02 02:14:46 DEBUG LoginPage:103 - Egypt
+2026-05-02 02:14:46 DEBUG LoginPage:103 - Ethiopia
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Finland
+2026-05-02 02:14:47 DEBUG LoginPage:103 - France
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Germany
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Ghana
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Indonesia
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Iraq
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Ireland
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Israel
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Italy
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Japan
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Jordan
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Kazakhstan
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Kenya
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Kuwait
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Laos
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Lebanon
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Libya
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Malaysia
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Maldives
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Mexico
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Montenegro
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Morocco
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Myanmar
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Nepal
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Netherlands
+2026-05-02 02:14:47 DEBUG LoginPage:103 - New Zealand
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Nigeria
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Norway
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Oman
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Pakistan
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Philippines
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Portugal
+2026-05-02 02:14:47 DEBUG LoginPage:103 - Qatar
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Saudi Arabia
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Singapore
+2026-05-02 02:14:48 DEBUG LoginPage:103 - South Africa
+2026-05-02 02:14:48 DEBUG LoginPage:103 - South Korea
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Spain
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Sri Lanka
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Sudan
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Sweden
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Switzerland
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Syria
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Tanzania
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Thailand
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Timor-Leste
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Tunisia
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Turkey
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Uganda
+2026-05-02 02:14:48 DEBUG LoginPage:103 - United Kingdom
+2026-05-02 02:14:48 DEBUG LoginPage:103 - United States
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Vietnam
+2026-05-02 02:14:48 DEBUG LoginPage:103 - Yemen
+2026-05-02 02:14:48 INFO  LoginPage:109 - Total countries: 73
+2026-05-02 02:14:49 INFO  BaseClass:32 - Selected country: France flag
+2026-05-02 02:14:49 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:14:49 INFO  BaseClass:142 - Screenshot captured for test: TC_23_LoginProfile_DropdownTest
+2026-05-02 02:14:54 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:15:01 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:15:01 INFO  BaseClass:21 - Profile button is clicked
+2026-05-02 02:15:01 INFO  BaseClass:25 - Dropdown menu clicked
+2026-05-02 02:15:01 INFO  BaseClass:27 - Country code dropdown is visible
+2026-05-02 02:15:03 INFO  BaseClass:33 - Selected country: India flag
+2026-05-02 02:15:03 INFO  BaseClass:38 - Entered phone number: 94301548445
+2026-05-02 02:15:04 ERROR BaseClass:40 - login error: Please enter a valid mobile number.
+2026-05-02 02:15:04 INFO  BaseClass:44 - Dropdown menu clicked
+2026-05-02 02:15:04 INFO  BaseClass:46 - Country code dropdown is visible
+2026-05-02 02:15:05 INFO  BaseClass:52 - Selected country: Algeria flag
+2026-05-02 02:15:05 INFO  BaseClass:54 - cleared input box data
+2026-05-02 02:15:05 INFO  BaseClass:59 - Entered phone number: 67544788934
+2026-05-02 02:15:06 ERROR BaseClass:61 - login error: Failed to send OTP. Please try again.
+2026-05-02 02:15:06 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:15:06 INFO  BaseClass:142 - Screenshot captured for test: TC_24_LoginProfile_InvalidTest
+2026-05-02 02:15:12 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:15:15 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:15:16 INFO  BaseClass:20 - Profile button is clicked
+2026-05-02 02:15:16 INFO  BaseClass:22 - Dropdown menu clicked
+2026-05-02 02:15:16 INFO  BaseClass:24 - Country code dropdown is visible
+2026-05-02 02:15:17 INFO  BaseClass:30 - Selected country: India flag
+2026-05-02 02:15:17 DEBUG BaseClass:35 - Entered phone number: 9430154833
+2026-05-02 02:15:18 INFO  BaseClass:37 - Continue button is clicked
+2026-05-02 02:15:18 INFO  BaseClass:45 - OTP popup window is displayed
+2026-05-02 02:15:18 DEBUG BaseClass:46 - Enter OTP heading is displayed
+2026-05-02 02:15:18 INFO  BaseClass:47 - Subheading message displayed
+2026-05-02 02:15:18 INFO  BaseClass:50 - Input fields of OTP is Displayed
+2026-05-02 02:15:33 INFO  BaseClass:52 - Continue button is disabled
+2026-05-02 02:15:34 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:15:34 INFO  BaseClass:142 - Screenshot captured for test: TC_25_LoginProfile_ValidTest
+2026-05-02 02:15:34 INFO  BaseClass:152 - Closing the browser
+2026-05-02 02:17:29 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:17:32 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:18:02 INFO  BaseClass:19 - Login with mobile number popup window is not displayed till now
+2026-05-02 02:18:03 INFO  BaseClass:21 - Dropdown menu clicked
+2026-05-02 02:18:03 INFO  BaseClass:29 - Login with mobile number popup window is now displayed
+2026-05-02 02:18:03 DEBUG BaseClass:30 - Enter your mobile number heading is displayed
+2026-05-02 02:18:03 INFO  BaseClass:33 - Subheading message displayed
+2026-05-02 02:18:03 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:18:03 INFO  BaseClass:142 - Screenshot captured for test: TC_21_LoginProfile_ButtonTest
+2026-05-02 02:18:08 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:18:10 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:18:11 INFO  BaseClass:16 - Profile button is clicked
+2026-05-02 02:18:11 INFO  BaseClass:17 - Login with mobile number popup window is now displayed
+2026-05-02 02:18:11 DEBUG BaseClass:18 - Testing the functionality of number Input box
+2026-05-02 02:18:11 INFO  BaseClass:21 - Setting Input box value as 12ab45@#
+2026-05-02 02:18:11 INFO  BaseClass:26 - Input box current value 1245
+2026-05-02 02:18:11 INFO  BaseClass:27 - Current Input box value doesn't matched with user input
+2026-05-02 02:18:11 INFO  BaseClass:31 - Input box taking only Numeric value
+2026-05-02 02:18:12 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:18:12 INFO  BaseClass:142 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-05-02 02:18:15 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:18:20 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:18:20 INFO  BaseClass:18 - Profile button is clicked
+2026-05-02 02:18:20 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-02 02:18:20 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-02 02:18:20 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-02 02:18:20 DEBUG LoginPage:103 - India
+2026-05-02 02:18:20 DEBUG LoginPage:103 - UAE
+2026-05-02 02:18:20 DEBUG LoginPage:103 - Afghanistan
+2026-05-02 02:18:20 DEBUG LoginPage:103 - Algeria
+2026-05-02 02:18:20 DEBUG LoginPage:103 - Argentina
+2026-05-02 02:18:20 DEBUG LoginPage:103 - Australia
+2026-05-02 02:18:20 DEBUG LoginPage:103 - Austria
+2026-05-02 02:18:20 DEBUG LoginPage:103 - Bahrain
+2026-05-02 02:18:20 DEBUG LoginPage:103 - Bangladesh
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Belgium
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Bhutan
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Brasil
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Brunei
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Cambodia
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Canada
+2026-05-02 02:18:21 DEBUG LoginPage:103 - China
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Colombia
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Denmark
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Egypt
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Ethiopia
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Finland
+2026-05-02 02:18:21 DEBUG LoginPage:103 - France
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Germany
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Ghana
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Indonesia
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Iraq
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Ireland
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Israel
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Italy
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Japan
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Jordan
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Kazakhstan
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Kenya
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Kuwait
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Laos
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Lebanon
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Libya
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Malaysia
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Maldives
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Mexico
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Montenegro
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Morocco
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Myanmar
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Nepal
+2026-05-02 02:18:21 DEBUG LoginPage:103 - Netherlands
+2026-05-02 02:18:22 DEBUG LoginPage:103 - New Zealand
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Nigeria
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Norway
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Oman
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Pakistan
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Philippines
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Portugal
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Qatar
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Saudi Arabia
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Singapore
+2026-05-02 02:18:22 DEBUG LoginPage:103 - South Africa
+2026-05-02 02:18:22 DEBUG LoginPage:103 - South Korea
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Spain
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Sri Lanka
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Sudan
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Sweden
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Switzerland
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Syria
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Tanzania
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Thailand
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Timor-Leste
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Tunisia
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Turkey
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Uganda
+2026-05-02 02:18:22 DEBUG LoginPage:103 - United Kingdom
+2026-05-02 02:18:22 DEBUG LoginPage:103 - United States
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Vietnam
+2026-05-02 02:18:22 DEBUG LoginPage:103 - Yemen
+2026-05-02 02:18:22 INFO  LoginPage:109 - Total countries: 73
+2026-05-02 02:18:23 INFO  BaseClass:32 - Selected country: France flag
+2026-05-02 02:18:23 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:18:23 INFO  BaseClass:142 - Screenshot captured for test: TC_23_LoginProfile_DropdownTest
+2026-05-02 02:18:28 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:18:31 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:18:33 INFO  BaseClass:21 - Profile button is clicked
+2026-05-02 02:18:34 INFO  BaseClass:25 - Dropdown menu clicked
+2026-05-02 02:18:35 INFO  BaseClass:27 - Country code dropdown is visible
+2026-05-02 02:18:35 INFO  BaseClass:33 - Selected country: India flag
+2026-05-02 02:18:36 INFO  BaseClass:38 - Entered phone number: 94301548445
+2026-05-02 02:18:36 ERROR BaseClass:40 - login error: Please enter a valid mobile number.
+2026-05-02 02:18:36 INFO  BaseClass:44 - Dropdown menu clicked
+2026-05-02 02:18:37 INFO  BaseClass:46 - Country code dropdown is visible
+2026-05-02 02:18:37 INFO  BaseClass:52 - Selected country: Algeria flag
+2026-05-02 02:18:37 INFO  BaseClass:54 - cleared input box data
+2026-05-02 02:18:38 INFO  BaseClass:59 - Entered phone number: 67544788934
+2026-05-02 02:18:38 ERROR BaseClass:61 - login error: Failed to send OTP. Please try again.
+2026-05-02 02:18:39 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:18:39 INFO  BaseClass:142 - Screenshot captured for test: TC_24_LoginProfile_InvalidTest
+2026-05-02 02:18:43 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:18:45 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:18:46 INFO  BaseClass:20 - Profile button is clicked
+2026-05-02 02:18:47 INFO  BaseClass:22 - Dropdown menu clicked
+2026-05-02 02:18:48 INFO  BaseClass:24 - Country code dropdown is visible
+2026-05-02 02:18:48 INFO  BaseClass:30 - Selected country: India flag
+2026-05-02 02:18:49 DEBUG BaseClass:35 - Entered phone number: 9430154833
+2026-05-02 02:18:49 INFO  BaseClass:37 - Continue button is clicked
+2026-05-02 02:18:50 INFO  BaseClass:45 - OTP popup window is displayed
+2026-05-02 02:18:50 DEBUG BaseClass:46 - Enter OTP heading is displayed
+2026-05-02 02:18:50 INFO  BaseClass:47 - Subheading message displayed
+2026-05-02 02:18:50 INFO  BaseClass:50 - Input fields of OTP is Displayed
+2026-05-02 02:19:05 INFO  BaseClass:52 - Continue button is disabled
+2026-05-02 02:19:05 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:19:05 INFO  BaseClass:142 - Screenshot captured for test: TC_25_LoginProfile_ValidTest
+2026-05-02 02:19:05 INFO  BaseClass:152 - Closing the browser
+2026-05-02 02:30:02 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:30:04 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:30:34 INFO  BaseClass:19 - Login with mobile number popup window is not displayed till now
+2026-05-02 02:30:34 INFO  BaseClass:21 - Dropdown menu clicked
+2026-05-02 02:30:35 INFO  BaseClass:29 - Login with mobile number popup window is now displayed
+2026-05-02 02:30:35 DEBUG BaseClass:30 - Enter your mobile number heading is displayed
+2026-05-02 02:30:35 INFO  BaseClass:33 - Subheading message displayed
+2026-05-02 02:30:35 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:30:35 INFO  BaseClass:142 - Screenshot captured for test: TC_21_LoginProfile_ButtonTest
+2026-05-02 02:30:35 INFO  BaseClass:148 - Closing the browser
+2026-05-02 02:30:43 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:30:46 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:30:46 INFO  BaseClass:16 - Profile button is clicked
+2026-05-02 02:30:46 INFO  BaseClass:17 - Login with mobile number popup window is now displayed
+2026-05-02 02:30:46 DEBUG BaseClass:18 - Testing the functionality of number Input box
+2026-05-02 02:30:47 INFO  BaseClass:21 - Setting Input box value as 12ab45@#
+2026-05-02 02:30:47 INFO  BaseClass:26 - Input box current value 1245
+2026-05-02 02:30:47 INFO  BaseClass:27 - Current Input box value doesn't matched with user input
+2026-05-02 02:30:47 INFO  BaseClass:31 - Input box taking only Numeric value
+2026-05-02 02:30:48 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:30:48 INFO  BaseClass:142 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-05-02 02:30:48 INFO  BaseClass:148 - Closing the browser
+2026-05-02 02:30:54 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:30:56 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:30:57 INFO  BaseClass:18 - Profile button is clicked
+2026-05-02 02:30:57 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-02 02:30:57 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-02 02:30:57 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-02 02:30:57 DEBUG LoginPage:103 - India
+2026-05-02 02:30:57 DEBUG LoginPage:103 - UAE
+2026-05-02 02:30:57 DEBUG LoginPage:103 - Afghanistan
+2026-05-02 02:30:57 DEBUG LoginPage:103 - Algeria
+2026-05-02 02:30:57 DEBUG LoginPage:103 - Argentina
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Australia
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Austria
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Bahrain
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Bangladesh
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Belgium
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Bhutan
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Brasil
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Brunei
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Cambodia
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Canada
+2026-05-02 02:30:58 DEBUG LoginPage:103 - China
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Colombia
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Denmark
+2026-05-02 02:30:58 DEBUG LoginPage:103 - Egypt
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Ethiopia
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Finland
+2026-05-02 02:30:59 DEBUG LoginPage:103 - France
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Germany
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Ghana
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Indonesia
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Iraq
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Ireland
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Israel
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Italy
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Japan
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Jordan
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Kazakhstan
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Kenya
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Kuwait
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Laos
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Lebanon
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Libya
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Malaysia
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Maldives
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Mexico
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Montenegro
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Morocco
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Myanmar
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Nepal
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Netherlands
+2026-05-02 02:30:59 DEBUG LoginPage:103 - New Zealand
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Nigeria
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Norway
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Oman
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Pakistan
+2026-05-02 02:30:59 DEBUG LoginPage:103 - Philippines
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Portugal
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Qatar
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Saudi Arabia
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Singapore
+2026-05-02 02:31:00 DEBUG LoginPage:103 - South Africa
+2026-05-02 02:31:00 DEBUG LoginPage:103 - South Korea
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Spain
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Sri Lanka
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Sudan
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Sweden
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Switzerland
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Syria
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Tanzania
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Thailand
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Timor-Leste
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Tunisia
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Turkey
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Uganda
+2026-05-02 02:31:00 DEBUG LoginPage:103 - United Kingdom
+2026-05-02 02:31:00 DEBUG LoginPage:103 - United States
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Vietnam
+2026-05-02 02:31:00 DEBUG LoginPage:103 - Yemen
+2026-05-02 02:31:00 INFO  LoginPage:109 - Total countries: 73
+2026-05-02 02:31:01 INFO  BaseClass:32 - Selected country: France flag
+2026-05-02 02:31:01 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:31:01 INFO  BaseClass:142 - Screenshot captured for test: TC_23_LoginProfile_DropdownTest
+2026-05-02 02:31:01 INFO  BaseClass:148 - Closing the browser
+2026-05-02 02:31:08 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:31:09 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:31:11 INFO  BaseClass:21 - Profile button is clicked
+2026-05-02 02:31:11 INFO  BaseClass:25 - Dropdown menu clicked
+2026-05-02 02:31:11 INFO  BaseClass:27 - Country code dropdown is visible
+2026-05-02 02:31:12 INFO  BaseClass:33 - Selected country: India flag
+2026-05-02 02:31:12 INFO  BaseClass:38 - Entered phone number: 94301548445
+2026-05-02 02:31:13 ERROR BaseClass:40 - login error: Please enter a valid mobile number.
+2026-05-02 02:31:13 INFO  BaseClass:44 - Dropdown menu clicked
+2026-05-02 02:31:13 INFO  BaseClass:46 - Country code dropdown is visible
+2026-05-02 02:31:14 INFO  BaseClass:52 - Selected country: Algeria flag
+2026-05-02 02:31:14 INFO  BaseClass:54 - cleared input box data
+2026-05-02 02:31:15 INFO  BaseClass:59 - Entered phone number: 67544788934
+2026-05-02 02:31:15 ERROR BaseClass:61 - login error: Failed to send OTP. Please try again.
+2026-05-02 02:31:16 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:31:16 INFO  BaseClass:142 - Screenshot captured for test: TC_24_LoginProfile_InvalidTest
+2026-05-02 02:31:16 INFO  BaseClass:148 - Closing the browser
+2026-05-02 02:31:23 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 02:31:25 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 02:31:26 INFO  BaseClass:20 - Profile button is clicked
+2026-05-02 02:31:26 INFO  BaseClass:22 - Dropdown menu clicked
+2026-05-02 02:31:26 INFO  BaseClass:24 - Country code dropdown is visible
+2026-05-02 02:31:27 INFO  BaseClass:30 - Selected country: India flag
+2026-05-02 02:31:28 DEBUG BaseClass:35 - Entered phone number: 9430154833
+2026-05-02 02:31:28 INFO  BaseClass:37 - Continue button is clicked
+2026-05-02 02:31:29 INFO  BaseClass:45 - OTP popup window is displayed
+2026-05-02 02:31:29 DEBUG BaseClass:46 - Enter OTP heading is displayed
+2026-05-02 02:31:29 INFO  BaseClass:47 - Subheading message displayed
+2026-05-02 02:31:29 INFO  BaseClass:50 - Input fields of OTP is Displayed
+2026-05-02 02:31:44 INFO  BaseClass:52 - Continue button is disabled
+2026-05-02 02:31:44 INFO  BaseClass:140 - Test case passed.
+2026-05-02 02:31:44 INFO  BaseClass:142 - Screenshot captured for test: TC_25_LoginProfile_ValidTest
+2026-05-02 02:31:44 INFO  BaseClass:148 - Closing the browser
+2026-05-02 02:49:51 ERROR BaseClass:46 - No internet connection detected. Skipping test execution.
+2026-05-02 15:50:57 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 15:51:00 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 15:51:30 INFO  BaseClass:19 - Login with mobile number popup window is not displayed till now
+2026-05-02 15:51:30 INFO  BaseClass:21 - Dropdown menu clicked
+2026-05-02 15:51:30 INFO  BaseClass:29 - Login with mobile number popup window is now displayed
+2026-05-02 15:51:30 DEBUG BaseClass:30 - Enter your mobile number heading is displayed
+2026-05-02 15:51:30 INFO  BaseClass:33 - Subheading message displayed
+2026-05-02 15:51:31 INFO  BaseClass:140 - Test case passed.
+2026-05-02 15:51:31 INFO  BaseClass:142 - Screenshot captured for test: TC_21_LoginProfile_ButtonTest
+2026-05-02 15:51:31 INFO  BaseClass:148 - Closing the browser
+2026-05-02 15:51:39 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 15:51:41 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 15:51:42 INFO  BaseClass:16 - Profile button is clicked
+2026-05-02 15:51:42 INFO  BaseClass:17 - Login with mobile number popup window is now displayed
+2026-05-02 15:51:42 DEBUG BaseClass:18 - Testing the functionality of number Input box
+2026-05-02 15:51:43 INFO  BaseClass:21 - Setting Input box value as 12ab45@#
+2026-05-02 15:51:43 INFO  BaseClass:26 - Input box current value 1245
+2026-05-02 15:51:43 INFO  BaseClass:27 - Current Input box value doesn't matched with user input
+2026-05-02 15:51:43 INFO  BaseClass:31 - Input box taking only Numeric value
+2026-05-02 15:51:43 INFO  BaseClass:140 - Test case passed.
+2026-05-02 15:51:43 INFO  BaseClass:142 - Screenshot captured for test: TC_22_LoginProfile_InputBoxTest
+2026-05-02 15:51:43 INFO  BaseClass:148 - Closing the browser
+2026-05-02 15:51:50 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 15:51:52 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 15:51:53 INFO  BaseClass:18 - Profile button is clicked
+2026-05-02 15:51:53 INFO  BaseClass:20 - Dropdown menu clicked
+2026-05-02 15:51:53 INFO  BaseClass:22 - Country code dropdown is visible
+2026-05-02 15:51:53 DEBUG BaseClass:24 - Displaying all countries List
+2026-05-02 15:51:54 DEBUG LoginPage:103 - India
+2026-05-02 15:51:54 DEBUG LoginPage:103 - UAE
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Afghanistan
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Algeria
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Argentina
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Australia
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Austria
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Bahrain
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Bangladesh
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Belgium
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Bhutan
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Brasil
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Brunei
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Cambodia
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Canada
+2026-05-02 15:51:54 DEBUG LoginPage:103 - China
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Colombia
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Denmark
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Egypt
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Ethiopia
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Finland
+2026-05-02 15:51:54 DEBUG LoginPage:103 - France
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Germany
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Ghana
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Indonesia
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Iraq
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Ireland
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Israel
+2026-05-02 15:51:54 DEBUG LoginPage:103 - Italy
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Japan
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Jordan
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Kazakhstan
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Kenya
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Kuwait
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Laos
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Lebanon
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Libya
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Malaysia
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Maldives
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Mexico
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Montenegro
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Morocco
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Myanmar
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Nepal
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Netherlands
+2026-05-02 15:51:55 DEBUG LoginPage:103 - New Zealand
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Nigeria
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Norway
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Oman
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Pakistan
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Philippines
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Portugal
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Qatar
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Saudi Arabia
+2026-05-02 15:51:55 DEBUG LoginPage:103 - Singapore
+2026-05-02 15:51:56 DEBUG LoginPage:103 - South Africa
+2026-05-02 15:51:56 DEBUG LoginPage:103 - South Korea
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Spain
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Sri Lanka
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Sudan
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Sweden
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Switzerland
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Syria
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Tanzania
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Thailand
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Timor-Leste
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Tunisia
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Turkey
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Uganda
+2026-05-02 15:51:56 DEBUG LoginPage:103 - United Kingdom
+2026-05-02 15:51:56 DEBUG LoginPage:103 - United States
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Vietnam
+2026-05-02 15:51:56 DEBUG LoginPage:103 - Yemen
+2026-05-02 15:51:56 INFO  LoginPage:109 - Total countries: 73
+2026-05-02 15:51:57 INFO  BaseClass:32 - Selected country: France flag
+2026-05-02 15:51:57 INFO  BaseClass:140 - Test case passed.
+2026-05-02 15:51:57 INFO  BaseClass:142 - Screenshot captured for test: TC_23_LoginProfile_DropdownTest
+2026-05-02 15:51:57 INFO  BaseClass:148 - Closing the browser
+2026-05-02 15:52:06 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 15:52:08 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 15:52:09 INFO  BaseClass:21 - Profile button is clicked
+2026-05-02 15:52:09 INFO  BaseClass:25 - Dropdown menu clicked
+2026-05-02 15:52:09 INFO  BaseClass:27 - Country code dropdown is visible
+2026-05-02 15:52:10 INFO  BaseClass:33 - Selected country: India flag
+2026-05-02 15:52:10 INFO  BaseClass:38 - Entered phone number: 94301548445
+2026-05-02 15:52:11 ERROR BaseClass:40 - login error: Please enter a valid mobile number.
+2026-05-02 15:52:11 INFO  BaseClass:44 - Dropdown menu clicked
+2026-05-02 15:52:11 INFO  BaseClass:46 - Country code dropdown is visible
+2026-05-02 15:52:11 INFO  BaseClass:52 - Selected country: Algeria flag
+2026-05-02 15:52:12 INFO  BaseClass:54 - cleared input box data
+2026-05-02 15:52:12 INFO  BaseClass:59 - Entered phone number: 67544788934
+2026-05-02 15:52:13 ERROR BaseClass:61 - login error: Failed to send OTP. Please try again.
+2026-05-02 15:52:13 INFO  BaseClass:140 - Test case passed.
+2026-05-02 15:52:13 INFO  BaseClass:142 - Screenshot captured for test: TC_24_LoginProfile_InvalidTest
+2026-05-02 15:52:13 INFO  BaseClass:148 - Closing the browser
+2026-05-02 15:52:20 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 15:52:21 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 15:52:22 INFO  BaseClass:20 - Profile button is clicked
+2026-05-02 15:52:23 INFO  BaseClass:22 - Dropdown menu clicked
+2026-05-02 15:52:23 INFO  BaseClass:24 - Country code dropdown is visible
+2026-05-02 15:52:23 INFO  BaseClass:30 - Selected country: India flag
+2026-05-02 15:52:24 DEBUG BaseClass:35 - Entered phone number: 9430154833
+2026-05-02 15:52:24 INFO  BaseClass:37 - Continue button is clicked
+2026-05-02 15:52:24 INFO  BaseClass:45 - OTP popup window is displayed
+2026-05-02 15:52:24 DEBUG BaseClass:46 - Enter OTP heading is displayed
+2026-05-02 15:52:24 INFO  BaseClass:47 - Subheading message displayed
+2026-05-02 15:52:24 INFO  BaseClass:50 - Input fields of OTP is Displayed
+2026-05-02 15:52:40 INFO  BaseClass:52 - Continue button is disabled
+2026-05-02 15:52:40 INFO  BaseClass:140 - Test case passed.
+2026-05-02 15:52:40 INFO  BaseClass:142 - Screenshot captured for test: TC_25_LoginProfile_ValidTest
+2026-05-02 15:52:40 INFO  BaseClass:148 - Closing the browser
+2026-05-02 15:54:50 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 15:54:52 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 15:54:53 INFO  BaseClass:21 - Clicked on location icon
+2026-05-02 15:54:55 INFO  BaseClass:25 - Selected location: Pune
+2026-05-02 15:54:55 INFO  BaseClass:29 - Selected entire location: Pune, Maharashtra
+2026-05-02 15:54:56 INFO  BaseClass:140 - Test case passed.
+2026-05-02 15:54:56 INFO  BaseClass:142 - Screenshot captured for test: TC_05_SelectCityTest
+2026-05-02 15:54:56 INFO  BaseClass:148 - Closing the browser
+=======
 2026-04-30 23:02:24 INFO  BaseClass:57 - Opening on selected browser chrome
 2026-04-30 23:02:27 INFO  BaseClass:59 - Running on URL https://www.district.in/
 2026-04-30 23:02:27 INFO  BaseClass:11 - Verifying that District home page loads correctly
@@ -1486,3 +3759,4 @@
 2026-05-01 00:09:55 INFO  BaseClass:74 - Test case passed.
 2026-05-01 00:09:55 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
 2026-05-01 00:09:55 INFO  BaseClass:82 - Closing the browser
+>>>>>>> 1c23f58b75f903e8824ba8fa74f4d1fa1d07cde5

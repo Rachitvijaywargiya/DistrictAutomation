@@ -52,9 +52,11 @@ public class HomePage {
     public void selectPuneLoc(){
         puneLoc.click();
     }
-//    public String getTheNameOfSelectedCity(){
-//        return getCitySearchInput.getAttribute("value");
-//    }
+    public String getTheNameOfSelectedCity(){
+        //System.out.println(getCitySearchInput.getAttribute("value"));
+        return getCitySearchInput.getAttribute("value");
+//        return getCitySearchInput.getText();
+    }
     public String getLocAfterClick(){
         return getPuneLocAfterClick.getText();
     }
