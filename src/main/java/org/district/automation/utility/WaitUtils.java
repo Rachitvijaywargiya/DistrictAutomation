@@ -14,9 +14,9 @@ public class WaitUtils {
         return wait.until(ExpectedConditions.visibilityOf(element));
     }
 
-    public static WebElement waitForElementToBeClickable(WebDriver driver, WebElement element, int timeoutInSeconds) {
+    public static void waitForElementToBeClickable(WebDriver driver, WebElement element, int timeoutInSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
-        return wait.until(ExpectedConditions.elementToBeClickable(element));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     public static void waitForPageLoad(WebDriver driver, int timeoutInSeconds) {
@@ -27,7 +27,16 @@ public class WaitUtils {
         });
     }
 
-    //public static void waitFor
+    public static void clickAndWaitForVisibility(
+            WebDriver driver,
+            WebElement clickable,
+            WebElement visibleAfterClick,
+            int timeoutInSeconds) {
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+        wait.until(ExpectedConditions.elementToBeClickable(clickable)).click();
+        wait.until(ExpectedConditions.visibilityOf(visibleAfterClick));
+    }
 
     public static void sleep(long milliseconds) {
         try {

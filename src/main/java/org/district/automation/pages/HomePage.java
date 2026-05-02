@@ -89,7 +89,7 @@ public class HomePage {
         puneLoc.click();
     }
     public String getTheNameOfSelectedCity(){
-        System.out.println(getCitySearchInput.getAttribute("value"));
+        //System.out.println(getCitySearchInput.getAttribute("value"));
         return getCitySearchInput.getAttribute("value");
 //        return getCitySearchInput.getText();
     }
@@ -98,7 +98,7 @@ public class HomePage {
     }
     public String getEntireLocAfterClick(){
 //        WaitUtils.sleep(3000);
-        WaitUtils.waitForElementToBeClickable(driver, getEntireAddressLocAfterClick, 10);
+          WaitUtils.waitForElementToBeClickable(driver, getEntireAddressLocAfterClick, 10);
         return getEntireAddressLocAfterClick.getText();
     }
 }
