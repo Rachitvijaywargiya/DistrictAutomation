@@ -11,6 +11,7 @@ public class TC_05_SelectCityTest extends BaseClass {
 
     @Test
     public void verifyUserCanChangeCity() {
+
         HomePage home = new HomePage(driver);
 
         String city = ConfigReader.getString("city");

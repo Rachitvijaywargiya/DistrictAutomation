@@ -127,6 +127,7 @@ public class BaseClass {
     @AfterMethod
     public void tearDown(ITestResult result) {
         try {
+            //code for SS and Result ITestResult
             if (driver != null) {
                 String testName = result.getTestClass()
                         .getRealClass()
@@ -138,6 +139,7 @@ public class BaseClass {
                 } else if (result.getStatus() == ITestResult.SUCCESS) {
                     ScreenshotUtil.takeScreenshot(driver, testName + "_PASSED");
                     log.info("Test case passed.");
+                    //log.info("Screenshot captured for test: {}", testName);
                 }
                 log.info("Screenshot captured for test: {}", testName);
             }

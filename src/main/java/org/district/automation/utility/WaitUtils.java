@@ -27,6 +27,13 @@ public class WaitUtils {
         });
     }
 
+    public static WebElement waitForRefreshedAndVisible(WebDriver driver, WebElement element, int timeoutInSeconds) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+        return wait.until(
+                ExpectedConditions.refreshed(
+                        ExpectedConditions.visibilityOf(element)
+                ));
+    }
     public static void clickAndWaitForVisibility(
             WebDriver driver,
             WebElement clickable,
