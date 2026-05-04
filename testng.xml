@@ -18,11 +18,32 @@
         -->
 
         <classes>
-            <class name="org.district.automation.test.TC_21_LoginProfile_ButtonTest"/>
-            <class name="org.district.automation.test.TC_22_LoginProfile_InputBoxTest"/>
-            <class name="org.district.automation.test.TC_23_LoginProfile_DropdownTest"/>
-            <class name="org.district.automation.test.TC_24_LoginProfile_InvalidTest"/>
-            <class name="org.district.automation.test.TC_25_LoginProfile_ValidTest"/>
+            <class name="org.district.automation.test.TC_01_HomePageLoadTest"/>
+            <class name="org.district.automation.test.TC_02_HeaderContextIntegrityTest"/>
+            <class name="org.district.automation.test.TC_03_MasterHeaderIntegrityTest"/>
+            <class name="org.district.automation.test.TC_04_DefaultLocationAutoDetectionTest"/>
+            <class name="org.district.automation.test.TC_05_SelectCityTest"/>
+            <class name="org.district.automation.test.TC_06_SportsWeekendTest"/>
+            <class name="org.district.automation.test.TC_07_ValidateSportNameAndDateTest"/>
+            <class name="org.district.automation.test.TC_08_SportsPriceSortTest"/>
+            <class name="org.district.automation.test.TC_09_NoPastSportsEventsTest"/>
+            <class name="org.district.automation.test.TC_10_MultipleFiltersClearTest"/>
+            <class name="org.district.automation.test.TC_11_NavigationalTests"/>
+            <class name="org.district.automation.test.TC_12_FilterPanelVisibilityTest"/>
+            <class name="org.district.automation.test.TC_13_GenreAndSportsTest"/>
+            <class name="org.district.automation.test.TC_14_FilterFlowTest"/>
+            <class name="org.district.automation.test.TC_15_FilterResetTest"/>
+            <class name="org.district.automation.test.TC_16_EndToEndFiltersCount"/>
+            <class name="org.district.automation.test.TC_17_ExtractLanguagesAndGenres"/>
+            <class name="org.district.automation.test.TC_18_BangaloreOdiaMovieTest"/>
+            <class name="org.district.automation.test.TC_19_CombinationFilterTest"/>
+            <class name="org.district.automation.test.TC_20_GenreFormatResilienceTest"/>
+            <class name="org.district.automation.test.TC_21_ClearFilterTest"/>
+            <class name="org.district.automation.test.TC_22_LoginProfile_ButtonTest"/>
+            <class name="org.district.automation.test.TC_23_LoginProfile_InputBoxTest"/>
+            <class name="org.district.automation.test.TC_24_LoginProfile_DropdownTest"/>
+            <class name="org.district.automation.test.TC_25_LoginProfile_InvalidTest"/>
+            <class name="org.district.automation.test.TC_26_LoginProfile_ValidTest"/>
         </classes>
 
     </test>

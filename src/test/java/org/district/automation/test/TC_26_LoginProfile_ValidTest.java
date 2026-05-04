@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TC_25_LoginProfile_ValidTest extends BaseClass {
+public class TC_26_LoginProfile_ValidTest extends BaseClass {
     @Test
     public void verifyLoginProfileForValidTest(){
         LoginPage loginPage = new LoginPage(driver);
