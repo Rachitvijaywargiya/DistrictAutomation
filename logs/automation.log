@@ -3760,3 +3760,9 @@
 2026-05-01 00:09:55 INFO  BaseClass:76 - Screenshot captured for test: TC_05_SelectCityTest
 2026-05-01 00:09:55 INFO  BaseClass:82 - Closing the browser
 >>>>>>> 1c23f58b75f903e8824ba8fa74f4d1fa1d07cde5
+2026-05-02 20:11:33 INFO  BaseClass:108 - Opening on selected browser chrome
+2026-05-02 20:11:36 INFO  BaseClass:112 - Running on URL https://www.district.in/
+2026-05-02 20:11:37 INFO  MoviesPage:64 - Navigated to the Movies section.
+2026-05-02 20:11:40 INFO  BaseClass:141 - Test case passed.
+2026-05-02 20:11:40 INFO  BaseClass:144 - Screenshot captured for test: TC_06_ExtractLanguagesAndGenres
+2026-05-02 20:11:40 INFO  BaseClass:150 - Closing the browser
