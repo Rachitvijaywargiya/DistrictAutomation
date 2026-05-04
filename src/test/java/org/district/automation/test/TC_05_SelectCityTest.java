@@ -3,6 +3,7 @@ package org.district.automation.test;
 import org.district.automation.base.BaseClass;
 import org.district.automation.pages.HomePage;
 import org.district.automation.utility.ConfigReader;
+import org.district.automation.utility.ExcelUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -14,9 +15,12 @@ public class TC_05_SelectCityTest extends BaseClass {
 
         HomePage home = new HomePage(driver);
 
-        String city = ConfigReader.getString("city");
-        String entireLocation = ConfigReader.getString("entireLocation");
-        String state = ConfigReader.getString("state");
+//        String city = ConfigReader.getString("city");
+//        String entireLocation = ConfigReader.getString("entireLocation");
+//        String state = ConfigReader.getString("state");
+        String city = ExcelUtil.getCellData("LocationData", 1, 1);
+        String state = ExcelUtil.getCellData("LocationData", 1, 2);
+        String entireLocation = ExcelUtil.getCellData("LocationData", 1, 3);
 
         home.clickLocation();
         log.info("Clicked on location icon");

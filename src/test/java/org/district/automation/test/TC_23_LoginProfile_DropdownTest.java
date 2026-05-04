@@ -3,6 +3,7 @@ package org.district.automation.test;
 import org.district.automation.base.BaseClass;
 import org.district.automation.pages.LoginPage;
 import org.district.automation.utility.ConfigReader;
+import org.district.automation.utility.ExcelUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -12,7 +13,8 @@ public class TC_23_LoginProfile_DropdownTest extends BaseClass {
     public void verifyDropdownOfCommonLoginProfile(){
         LoginPage loginPage = new LoginPage(driver);
         SoftAssert soft = new SoftAssert();
-        String country= ConfigReader.getString("country");
+//        String country= ConfigReader.getString("country");
+        String country = ExcelUtil.getCellData("LoginData", 2, 1);
 
         loginPage.clickProfileBtn();
         log.info("Profile button is clicked");
