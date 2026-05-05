@@ -45,3 +45,4 @@ build/
 logs/
 screenshots/
 *.log
+reports/

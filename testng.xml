@@ -2,21 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="District Automation Suite" parallel="tests" thread-count="5">
-
-    <!-- Suite level parameter verbose="1" parallel="false" parallel="tests" thread-count="2" -->
-    <!--    <parameter name="browser" value="chrome"/>-->
-
+    <listeners>
+        <listener class-name="org.district.automation.utility.ExtentReportManager"/>
+    </listeners>
     <test name="District Web Tests">
-
-        <!-- Optional groups control -->
-        <!--
-        <groups>
-            <run>
-                <include name="smoke"/>
-            </run>
-        </groups>
-        -->
-
         <classes>
             <class name="org.district.automation.test.TC_01_HomePageLoadTest"/>
             <class name="org.district.automation.test.TC_02_HeaderContextIntegrityTest"/>
@@ -45,7 +34,6 @@
             <class name="org.district.automation.test.TC_25_LoginProfile_InvalidTest"/>
             <class name="org.district.automation.test.TC_26_LoginProfile_ValidTest"/>
         </classes>
-
     </test>
 
 </suite>
