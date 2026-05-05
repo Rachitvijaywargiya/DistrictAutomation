@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TC_21_LoginProfile_ButtonTest extends BaseClass {
+public class TC_22_LoginProfile_ButtonTest extends BaseClass {
     @Test
     public void verifyLogoWithPhoneWindow() {
         //Assert.fail();

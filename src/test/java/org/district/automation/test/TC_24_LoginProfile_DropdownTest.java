@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TC_23_LoginProfile_DropdownTest extends BaseClass {
+public class TC_24_LoginProfile_DropdownTest extends BaseClass {
     @Test
     public void verifyDropdownOfCommonLoginProfile(){
         LoginPage loginPage = new LoginPage(driver);

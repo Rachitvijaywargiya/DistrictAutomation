@@ -7,7 +7,7 @@ import org.district.automation.utility.ExcelUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC_22_LoginProfile_InputBoxTest extends BaseClass {
+public class TC_23_LoginProfile_InputBoxTest extends BaseClass {
     @Test
     public void verifyPhoneWindowInputBox() {
         LoginPage loginPage = new LoginPage(driver);

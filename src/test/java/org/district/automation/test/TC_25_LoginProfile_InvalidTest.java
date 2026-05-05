@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TC_24_LoginProfile_InvalidTest extends BaseClass {
+public class TC_25_LoginProfile_InvalidTest extends BaseClass {
     @Test
     public void verifyLoginProfileForInvalidTest() {
         LoginPage loginPage = new LoginPage(driver);

@@ -40,7 +40,7 @@ public class LoginPage {
     @FindBy(xpath = "//button[contains(text(),'Continue')]")
     private WebElement continueBtnEle;
 
-    @FindBy(xpath = "//div[@class='dds-flex dds-justify-center dds-items-center dds-mb-2.5 dds-gap-2 dds-text-base']/following-sibling::p")
+    @FindBy(xpath = "//div[contains(@class,'')]/following-sibling::p")
     private WebElement errorMessage;
 
     @FindBy(css="div[class ='dds-relative'] label")
@@ -49,6 +49,9 @@ public class LoginPage {
     @FindBy(xpath = "//div[contains(@class,'dds-gap-[3%]')]")
     private WebElement otpFieldsEle;
 
+    private By countryOptions = By.xpath("//div[@class='dds-w-fit']");
+
+
     public LoginPage(WebDriver driver) {
         this.driver = driver;
         this.js = (JavascriptExecutor) driver;
@@ -56,6 +59,7 @@ public class LoginPage {
     }
 
     public void clickProfileBtn() {
+        WaitUtils.waitForElementToBeClickable(driver,profileButton,20);
         profileButton.click();
     }
 
@@ -120,18 +124,19 @@ public class LoginPage {
         log.info("Total countries: {}", options.size());
     }
 
-    public void selectCountryFromDropDown(String country){
+    public void selectCountryFromDropDown(String country) {
         String ct = country.toLowerCase();
 
-        for (WebElement option : totalCountryListEle) {
+        List<WebElement> options =
+                WaitUtils.waitForAllElementsVisible(driver, countryOptions, 10);
+
+        for (WebElement option : options) {
             if (option.getText().toLowerCase().contains(ct)) {
                 js.executeScript("arguments[0].scrollIntoView(true);", option);
-                WaitUtils.waitForElementToBeClickable(driver,option,10);
                 option.click();
-                break;
+                return;
             }
         }
-
     }
 
     public String selectedCountryName(){
@@ -144,6 +149,7 @@ public class LoginPage {
     }
 
     public String captureErrorMessage(){
+        WaitUtils.waitForElementToBeVisible(driver,errorMessage,20);
         return errorMessage.getText();
     }
 
@@ -152,6 +158,7 @@ public class LoginPage {
     }
 
     public String getHeadingMessage(){
+        WaitUtils.waitForElementToBeVisible(driver,headingMessageEle,20);
         return headingMessageEle.getText();
     }
 

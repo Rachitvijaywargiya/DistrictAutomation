@@ -1,5 +1,6 @@
 package org.district.automation.pages;
 import org.district.automation.utility.WaitUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -35,6 +36,13 @@ public class HomePage {
     @FindBy(xpath = "//span[@style='color: var(--color-text-secondary); text-align: left;']")
     private WebElement getEntireAddressLocAfterClick;
 
+    private By entireLocationText =
+            By.xpath("//span[@style='color: var(--color-text-secondary); text-align: left;']");
+    private By selectedCityText =
+            By.xpath("//div[contains(@class,'dds-items-baseline')]/span[contains(@class,'dds-leading-relaxed')]");
+    private By locationTextLoc =
+            By.xpath("//span[contains(@class,'dds-text-primary')]/following-sibling::span[contains(@style,'text-align: left;')]");
+
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -44,7 +52,9 @@ public class HomePage {
         return logo.isDisplayed();
     }
     public String getDisplayedLocation() {
-        return locationText.getText();
+        WebElement location =
+                WaitUtils.waitForElementToBeVisible(driver, locationTextLoc, 20);
+        return location.getText();
     }
     public boolean isSearchBoxPresent() {
         try {
@@ -60,16 +70,29 @@ public class HomePage {
         getCitySearchInput.sendKeys(city);
     }
     public void selectPuneLoc(){
+        WaitUtils.waitForElementToBeVisible(driver,puneLoc,20);
         puneLoc.click();
     }
     public String getTheNameOfSelectedCity(){
         return getCitySearchInput.getAttribute("value");
     }
-    public String getLocAfterClick(){
-        return getPuneLocAfterClick.getText();
+    public String getLocAfterClick(String expectedCity) {
+        WaitUtils.waitForTextToBePresent(
+                driver,
+                selectedCityText,
+                expectedCity,
+                15
+        );
+        return driver.findElement(selectedCityText).getText();
     }
-    public String getEntireLocAfterClick(){
-        WaitUtils.waitForElementToBeClickable(driver, getEntireAddressLocAfterClick, 15);
-        return getEntireAddressLocAfterClick.getText();
+
+    public String getEntireLocAfterClick(String expectedText) {
+        WaitUtils.waitForTextToBePresent(
+                driver,
+                entireLocationText,
+                expectedText,
+                15
+        );
+        return driver.findElement(entireLocationText).getText();
     }
 }

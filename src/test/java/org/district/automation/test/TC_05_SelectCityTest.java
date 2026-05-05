@@ -29,17 +29,17 @@ public class TC_05_SelectCityTest extends BaseClass {
         home.selectPuneLoc();
         log.info("Selected location: {}", home.getTheNameOfSelectedCity());
 
-        String currentLoc = home.getLocAfterClick();
-        String currentEntireLoc = home.getEntireLocAfterClick();
+        String currentLoc = home.getLocAfterClick(city);
+        String currentEntireLoc = home.getEntireLocAfterClick(state);
         log.info("Selected entire location: {}", currentEntireLoc);
 
         SoftAssert soft = new SoftAssert();
         soft.assertEquals(currentLoc,city);
         soft.assertAll();
 
-        Assert.assertEquals(currentEntireLoc,entireLocation);
-        currentEntireLoc = home.getEntireLocAfterClick();
+        currentEntireLoc = home.getEntireLocAfterClick(state);
         Assert.assertTrue(currentEntireLoc.contains(state));
+        Assert.assertEquals(currentEntireLoc,entireLocation);
 
     }
 }
