@@ -3,6 +3,7 @@ package org.district.automation.test;
 import org.district.automation.base.BaseClass;
 import org.district.automation.pages.LoginPage;
 import org.district.automation.utility.ConfigReader;
+import org.district.automation.utility.ExcelUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -12,10 +13,11 @@ public class TC_25_LoginProfile_InvalidTest extends BaseClass {
     public void verifyLoginProfileForInvalidTest() {
         LoginPage loginPage = new LoginPage(driver);
         SoftAssert soft = new SoftAssert();
-        String countryIndia= ConfigReader.getString("country_India");
-        String otherCountry= ConfigReader.getString("country_Other");
-        String inValidMobileNumber1=ConfigReader.getString("invalidMobileNumber1");
-        String inValidMobileNumber2=ConfigReader.getString("invalidMobileNumber2");
+        String countryIndia = ExcelUtil.getCellData("LoginData", 3, 1);
+        String inValidMobileNumber1 = ExcelUtil.getCellData("LoginData", 3, 2);
+
+        String otherCountry = ExcelUtil.getCellData("LoginData", 2, 1);
+        String inValidMobileNumber2 = ExcelUtil.getCellData("LoginData", 3, 2);
 
         loginPage.clickProfileBtn();
         log.info("Profile button is clicked");
