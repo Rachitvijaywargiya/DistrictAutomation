@@ -1,5 +1,7 @@
 package org.district.automation.utility;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -8,19 +10,14 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 public class ExcelUtil {
-
-    private static final String EXCEL_PATH =
-            System.getProperty("user.dir")
-                    + "/src/test/resources/testdata/District_TestData.xlsx";
-
-    /* ================= CREATE EXCEL WITH ALL TEST DATA ================= */
+    protected static final Logger log = LogManager.getLogger(ExcelUtil.class);
+    private static final String EXCEL_PATH = System.getProperty("user.dir") + "/src/test/resources/testdata/District_TestData.xlsx";
 
     public static void createTestDataExcel() {
 
         try {
             Workbook workbook = new XSSFWorkbook();
 
-            /* ================= LOCATION DATA ================= */
             Sheet locationSheet = workbook.createSheet("LocationData");
 
             Row locHeader = locationSheet.createRow(0);
@@ -39,7 +36,6 @@ public class ExcelUtil {
                 locationSheet.autoSizeColumn(i);
             }
 
-            /* ================= LOGIN DATA ================= */
             Sheet loginSheet = workbook.createSheet("LoginData");
 
             Row loginHeader = loginSheet.createRow(0);
@@ -81,14 +77,12 @@ public class ExcelUtil {
             workbook.close();
             fos.close();
 
-            System.out.println("✅ Excel created for ALL test cases");
+            log.info(" Excel created for ALL test cases");
 
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
-    /* ================= READ CELL DATA ================= */
 
     public static String getCellData(String sheet, int row, int col) {
         try {
@@ -96,8 +90,7 @@ public class ExcelUtil {
             Workbook workbook = new XSSFWorkbook(fis);
             DataFormatter formatter = new DataFormatter();
 
-            String value = formatter.formatCellValue(
-                    workbook.getSheet(sheet).getRow(row).getCell(col));
+            String value = formatter.formatCellValue(workbook.getSheet(sheet).getRow(row).getCell(col));
 
             workbook.close();
             fis.close();
