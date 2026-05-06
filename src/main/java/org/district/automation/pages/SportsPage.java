@@ -34,16 +34,16 @@ public class SportsPage {
     @FindBy(xpath = "//span[contains(text(),'Apply Filters')]")
     private WebElement applyFiltersButton;
 
-    @FindBy(xpath = "//*[text()='Clear filters']")
+    @FindBy(xpath = "//div[text()='Clear filters']")
     private WebElement clearFilters;
 
     @FindBy(xpath = "//label[contains(text(),'Price : Low to High')]")
     private WebElement lowToHigh;
 
-    @FindBy(xpath = "//*[contains(@class,'dds-grid dds-gap-x-3 md:dds-gap-x-4 dds-grid-cols-1 dds-gap-y-8 md:dds-grid-cols-2 lg:dds-grid-cols-3 xl:dds-grid-cols-4')]")
+    @FindBy(xpath = "//div[@id='filters-content']/following-sibling::div[contains(@class,'dds-grid')]")
     private WebElement areEventsDisplayed;
 
-    @FindBy(xpath = "//div[contains(@class,'dds-grid dds-gap-x-3 md:dds-gap-x-4 dds-grid-cols-1 dds-gap-y-8')]")
+    @FindBy(xpath = "//div[@id='filters-content']/following-sibling::div[contains(@class,'dds-grid')]")
     private List<WebElement> eventCount;
 
     @FindBy(xpath = "//div[@class='dds-relative dds-w-full']/div/a/div/div/div/span[1]")
@@ -79,10 +79,8 @@ public class SportsPage {
     @FindBy(xpath = "//div[contains(@class,'checkbox-container')]")
     private List<WebElement> genreOptions;
 
-    @FindBy(xpath = "//div[contains(@style,'border-radius: 20px 0px 0px 20px')]")
+    @FindBy(xpath = "//div[contains(@style,'border-radius:') and contains(@class,'dds-bg-surface-secondary')]")
     private WebElement menu;
-
-    private By filterLoc = By.xpath("//span[text()='Filters']");
 
     public SportsPage(WebDriver driver) {
         this.driver = driver;
@@ -250,6 +248,7 @@ public class SportsPage {
     }
 
     public boolean isFilterPanelVisible() {
+        By filterLoc = By.xpath("//span[text()='Filters']");
         WebElement filterPanel = WaitUtils.waitForElementToBeVisible(driver,filterLoc,10);
         return filterPanel.isDisplayed();
     }

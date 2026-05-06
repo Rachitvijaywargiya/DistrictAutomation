@@ -38,15 +38,6 @@ public class HomePage {
     @FindBy(xpath = "//span[@style='color: var(--color-text-secondary); text-align: left;']")
     private WebElement getEntireAddressLocAfterClick;
 
-    private By entireLocationText =
-            By.xpath("//span[@style='color: var(--color-text-secondary); text-align: left;']");
-
-    private By selectedCityText =
-            By.xpath("//div[contains(@class,'dds-items-baseline')]/span[contains(@class,'dds-leading-relaxed')]");
-
-    private By locationTextLoc =
-            By.xpath("//span[contains(@class,'dds-text-primary')]/following-sibling::span[contains(@style,'text-align: left;')]");
-
     public HomePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -57,6 +48,7 @@ public class HomePage {
     }
 
     public String getDisplayedLocation() {
+        By locationTextLoc = By.xpath("//span[contains(@class,'dds-text-primary')]/following-sibling::span[contains(@style,'text-align: left;')]");
         WebElement location =
                 WaitUtils.waitForElementToBeVisible(driver, locationTextLoc, 20);
         return location.getText();
@@ -88,6 +80,7 @@ public class HomePage {
     }
 
     public String getLocAfterClick(String expectedCity) {
+        By selectedCityText = By.xpath("//div[contains(@class,'dds-items-baseline')]/span[contains(@class,'dds-leading-relaxed')]");
         WaitUtils.waitForTextToBePresent(
                 driver,
                 selectedCityText,
@@ -98,6 +91,7 @@ public class HomePage {
     }
 
     public String getEntireLocAfterClick(String expectedText) {
+        By entireLocationText = By.xpath("//span[@style='color: var(--color-text-secondary); text-align: left;']");
         WaitUtils.waitForTextToBePresent(
                 driver,
                 entireLocationText,

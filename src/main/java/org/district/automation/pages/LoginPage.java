@@ -47,10 +47,8 @@ public class LoginPage {
     @FindBy(css="div[class ='dds-relative'] label")
     private WebElement headingMessageEle;
 
-    @FindBy(xpath = "//div[contains(@class,'dds-gap-[3%]')]")
+    @FindBy(xpath = "(//button/preceding-sibling::div/div)[3]")
     private WebElement otpFieldsEle;
-
-    private By countryOptions = By.xpath("//div[@class='dds-w-fit']");
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
@@ -125,6 +123,7 @@ public class LoginPage {
 
     public void selectCountryFromDropDown(String country) {
         String ct = country.toLowerCase();
+        By countryOptions = By.xpath("//div[@class='dds-w-fit']");
         List<WebElement> options =
                 WaitUtils.waitForAllElementsVisible(driver, countryOptions, 10);
         for (WebElement option : options) {

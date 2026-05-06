@@ -51,8 +51,6 @@ public class MoviesPage {
     @FindBy(xpath = "//div[normalize-space()='Clear filters']")
     private WebElement clearFiltersButton;
 
-    private By checkboxText = By.xpath("//div[contains(@class,'checkbox-container')]//span[contains(@class,'dds-text-base')]");
-
     public MoviesPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -84,6 +82,7 @@ public class MoviesPage {
 
     private List<String> extractCheckboxValues() {
         Set<String> values = new HashSet<>();
+        By checkboxText = By.xpath("//div[contains(@class,'checkbox-container')]//span[contains(@class,'dds-text-base')]");
         WaitUtils.waitForPresenceOfElementLocated(driver,checkboxText,15);
         List<WebElement> elements = driver.findElements(checkboxText);
         for (WebElement el : elements) {
@@ -101,7 +100,7 @@ public class MoviesPage {
         WaitUtils.waitForElementToBeVisible(driver,searchInput,15);
         searchInput.clear();
         searchInput.sendKeys(city);
-        String robustXpath = String.format("//*[normalize-space()='%s']/ancestor::button[1]", city);
+        String robustXpath = String.format("//span[normalize-space()='%s']/ancestor::button[1]", city);
         WebElement firstResult = WaitUtils.waitForElementToBeVisible(driver,By.xpath(robustXpath),15);
         firstResult.click();
         log.info("Successfully selected location: {}", city);
@@ -180,7 +179,7 @@ public class MoviesPage {
         log.info("Opening filter modal to select language: {}", language);
         WaitUtils.waitForElementToBeClick(driver,filterButton,15).click();
         WaitUtils.waitForElementToBeClick(driver,languageTab,15).click();
-        String robustXpath = String.format("//div[contains(@class,'checkbox-container')]//span[contains(@class,'dds-text-primary') and normalize-space(text())='" + language + "']");
+        String robustXpath = String.format("//div[contains(@class,'checkbox-container')]//span[contains(@class,'dds-text-primary') and normalize-space(text())='%s']",language);
         WebElement langOption = WaitUtils.waitForElementToBeVisible(driver,By.xpath(robustXpath),15);
         JsUtils.scrollIntoView(driver, langOption);
         langOption.click();
