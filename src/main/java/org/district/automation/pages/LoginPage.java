@@ -2,6 +2,7 @@ package org.district.automation.pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.district.automation.utility.JsUtils;
 import org.district.automation.utility.WaitUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
@@ -9,9 +10,9 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 public class LoginPage {
+
     private WebDriver driver;
     protected static final Logger log = LogManager.getLogger(LoginPage.class);
-    private JavascriptExecutor js;
 
     @FindBy(xpath = "//div[@class='dds-cursor-pointer' and @role='button']")
     private WebElement profileButton;
@@ -51,10 +52,8 @@ public class LoginPage {
 
     private By countryOptions = By.xpath("//div[@class='dds-w-fit']");
 
-
     public LoginPage(WebDriver driver) {
         this.driver = driver;
-        this.js = (JavascriptExecutor) driver;
         PageFactory.initElements(driver, this);
     }
 
@@ -126,13 +125,11 @@ public class LoginPage {
 
     public void selectCountryFromDropDown(String country) {
         String ct = country.toLowerCase();
-
         List<WebElement> options =
                 WaitUtils.waitForAllElementsVisible(driver, countryOptions, 10);
-
         for (WebElement option : options) {
             if (option.getText().toLowerCase().contains(ct)) {
-                js.executeScript("arguments[0].scrollIntoView(true);", option);
+                JsUtils.scrollIntoView(driver, option);
                 option.click();
                 return;
             }
@@ -158,8 +155,7 @@ public class LoginPage {
     }
 
     public String getHeadingMessage(){
-        WaitUtils.waitForElementToBeVisible(driver,headingMessageEle,20);
-        return headingMessageEle.getText();
+        return WaitUtils.waitForElementToBeVisible(driver,headingMessageEle,20).getText();
     }
 
     public boolean isOtpInputFieldsVisible(){
@@ -173,8 +169,5 @@ public class LoginPage {
             return false;
         }
     }
-
-
-
 
 }

@@ -46,3 +46,4 @@ logs/
 screenshots/
 *.log
 reports/
+src/test/resources/testdata/District_TestData.xlsx

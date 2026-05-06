@@ -1,5 +1,8 @@
 package org.district.automation.pages;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.district.automation.utility.JsUtils;
 import org.district.automation.utility.WaitUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
@@ -11,7 +14,7 @@ import java.util.List;
 public class SportsPage {
 
     private WebDriver driver;
-    private JavascriptExecutor js;
+    private static final Logger log = LogManager.getLogger(SportsPage.class);
 
     @FindBy(xpath = "//a[contains(text(),'Events')]")
     private WebElement eventsTab;
@@ -76,37 +79,37 @@ public class SportsPage {
     @FindBy(xpath = "//div[contains(@class,'checkbox-container')]")
     private List<WebElement> genreOptions;
 
+    @FindBy(xpath = "//div[contains(@style,'border-radius: 20px 0px 0px 20px')]")
+    private WebElement menu;
+
+    private By filterLoc = By.xpath("//span[text()='Filters']");
+
     public SportsPage(WebDriver driver) {
         this.driver = driver;
-        this.js = (JavascriptExecutor) driver;
         PageFactory.initElements(driver, this);
     }
 
     public void clickEventsTab() {
         WaitUtils.waitForElementToBeClickable(driver, eventsTab, 15);
-        js.executeScript("arguments[0].scrollIntoView(true);", eventsTab);
-        js.executeScript("arguments[0].click()", eventsTab);
-
+        JsUtils.scrollIntoView(driver, eventsTab);
+        JsUtils.clickUsingJs(driver,eventsTab);
     }
 
     public void openFilters() {
         WaitUtils.waitForElementToBeClickable(driver, filterButton, 15);
-        js.executeScript("arguments[0].scrollIntoView(true);", filterButton);
+        JsUtils.scrollIntoView(driver,filterButton);
         filterButton.click();
     }
 
     public void selectGenreSports() {
-        WaitUtils.waitForElementToBeClickable(driver, genreOption, 15);
-        genreOption.click();
+        WaitUtils.waitForElementToBeClick(driver, genreOption, 15).click();
         WaitUtils.waitForElementToBeClickable(driver, sportsCheckbox, 15);
-        js.executeScript("arguments[0].scrollIntoView(true);", sportsCheckbox);
+        JsUtils.scrollIntoView(driver,sportsCheckbox);
         sportsCheckbox.click();
     }
 
     public void selectGenre() {
-        WaitUtils.waitForElementToBeClickable(driver, genreOption, 15);
-        genreOption.click();
-
+        WaitUtils.waitForElementToBeClick(driver, genreOption, 15).click();
     }
 
     public void applyFilters() {
@@ -136,27 +139,21 @@ public class SportsPage {
     }
 
     public void scrollToAllEvents() throws InterruptedException {
-
         By allEvents = By.xpath("//span[normalize-space()='All events']");
-
         for (int i = 0; i < 20; i++) {
             if (!driver.findElements(allEvents).isEmpty()) {
-                js.executeScript(
-                        "arguments[0].scrollIntoView({block:'center'});",
-                        driver.findElement(allEvents)
-                );
+                JsUtils.scrollIntoViewCenter(driver, driver.findElement(allEvents));
                 return;
             }
-            js.executeScript("arguments[0].scrollTop += 600;", pageContentContainer);
+            JsUtils.scrollDown(driver, pageContentContainer, 600);
             Thread.sleep(1200);
         }
     }
 
     public void selectSportsGenre() {
-        WaitUtils.waitForElementToBeClickable(driver, genreTab, 15);
-        genreTab.click();
-        js.executeScript("arguments[0].scrollIntoView({block:'center'});", sportsCheckbox);
-        js.executeScript("arguments[0].click();", sportsCheckbox);
+        WaitUtils.waitForElementToBeClick(driver, genreTab, 15).click();
+        JsUtils.scrollIntoViewCenter(driver,sportsCheckbox);
+        JsUtils.clickUsingJs(driver,sportsCheckbox);
     }
 
     public void clickThisWeekend() {
@@ -201,20 +198,15 @@ public class SportsPage {
     }
 
     public void applyLowToHighSort() {
-
-        WaitUtils.waitForElementToBeClickable(driver, filterButton, 15);
-        filterButton.click();
-
-        js.executeScript("arguments[0].scrollIntoView({block:'center'});", sortByTab);
-        js.executeScript("arguments[0].click();", sortByTab);
-
-        js.executeScript("arguments[0].scrollIntoView({block:'center'});", priceLowToHigh);
-        js.executeScript("arguments[0].click();", priceLowToHigh);
+        WaitUtils.waitForElementToBeClick(driver, filterButton, 15).click();
+        JsUtils.scrollIntoViewCenter(driver,sortByTab);
+        JsUtils.clickUsingJs(driver,sortByTab);
+        JsUtils.scrollIntoViewCenter(driver,priceLowToHigh);
+        JsUtils.clickUsingJs(driver,priceLowToHigh);
     }
 
     public void selectFirstNGenreFilters(int n) {
-        WaitUtils.waitForElementToBeClickable(driver, genreTab, 15);
-        genreTab.click();
+        WaitUtils.waitForElementToBeClick(driver, genreTab, 15).click();
         int count = 0;
         for (WebElement option : genreOptions) {
             if (count == n) break;
@@ -224,8 +216,7 @@ public class SportsPage {
     }
 
     public void clearAllFilters() {
-        WaitUtils.waitForElementToBeClickable(driver, clearFilters, 15);
-        clearFilters.click();
+        WaitUtils.waitForElementToBeClick(driver, clearFilters, 15).click();
     }
 
     public boolean areAnyGenreFiltersSelected() {
@@ -237,6 +228,29 @@ public class SportsPage {
         return false;
     }
 
+    public void printAllWeekendSportsEvents() {
+        List<String> names = getAllEventNames();
+        List<String> dates = getAllEventDates();
+        List<Integer> prices = getDisplayedPrices();
 
+        int size = Math.min(names.size(), Math.min(dates.size(), prices.size()));
 
+        for (int i = 0; i < size; i++) {
+            log.info(
+                    "Event " + (i + 1) +
+                            " | Name: " + names.get(i) +
+                            " | Date: " + dates.get(i) +
+                            " | Price: ₹" + prices.get(i)
+            );
+        }
+    }
+
+    public boolean isMenuVisible(){
+        return menu.isDisplayed();
+    }
+
+    public boolean isFilterPanelVisible() {
+        WebElement filterPanel = WaitUtils.waitForElementToBeVisible(driver,filterLoc,10);
+        return filterPanel.isDisplayed();
+    }
 }

@@ -9,15 +9,14 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class TC_25_LoginProfile_InvalidTest extends BaseClass {
+
     @Test
     public void verifyLoginProfileForInvalidTest() {
         LoginPage loginPage = new LoginPage(driver);
-        SoftAssert soft = new SoftAssert();
-        String countryIndia = ExcelUtil.getCellData("LoginData", 3, 1);
-        String inValidMobileNumber1 = ExcelUtil.getCellData("LoginData", 3, 2);
-
-        String otherCountry = ExcelUtil.getCellData("LoginData", 2, 1);
-        String inValidMobileNumber2 = ExcelUtil.getCellData("LoginData", 3, 2);
+        String countryIndia= ConfigReader.getString("country_India");
+        String otherCountry= ConfigReader.getString("country_Other");
+        String inValidMobileNumber1=ConfigReader.getString("invalidMobileNumber1");
+        String inValidMobileNumber2=ConfigReader.getString("invalidMobileNumber2");
 
         loginPage.clickProfileBtn();
         log.info("Profile button is clicked");

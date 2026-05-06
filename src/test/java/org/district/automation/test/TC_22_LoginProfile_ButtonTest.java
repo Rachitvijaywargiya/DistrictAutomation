@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class TC_22_LoginProfile_ButtonTest extends BaseClass {
+
     @Test
     public void verifyLogoWithPhoneWindow() {
-        //Assert.fail();
         LoginPage loginPage = new LoginPage(driver);
         SoftAssert soft = new SoftAssert();
         String expectedHeadingMessage= ConfigReader.getString("mobilePopupMsgHeading");

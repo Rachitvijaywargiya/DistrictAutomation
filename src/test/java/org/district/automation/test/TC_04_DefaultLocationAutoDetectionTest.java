@@ -1,4 +1,5 @@
 package org.district.automation.test;
+
 import org.district.automation.base.BaseClass;
 import org.district.automation.pages.HomePage;
 import org.testng.Assert;
@@ -9,14 +10,14 @@ public class TC_04_DefaultLocationAutoDetectionTest extends BaseClass {
 
     @Test
     public void verifyAutoDetectedLocationIsResolvedAndUsable() {
-
         HomePage home = new HomePage(driver);
+        SoftAssert softAssert = new SoftAssert();
         log.info("Fetching auto-detected location on page load");
         String location = home.getDisplayedLocation();
-        log.info("Auto-detected location is: " + location);
+        log.info("Auto-detected location is: {}", location);
+
         Assert.assertNotNull(location, "Auto-detected location is null");
 
-        SoftAssert softAssert = new SoftAssert();
         softAssert.assertFalse(
                 location.trim().isEmpty(),
                 "Auto-detected location is empty"

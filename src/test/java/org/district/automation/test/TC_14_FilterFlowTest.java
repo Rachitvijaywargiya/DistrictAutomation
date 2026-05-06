@@ -11,6 +11,7 @@ public class TC_14_FilterFlowTest extends BaseClass {
     @Test(description = "Verify filtering for Sports events and its persistence after refresh")
     public void testSportsFilterFlowAndPersistence() {
         SportsPage sp = new SportsPage(driver);
+
         sp.clickEventsTab();
         sp.openFilters();
         sp.lowHigh();
@@ -21,10 +22,9 @@ public class TC_14_FilterFlowTest extends BaseClass {
         sp.openFilters();
         sp.selectGenreSports();
         boolean isSelected = sp.isSportsCheckboxSelected();
+
         Assert.assertTrue(isSelected, "Filter did not persist after page refresh.");
         Assert.assertTrue(ele, "No events found after applying filters.");
-        System.out.println("Combined test passed: Filter applied successfully and persisted after refresh.");
-
-
+        log.info("Combined test passed: Filter applied successfully and persisted after refresh.");
     }
 }

@@ -1,9 +1,6 @@
 package org.district.automation.utility;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -17,17 +14,19 @@ public class WaitUtils {
         return wait.until(ExpectedConditions.visibilityOf(element));
     }
 
+    public static WebElement waitForElementToBeClickable(WebDriver driver, By locator, int timeoutInSeconds) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+        return wait.until(ExpectedConditions.elementToBeClickable(locator));
+    }
+
     public static void waitForElementToBeClickable(WebDriver driver, WebElement element, int timeoutInSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    public static void waitForPageLoad(WebDriver driver, int timeoutInSeconds) {
+    public static WebElement waitForElementToBeClick(WebDriver driver, WebElement element, int timeoutInSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
-        wait.until(webDriver -> {
-            return String.valueOf(((org.openqa.selenium.JavascriptExecutor) webDriver)
-                    .executeScript("return document.readyState")).equals("complete");
-        });
+        return wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     public static WebElement waitForRefreshedAndVisible(WebDriver driver, WebElement element, int timeoutInSeconds) {
@@ -83,6 +82,50 @@ public class WaitUtils {
 
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
+
+    public static WebElement waitForPresenceOfElementLocated(
+            WebDriver driver,
+            By locator,
+            int timeoutInSeconds) {
+
+        WebDriverWait wait =
+                new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+
+        return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+    }
+
+    public static WebElement waitForElementToBeVisibleBy(WebDriver driver, By locator, int timeoutInSeconds) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+
+    public static List<WebElement> waitForAllElementsVisible(
+            WebDriver driver,
+            List<WebElement> elements,
+            int timeoutInSeconds) {
+
+        WebDriverWait wait =
+                new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+
+        return wait.until(ExpectedConditions.visibilityOfAllElements(elements));
+    }
+
+    public static void waitForElementToBeInvisible(WebDriver driver, WebElement element, int timeoutInSeconds) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+        wait.until(ExpectedConditions.invisibilityOf(element));
+    }
+
+    public static boolean waitForInvisibilityOfAllElements(
+            WebDriver driver,
+            List<WebElement> elements,
+            int timeoutInSeconds) {
+
+        WebDriverWait wait =
+                new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+
+        return wait.until(ExpectedConditions.invisibilityOfAllElements(elements));
+    }
+
 
     public static void sleep(long milliseconds) {
         try {

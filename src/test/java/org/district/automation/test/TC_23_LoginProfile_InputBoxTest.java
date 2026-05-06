@@ -8,11 +8,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TC_23_LoginProfile_InputBoxTest extends BaseClass {
+
     @Test
     public void verifyPhoneWindowInputBox() {
         LoginPage loginPage = new LoginPage(driver);
-//        String mobileNumber= ConfigReader.getString("mobileNumber");
         String mobileNumber = ExcelUtil.getCellData("LoginData", 1, 2);
+
         loginPage.clickProfileBtn();
         log.info("Profile button is clicked");
         log.info("Login with mobile number popup window is now displayed");
@@ -26,7 +27,6 @@ public class TC_23_LoginProfile_InputBoxTest extends BaseClass {
         Assert.assertNotEquals(inputBoxCurrentValue,mobileNumber);
         log.info("Input box current value {}",inputBoxCurrentValue);
         log.info("Current Input box value doesn't matched with user input");
-        //loginPage.clearInputBoxData();
 
         Assert.assertTrue(loginPage.checkNumericInputValue());
         log.info("Input box taking only Numeric value");

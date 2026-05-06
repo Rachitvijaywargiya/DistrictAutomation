@@ -1,6 +1,5 @@
 package org.district.automation.test;
 
-
 import org.district.automation.base.BaseClass;
 import org.district.automation.pages.SportsPage;
 import org.openqa.selenium.By;
@@ -12,13 +11,14 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 
 public class TC_12_FilterPanelVisibilityTest extends BaseClass {
+
     @Test
     public void testFilterPanelVisibility() {
         SportsPage sp = new SportsPage(driver);
+
         sp.clickEventsTab();
-        sp.openFilters(); // Act
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement filterPanel = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Filters']")));
-        Assert.assertTrue(filterPanel.isDisplayed(), "Filter panel not visible.");
+        sp.openFilters();
+
+        Assert.assertTrue(sp.isFilterPanelVisible(), "Filter panel not visible.");
     }
 }
