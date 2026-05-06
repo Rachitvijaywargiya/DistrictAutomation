@@ -1,4 +1,5 @@
 package org.district.automation.pages;
+
 import org.district.automation.utility.WaitUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
+
     private WebDriver driver;
 
     @FindBy(css = "img[alt='app-store'][style='filter:invert(1)']")
@@ -38,24 +40,28 @@ public class HomePage {
 
     private By entireLocationText =
             By.xpath("//span[@style='color: var(--color-text-secondary); text-align: left;']");
+
     private By selectedCityText =
             By.xpath("//div[contains(@class,'dds-items-baseline')]/span[contains(@class,'dds-leading-relaxed')]");
+
     private By locationTextLoc =
             By.xpath("//span[contains(@class,'dds-text-primary')]/following-sibling::span[contains(@style,'text-align: left;')]");
-
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
     public boolean isLogoDisplayed() {
-        return logo.isDisplayed();
+        return WaitUtils.waitForElementToBeVisible(driver,logo,15).isDisplayed();
     }
+
     public String getDisplayedLocation() {
         WebElement location =
                 WaitUtils.waitForElementToBeVisible(driver, locationTextLoc, 20);
         return location.getText();
     }
+
     public boolean isSearchBoxPresent() {
         try {
             return WaitUtils.waitForRefreshedAndVisible(driver,searchBox,15).isDisplayed();
@@ -63,19 +69,24 @@ public class HomePage {
             return false;
         }
     }
+
     public void clickLocation(){
         selectloc.click();
     }
+
     public void selectLocationcity(String city){
         getCitySearchInput.sendKeys(city);
     }
+
     public void selectPuneLoc(){
         WaitUtils.waitForElementToBeVisible(driver,puneLoc,20);
         puneLoc.click();
     }
+
     public String getTheNameOfSelectedCity(){
         return getCitySearchInput.getAttribute("value");
     }
+
     public String getLocAfterClick(String expectedCity) {
         WaitUtils.waitForTextToBePresent(
                 driver,

@@ -5,11 +5,11 @@ import org.apache.logging.log4j.Logger;
 import org.district.automation.utility.ConfigReader;
 import org.district.automation.utility.ExcelUtil;
 import org.district.automation.utility.ScreenshotUtil;
-import org.district.automation.utility.Utility;
+import org.district.automation.utility.PropertyReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import java.time.Duration;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.net.InetAddress;
@@ -22,19 +22,14 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 
 public class BaseClass {
+
     public WebDriver driver;
     protected static final Logger log = LogManager.getLogger(BaseClass.class);
-
-    @BeforeSuite
-    public void generateExcelTestData() {
-        ExcelUtil.createTestDataExcel();
-    }
 
     private boolean hasInternetConnection() {
         try {
@@ -44,19 +39,22 @@ public class BaseClass {
         }
     }
 
+    @BeforeSuite
+    public void generateExcelTestData() {
+        ExcelUtil.createTestDataExcel();
+    }
+
     @BeforeMethod
     public void setUp() throws Exception {
-
-
     // PRE-CHECK INTERNET
         if (!hasInternetConnection()) {
             log.error("No internet connection detected. Skipping test execution.");
             throw new SkipException("Skipped due to no internet connection");
         }
 
-        if(Utility.fetchPropertyValue("browser").equals("chrome")) {
-            ChromeOptions options = new ChromeOptions();
+        if(PropertyReader.fetchPropertyValue("browser").equals("chrome")) {
 
+            ChromeOptions options = new ChromeOptions();
             Map<String, Object> prefs = new HashMap<>();
             prefs.put("profile.default_content_setting_values.geolocation", 2); // 1=Allow, 2=Block
             prefs.put("profile.managed_default_content_settings.geolocation", 2);
@@ -72,15 +70,14 @@ public class BaseClass {
             }
 
             driver = new ChromeDriver(options);
-        }else if(Utility.fetchPropertyValue("browser").equals("firefox")){
-            FirefoxOptions firefoxOptions = new FirefoxOptions();
+        }else if(PropertyReader.fetchPropertyValue("browser").equals("firefox")){
 
+            FirefoxOptions firefoxOptions = new FirefoxOptions();
             // Disable geolocation
             firefoxOptions.addPreference("geo.enabled", false);
             firefoxOptions.addPreference("geo.provider.use_corelocation", false);
             firefoxOptions.addPreference("geo.prompt.testing", false);
             firefoxOptions.addPreference("geo.prompt.testing.allow", false);
-
             // Disable notifications
             firefoxOptions.addPreference("dom.webnotifications.enabled", false);
             firefoxOptions.addPreference("dom.push.enabled", false);
@@ -92,9 +89,9 @@ public class BaseClass {
             driver = new FirefoxDriver();
             driver.manage().window().maximize();
         }
-        else if(Utility.fetchPropertyValue("browser").equals("edge")){
-            EdgeOptions edgeOptions = new EdgeOptions();
+        else if(PropertyReader.fetchPropertyValue("browser").equals("edge")){
 
+            EdgeOptions edgeOptions = new EdgeOptions();
             Map<String, Object> prefs = new HashMap<>();
             prefs.put("profile.default_content_setting_values.geolocation", 2);
             prefs.put("profile.managed_default_content_settings.geolocation", 2);
@@ -112,23 +109,20 @@ public class BaseClass {
             driver = new EdgeDriver(edgeOptions);
         }
 
-        log.info("Opening on selected browser {}", Utility.fetchPropertyValue("browser"));
+        log.info("Opening on selected browser {}", PropertyReader.fetchPropertyValue("browser"));
 
         try {
-            driver.get(Utility.fetchPropertyValue("baseUrl").toString());
-            log.info("Running on URL {}", Utility.fetchPropertyValue("baseUrl").toString());
-
+            driver.get(PropertyReader.fetchPropertyValue("baseUrl").toString());
+            log.info("Running on URL {}", PropertyReader.fetchPropertyValue("baseUrl").toString());
         } catch (WebDriverException e) {
             if (e.getMessage().contains("ERR_INTERNET_DISCONNECTED")) {
                 log.error("Internet disconnected while loading URL: {}",
-                        Utility.fetchPropertyValue("baseUrl"));
+                        PropertyReader.fetchPropertyValue("baseUrl"));
                 driver.quit();
                 throw new SkipException("Skipped due to internet disconnection");
             }
             throw e;
         }
-
-        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
     @AfterMethod
@@ -146,7 +140,6 @@ public class BaseClass {
                 } else if (result.getStatus() == ITestResult.SUCCESS) {
                     ScreenshotUtil.takeScreenshot(driver, testName + "_PASSED");
                     log.info("Test case passed.");
-                    //log.info("Screenshot captured for test: {}", testName);
                 }
                 log.info("Screenshot captured for test: {}", testName);
             }

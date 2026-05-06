@@ -1,19 +1,18 @@
 package org.district.automation.pages;
 
+import org.district.automation.utility.JsUtils;
+import org.district.automation.utility.WaitUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import java.time.Duration;
+
 import java.util.*;
 
 public class MoviesPage {
 
     private WebDriver driver;
-    //private WebDriverWait wait;
     private static final Logger log = LogManager.getLogger(MoviesPage.class);
 
     @FindBy(linkText = "Movies")
@@ -28,16 +27,12 @@ public class MoviesPage {
     @FindBy(xpath = "//span[normalize-space()='Genre']")
     private WebElement genreMenu;
 
-    private By checkboxText = By.xpath("//div[contains(@class,'checkbox-container')]//span[contains(@class,'dds-text-base')]");
-
-    // --- Locators from LocationPage ---
     @FindBy(xpath = "//button[.//span[contains(@class, 'dds-text-primary')]]")
     private WebElement locationHeader;
 
     @FindBy(css = "input[placeholder*='Search']")
     private WebElement searchInput;
 
-    // --- Locators from LanguageBarPage ---
     @FindBy(xpath = "//span[normalize-space()='Filters']")
     private WebElement filterButton;
 
@@ -47,53 +42,49 @@ public class MoviesPage {
     @FindBy(xpath = "//button[@aria-label='Apply Filters']")
     private WebElement applyButton;
 
-
     @FindBy(css = ".dds-badge-close")
     private List<WebElement> activeFilterPills;
 
-    // --- Locators from MovieListPage ---
-    //@FindBy(css = ".dds-tracking-tight.dds-text-lg.dds-font-semibold.dds-overflow-hidden.dds-whitespace-normal.dds-line-clamp-2.dds-text-primary.dds-my-0")
-    @FindBy(xpath = "//body/main/section/div/div/div/div/div[3]")
+    @FindBy(xpath = "//div[@id='filters-content']/following-sibling::div")
     private List<WebElement> movieTitleElements;
 
+    @FindBy(xpath = "//div[normalize-space()='Clear filters']")
+    private WebElement clearFiltersButton;
 
-    // Constructor
+    private By checkboxText = By.xpath("//div[contains(@class,'checkbox-container')]//span[contains(@class,'dds-text-base')]");
+
     public MoviesPage(WebDriver driver) {
         this.driver = driver;
-        //this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         PageFactory.initElements(driver, this);
     }
 
     public void section() {
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(15));
-        wait.until(ExpectedConditions.elementToBeClickable(moviesTab)).click();
+        WaitUtils.waitForElementToBeClickable(driver,moviesTab,15);
+        moviesTab.click();
         log.info("Navigated to the Movies section.");
     }
 
     public void openFilters() {
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(15));
-        wait.until(ExpectedConditions.elementToBeClickable(filtersButton)).click();
-
-        // IMPORTANT: wait until filter tray is fully open
-        wait.until(ExpectedConditions.visibilityOf(applyButton));
+        WaitUtils.waitForElementToBeClickable(driver,filtersButton,15);
+        filtersButton.click();
+        WaitUtils.waitForElementToBeVisible(driver,applyButton,15);
     }
 
     public List<String> getAllLanguages() {
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(15));
-        wait.until(ExpectedConditions.elementToBeClickable(languageMenu)).click();
+        WaitUtils.waitForElementToBeClickable(driver,languageMenu,15);
+        languageMenu.click();
         return extractCheckboxValues();
     }
 
     public List<String> getAllGenres() {
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(15));
-        wait.until(ExpectedConditions.elementToBeClickable(genreMenu)).click();
+        WaitUtils.waitForElementToBeClickable(driver,genreMenu,15);
+        genreMenu.click();
         return extractCheckboxValues();
     }
 
     private List<String> extractCheckboxValues() {
         Set<String> values = new HashSet<>();
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(15));
-        wait.until(ExpectedConditions.presenceOfElementLocated(checkboxText));
+        WaitUtils.waitForPresenceOfElementLocated(driver,checkboxText,15);
         List<WebElement> elements = driver.findElements(checkboxText);
         for (WebElement el : elements) {
             String text = el.getText().trim();
@@ -104,17 +95,14 @@ public class MoviesPage {
         return new ArrayList<>(values);
     }
 
-    // --- Methods from LocationPage ---
     public void selectLocation(String city) {
         log.info("Initiating location selection for city: {}", city);
         locationHeader.click();
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(15));
-        wait.until(ExpectedConditions.visibilityOf(searchInput));
+        WaitUtils.waitForElementToBeVisible(driver,searchInput,15);
         searchInput.clear();
         searchInput.sendKeys(city);
-
         String robustXpath = String.format("//*[normalize-space()='%s']/ancestor::button[1]", city);
-        WebElement firstResult = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(robustXpath)));
+        WebElement firstResult = WaitUtils.waitForElementToBeVisible(driver,By.xpath(robustXpath),15);
         firstResult.click();
         log.info("Successfully selected location: {}", city);
     }
@@ -122,21 +110,18 @@ public class MoviesPage {
     public void printAvailableFilters() {
         List<String> languages = getAllLanguages();
         List<String> genres = getAllGenres();
-
-        System.out.println("\n --- EXTRACTED LANGUAGES ---");
+        log.info("--- EXTRACTED LANGUAGES ---");
         if (languages.isEmpty()) {
             System.out.println("No languages found.");
         } else {
-            languages.forEach(lang -> System.out.println("-> " + lang));
+            languages.forEach(lang -> log.info("-> {}", lang));
         }
-
-        System.out.println("\n🎭 --- EXTRACTED GENRES ---");
+        log.info("--- EXTRACTED GENRES ---");
         if (genres.isEmpty()) {
             System.out.println("No genres found.");
         } else {
             genres.forEach(genre -> System.out.println("-> " + genre));
         }
-        System.out.println("-------------------------------\n");
     }
 
     public int getLanguageCount() {
@@ -148,182 +133,110 @@ public class MoviesPage {
     }
 
     public boolean areLanguagesUnique() {
-        List<String> langs = getAllLanguages();
-        return langs.stream().distinct().count() == langs.size();
+        List<String> languages = getAllLanguages();
+        return languages.stream().distinct().count() == languages.size();
     }
 
     public int printAndGetMovieCount() {
         List<String> titles = getMovieTitles();
-
-        System.out.println("\n--- Movies Found for Selected Filters ---");
+        log.info("--- Movies Found for Selected Filters ---");
         if (titles.isEmpty()) {
-            System.out.println("No movies found.");
+            log.info("No movies found.");
         } else {
             titles.forEach(title -> System.out.println("🎬 " + title));
         }
-        System.out.println("------------------------------------------\n");
-
         return titles.size();
     }
 
     public void applyCombinationFilters(String genre, String language, String format) {
         log.info("Applying filters: Genre={}, Language={}, Format={}", genre, language, format);
-
         selectFilterOption("Genre", genre);
         selectFilterOption("Language", language);
         selectFilterOption("Format", format);
-
         applyFilters();
     }
 
     public String getFilterResultMessage() {
         By messageLocator = By.cssSelector(".dds-mb-4.dds-text-\\[24px\\].dds-font-semibold");
         List<WebElement> elements = driver.findElements(messageLocator);
-
         for (WebElement element : elements) {
             log.info("ℹ️ Application Message: {}", element.getText().trim());
         }
-
         return "No results found";
     }
 
     public int getResultsCountAndPrint() {
         List<String> titles = getMovieTitles();
-
         log.info("--- COMBINATION FILTER RESULTS ---");
         if (titles.isEmpty()) {
             log.info("No movies match this combination.");
         } else {
             titles.forEach(title -> log.info("Match Found: {}", title));
         }
-        log.info("--------------------------------------");
-
         return titles.size();
     }
 
-    // --- Methods from LanguageBarPage ---
     public void selectLanguage(String language) {
         log.info("Opening filter modal to select language: {}", language);
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(15));
-        wait.until(ExpectedConditions.elementToBeClickable(filterButton)).click();
-        wait.until(ExpectedConditions.elementToBeClickable(languageTab)).click();
-
-        WebElement langOption = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//div[contains(@class,'dds-bg-surface-secondary dds-flex dds-flex-grow dds-flex-col dds-h-full dds-overflow-y-auto dds-no-scrollbar')]//div[7]")));
-
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", langOption);
+        WaitUtils.waitForElementToBeClick(driver,filterButton,15).click();
+        WaitUtils.waitForElementToBeClick(driver,languageTab,15).click();
+        String robustXpath = String.format("//div[contains(@class,'checkbox-container')]//span[contains(@class,'dds-text-primary') and normalize-space(text())='" + language + "']");
+        WebElement langOption = WaitUtils.waitForElementToBeVisible(driver,By.xpath(robustXpath),15);
+        JsUtils.scrollIntoView(driver, langOption);
         langOption.click();
-        applyButton.click();
-
-        // Replaced Thread.sleep with condition to wait until the URL updates or a filter is applied
-        wait.until(ExpectedConditions.invisibilityOf(applyButton));
+        WaitUtils.waitForElementToBeClick(driver,applyButton,15).click();
+        WaitUtils.waitForElementToBeInvisible(driver,applyButton,15);
     }
 
     public void selectFilterOption(String category, String optionName) {
         log.info("Selecting filter category: {} -> Option: {}", category, optionName);
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(15));
         try {
+            log.debug(filterButton.isDisplayed());
             if (!filterButton.isDisplayed()) {
-                wait.until(ExpectedConditions.elementToBeClickable(filterButton)).click();
+                WaitUtils.waitForElementToBeClick(driver,filterButton,15).click();
             }
         } catch (Exception e) {
-            wait.until(ExpectedConditions.elementToBeClickable(filterButton)).click();
+            WaitUtils.waitForElementToBeClick(driver,filterButton,15).click();
         }
-
         String categoryXpath = "//span[normalize-space()='" + category + "']";
-        WebElement categoryTab = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(categoryXpath)));
-
-        wait.until(ExpectedConditions.elementToBeClickable(categoryTab)).click();
-
+        WebElement categoryTab = WaitUtils.waitForElementToBeVisibleBy(driver,By.xpath(categoryXpath),15);
+        WaitUtils.waitForElementToBeClick(driver,categoryTab,15).click();
         String optionXpath = String.format("//span[normalize-space()='%s']/parent::div", optionName);
-        WebElement optionContainer = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(optionXpath)));
-
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", optionContainer);
+        WebElement optionContainer = WaitUtils.waitForElementToBeClickable(driver,By.xpath(optionXpath),15);
+        JsUtils.scrollIntoViewCenter(driver, optionContainer);
         optionContainer.click();
-
         log.info("Selected option: {}", optionName);
     }
 
     public void applyFilters() {
-        // Ensure Apply button is visible
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20));
-        wait.until(ExpectedConditions.visibilityOf(applyButton));
-
-        // Scroll so Chrome can click it
-        ((JavascriptExecutor) driver)
-                .executeScript("arguments[0].scrollIntoView({block:'center'});", applyButton);
-
-        // Ensure clickable
-        wait.until(ExpectedConditions.elementToBeClickable(applyButton));
-
+        WaitUtils.waitForElementToBeVisible(driver,applyButton,20);
+        JsUtils.scrollIntoViewCenter(driver, applyButton);
+        WaitUtils.waitForElementToBeClickable(driver,applyButton,20);
         try {
             applyButton.click();
         } catch (ElementClickInterceptedException e) {
-            // Fallback for overlays/animations
-            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", applyButton);
+            JsUtils.clickUsingJs(driver, applyButton);
         }
     }
 
-    // --- Methods from MovieListPage ---
     public List<String> getMovieTitles() {
         log.info("Waiting for movie titles to become visible...");
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(15));
-        wait.until(ExpectedConditions.visibilityOfAllElements(movieTitleElements));
-
+        WaitUtils.waitForAllElementsVisible(driver,movieTitleElements,15);
         List<String> titles = new ArrayList<>();
-        System.out.println("List Of Movies: ");
+        log.info("List Of Movies: ");
         for (WebElement e : movieTitleElements) {
             String title = e.getText();
             titles.add(title);
-            System.out.println(title);
+            log.info(title);
         }
         return titles;
     }
-
-    public List<String> printAndGetMovieTitles() {
-        //   By movieTitleLocator = By.cssSelector(".dds-tracking-tight.dds-text-lg.dds-font-semibold.dds-text-primary");
-        By movieTitleLocator = By.cssSelector("dds-grid dds-px-[12px] sm:dds-px-[0px] dds-gap-x-3 md:dds-gap-x-4 dds-grid-cols-2 dds-gap-y-4 sm:dds-grid-cols-3 md:dds-grid-cols-4 lg:dds-grid-cols-5 xl:dds-grid-cols-6 dds-justify-items-center ");
-        List<String> titles = new ArrayList<>();
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(15));
-
-        try {
-            log.info("Waiting for movie titles to load...");
-            wait.until(ExpectedConditions.visibilityOfElementLocated(movieTitleLocator));
-            List<WebElement> elements = driver.findElements(movieTitleLocator);
-
-            System.out.println("\n================ LIST OF MOVIES ================");
-            for (WebElement e : elements) {
-                String title = e.getText().trim();
-                if (!title.isEmpty()) {
-                    titles.add(title);
-                    System.out.println("🎬 " + title);
-                }
-            }
-            System.out.println("================================================\n");
-            log.info("Successfully extracted {} movie titles.", titles.size());
-
-        } catch (Exception e) {
-            log.error("Could not find movie titles: " + e.getMessage());
-            System.out.println("⚠️ No movies were found on the page.");
-        }
-
-        return titles;
-    }
-
-    // Unchecking
-    @FindBy(xpath = "//div[normalize-space()='Clear filters']")
-    private WebElement clearFiltersButton;
 
     public void clickClearFilters() {
         log.info("Clicking the 'Clear filters' button.");
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(15));
-        // 1. Click the button safely
-        wait.until(ExpectedConditions.elementToBeClickable(clearFiltersButton)).click();
-
-        // 2. Instead of staleness, wait until the "Clear filters" button or active filter pills are no longer visible,
-        // or just let the page process the action without forcing a hard condition if it closes instantly.
+        WaitUtils.waitForElementToBeClick(driver,clearFiltersButton,15).click();
         try {
-            wait.until(ExpectedConditions.invisibilityOfAllElements(activeFilterPills));
+            WaitUtils.waitForInvisibilityOfAllElements(driver,activeFilterPills,15);
         } catch (Exception e) {
             log.info("Clear filters button did not become invisible, proceeding with test.");
         }
@@ -338,13 +251,9 @@ public class MoviesPage {
         By activeFilterLocator = By.cssSelector(".dds-badge-close");
         List<WebElement> elements = driver.findElements(activeFilterLocator);
         List<String> activeFilters = new ArrayList<>();
-
         for (WebElement e : elements) {
             activeFilters.add(e.getText().trim());
         }
-
         return activeFilters;
     }
-
-
 }

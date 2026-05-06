@@ -9,16 +9,14 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class TC_26_LoginProfile_ValidTest extends BaseClass {
+
     @Test
     public void verifyLoginProfileForValidTest(){
         LoginPage loginPage = new LoginPage(driver);
         SoftAssert soft = new SoftAssert();
-//        String countryIndia= ConfigReader.getString("country_India");
-//        String validMobileNumber1=ConfigReader.getString("validMobileNumber1");
+        String countryIndia= ConfigReader.getString("country_India");
+        String validMobileNumber1=ConfigReader.getString("validMobileNumber1");
         String expectedHeadingMessage= ConfigReader.getString("mobilePopupHeadingAfterContinue");
-        String countryIndia = ExcelUtil.getCellData("LoginData", 4, 1);
-        String validMobileNumber1 = ExcelUtil.getCellData("LoginData", 4, 2);
-       // String expectedHeadingMessage = ExcelUtil.getCellData("LoginData", 4, 3);
 
         loginPage.clickProfileBtn();
         log.info("Profile button is clicked");

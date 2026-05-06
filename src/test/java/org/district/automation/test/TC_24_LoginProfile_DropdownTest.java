@@ -9,11 +9,10 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class TC_24_LoginProfile_DropdownTest extends BaseClass {
+
     @Test
     public void verifyDropdownOfCommonLoginProfile(){
         LoginPage loginPage = new LoginPage(driver);
-        SoftAssert soft = new SoftAssert();
-//        String country= ConfigReader.getString("country");
         String country = ExcelUtil.getCellData("LoginData", 2, 1);
 
         loginPage.clickProfileBtn();

@@ -10,6 +10,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 public class ExcelUtil {
+
     protected static final Logger log = LogManager.getLogger(ExcelUtil.class);
     private static final String EXCEL_PATH = System.getProperty("user.dir") + "/src/test/resources/testdata/District_TestData.xlsx";
 
@@ -50,8 +51,8 @@ public class ExcelUtil {
             loginSheet.getRow(1).createCell(3).setCellValue("Numeric input only");
 
             loginSheet.createRow(2).createCell(0).setCellValue("TC_23");
-            loginSheet.getRow(2).createCell(1).setCellValue("India");
-            loginSheet.getRow(2).createCell(2).setCellValue("N/A");
+            loginSheet.getRow(2).createCell(1).setCellValue("Austria");
+            loginSheet.getRow(2).createCell(2).setCellValue("67544788934");
             loginSheet.getRow(2).createCell(3).setCellValue("Country selected");
 
             loginSheet.createRow(3).createCell(0).setCellValue("TC_24");

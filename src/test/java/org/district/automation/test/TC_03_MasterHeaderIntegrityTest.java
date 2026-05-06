@@ -12,13 +12,16 @@ public class TC_03_MasterHeaderIntegrityTest extends BaseClass {
         log.info("Verifying master header integrity on home page");
         HomePage home = new HomePage(driver);
         SoftAssert softAssert = new SoftAssert();
+
         softAssert.assertTrue(
                 driver.getPageSource().contains("master-header"),
                 "Master header is not present on the page"
         );
+
         log.info("Master header is present");
         String location = home.getDisplayedLocation();
-        log.info("Displayed location in header: " + location);
+        log.info("Displayed location in header: {}", location);
+
         softAssert.assertNotNull(
                 location,
                 "Location text is missing in header"
