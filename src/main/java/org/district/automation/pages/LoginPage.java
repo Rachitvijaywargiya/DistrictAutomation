@@ -154,7 +154,8 @@ public class LoginPage {
     }
 
     public String getHeadingMessage(){
-        return WaitUtils.waitForElementToBeVisible(driver,headingMessageEle,20).getText();
+        By headingMessageEle = By.cssSelector("div[class ='dds-relative'] label");
+        return WaitUtils.waitForElementToBeVisible(driver,headingMessageEle,30).getText();
     }
 
     public boolean isOtpInputFieldsVisible(){
