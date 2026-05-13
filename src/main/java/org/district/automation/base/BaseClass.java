@@ -61,12 +61,17 @@ public class BaseClass {
 
             options.setExperimentalOption("prefs", prefs);
             options.addArguments("--disable-geolocation");
-            options.addArguments("--start-maximized");
             options.addArguments("--disable-notifications");
             options.addArguments("--disable-popup-blocking");
 
             if (ConfigReader.getBoolean("headless")) {
                 options.addArguments("--headless");
+                options.addArguments("--window-size=1920,1080");
+                options.addArguments("--disable-gpu");
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
+            } else{
+                options.addArguments("--start-maximized");
             }
 
             driver = new ChromeDriver(options);
@@ -84,6 +89,12 @@ public class BaseClass {
 
             if (ConfigReader.getBoolean("headless")) {
                 firefoxOptions.addArguments("--headless");
+                firefoxOptions.addArguments("--window-size=1920,1080");
+                firefoxOptions.addArguments("--disable-gpu");
+                firefoxOptions.addArguments("--no-sandbox");
+                firefoxOptions.addArguments("--disable-dev-shm-usage");
+            } else{
+                firefoxOptions.addArguments("--start-maximized");
             }
 
             driver = new FirefoxDriver();
@@ -104,6 +115,12 @@ public class BaseClass {
 
             if (ConfigReader.getBoolean("headless")) {
                 edgeOptions.addArguments("--headless");
+                edgeOptions.addArguments("--window-size=1920,1080");
+                edgeOptions.addArguments("--disable-gpu");
+                edgeOptions.addArguments("--no-sandbox");
+                edgeOptions.addArguments("--disable-dev-shm-usage");
+            } else{
+                edgeOptions.addArguments("--start-maximized");
             }
 
             driver = new EdgeDriver(edgeOptions);
